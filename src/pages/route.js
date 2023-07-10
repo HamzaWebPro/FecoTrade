@@ -14,11 +14,11 @@ import ContactUs from "./ContactUs";
 
 function Index() {
   return (
-    <BrowserRouter >
+    <BrowserRouter>
       <div className="page-wraper">
         <Header />
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route exact path="/" element={<Home />} />
           <Route path="/about-us" exact element={<AboutUs />} />
           <Route path="/pricing" exact element={<Pricing />} />
           <Route path="/blog-list" exact element={<BlogList />} />
