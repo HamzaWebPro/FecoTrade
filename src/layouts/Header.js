@@ -19,11 +19,12 @@ function Header(){
     return(
         <>
             <header className="site-header mo-left header header-transparent style-1">
+                
                 <div className={`sticky-header main-bar-wraper navbar-expand-lg ${headerFix ? "is-fixed" : ""}`}>
                     <div className="main-bar clearfix">
                         <div className="container clearfix">
                             <div className="logo-header">
-                                <Link to={"/"} className="logo-dark"><img src={`https://i.postimg.cc/fW675VS6/fecotrade-web-site-logo-01.png`} alt="" /></Link>
+                                <Link to={"/"} className="logo-dark"><img src={`https://i.postimg.cc/4N94Gycc/fecotrade-web-site-logo-01.png`} alt="" /></Link>
                                 <Link to={"/"} className="logo-light"><img src={`https://i.postimg.cc/fW675VS6/fecotrade-web-site-logo-01.png`}  alt="" /></Link>
                             </div>
                             
