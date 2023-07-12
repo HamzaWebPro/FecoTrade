@@ -18,9 +18,9 @@ function Footer(){
                             <div className="col-xl-4 col-lg-12 col-md-12" >
                                 <div className="widget widget_about">
                                     <div className="footer-logo logo-white">
-                                        <Link to={"/"}><img src={logowhite} alt="" /></Link>
+                                        <Link to={"/"}><img src={`https://i.postimg.cc/fW675VS6/fecotrade-web-site-logo-01.png`} alt="" /></Link>
                                     </div>
-                                    <p>CryptoZone is a Crypto & Crypto Website by DexignZone lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et</p>
+                                    <p>FecoTrade is the easiest and most efficient way to make money from cryptocurrency mining, trading & Coin-Staking. We have advanced mining cryptocurrency equipment, site, and maintenance facilities.</p>
                                     <div className="dz-social-icon transparent space-10">
                                         <ul>
                                             <li><a target="_blank" className="fab fa-facebook-f" href="https://www.facebook.com/"></a></li>{" "}
@@ -79,7 +79,7 @@ function Footer(){
                 </div>
                 <div className="footer-bottom text-center">
                     <div className="container">
-                        <span className="copyright-text">Copyright © 2023 <a href="https://dexignzone.com/" target="_blank">DexignZone</a>. All rights reserved.</span>
+                        <span className="copyright-text">Copyright © 2023 <a href="https://dexignzone.com/" target="_blank">FecoTrade</a>. All rights reserved.</span>
                     </div>
                 </div>
             </footer>

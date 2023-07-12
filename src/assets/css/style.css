@@ -18904,3 +18904,30 @@ pre {
     margin-top: -6px; }
 
 /*# sourceMappingURL=style.css.map */
+
+
+/* scss not working */
+
+/* Mobile Devices */
+@media only screen and (max-width: 767px) {
+  /* Add your CSS rules for mobile devices here */
+  .image-before{
+    display: block !important;
+  }
+  .bg-shape2,.bg-shape3,.bg-shape4,.bg-shape5{
+    display: block !important;
+  }
+}
+
+/* Medium Devices */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  /* Add your CSS rules for medium-sized devices here */
+  .image-before{
+    display: block !important;
+  }
+.bg-shape2,.bg-shape3,.bg-shape4,.bg-shape5{
+    display: block !important;
+  }
+}
+
+
