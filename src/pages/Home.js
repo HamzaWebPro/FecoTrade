@@ -21,7 +21,8 @@ import coin4 from "./../assets/images/coins/coin4.png";
 
 import bloglg from "./../assets/images/blog/blog-ig.png";
 import avatar3 from "./../assets/images/avatar/avatar3.jpg";
-import PriceBlog from "../components/About/PriceBlog";
+
+import MiningPlan from "../components/Home/MiningPlan";
 
 const trustBlog = [
   { image: wallet, title: "Buy Cryptocurrency with cash" },
@@ -218,11 +219,12 @@ function Home() {
           <div className="container">
             <div className="section-head text-center">
               <h2 className="title">
-                Awesome Mining Plan for Cryptocurrency Business
+              Choose plan which fit for you
               </h2>
+              <p className="">It’s super simple and Convenient - Your mining rigs are already set up and running. As soon as you’ve set up your account, you can start mining your first coins using our cloud mining service.</p>
             </div>
             <div className="row justify-content-center">
-              <PriceBlog />
+              <MiningPlan />
             </div>
             
           </div>

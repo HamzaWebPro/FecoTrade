@@ -44,6 +44,7 @@ const pricingBlog= [
     {price:'11', title:'Lite', title2:'Life-includes:'},
     {price:'21', title:'Pro',content:<div className="tagline">POPULER</div>, title2:'Everythings in Lite, Plus'},
     {price:'32', title:'Ultimate',title2:'Everythings in Lite'},
+    {price:'32', title:'Ultimate',title2:'Everythings in Lite'},
 ];
 
 const PriceBlog = () =>{
