@@ -4,27 +4,43 @@ import { Link } from "react-router-dom";
 const pricePlan = [
   {
     price: "1000",
-    title: "STARTER",
+    title: "Venus",
     title2: "Life-includes:",
-    totalroi: "1800 Gala",
-    dailyreleased: "4.93 Gala",
+    totalroi: "1450 Gala",
+    dailyreleased: "3.97 Gala",
     validity: "365 Days",
   },
   {
     price: "3500",
-    title: "KICKSTARTER",
+    title: "Mercury",
     content: <div className="tagline">POPULER</div>,
     title2: "Everythings in Lite, Plus",
-    totalroi: "7000 Gala",
-    dailyreleased: "19.18 Gala",
+    totalroi: "5250 Gala",
+    dailyreleased: "14.38 Gala",
     validity: "365 Days",
   },
   {
     price: "7000",
-    title: "LIGHT MINER",
+    title: "Uranus",
     title2: "Everythings in Lite",
-    totalroi: "15000 Gala",
-    dailyreleased: "41.10 Gala",
+    totalroi: "11200 Gala",
+    dailyreleased: "30.68 Gala",
+    validity: "365 Days",
+  },
+  {
+    price: "14000",
+    title: "Neptune",
+    title2: "Everythings in Lite",
+    totalroi: "23240 Gala",
+    dailyreleased: "63.67 Gala",
+    validity: "365 Days",
+  },
+  {
+    price: "28000",
+    title: "Pluto",
+    title2: "Everythings in Lite",
+    totalroi: "47600 Gala",
+    dailyreleased: "130.41 Gala",
     validity: "365 Days",
   },
 ];
@@ -119,12 +135,14 @@ const PriceBlog = () => {
               </h4>
               <p>Perfect to get started</p>
               <div className="pricingtable-price">
-                <h2 className="pricingtable-bx text-primary">
+                <div className="d-flex align-items-center gap-2">
+                <h2 className=" text-primary">
                   {" "}
                   <span>$</span>
                   {data.price}
-                  <small>/ GALA</small>
                 </h2>
+                  <small>/ GALA</small>
+                </div>
                 <a
                   className="text-white"
                   href="https://auth.fecotrade.com/login"
