@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
-const pricePlan = [
+const pricingBlog = [
   {
     price: "1000",
     title: "STARTER",
@@ -29,11 +29,11 @@ const pricePlan = [
   },
 ];
 
-const PriceBlog = () => {
+const MiningPlan = () => {
   const [hovered, setHovered] = useState("0");
   return (
     <>
-      {pricePlan.map((data, index) => (
+      {pricingBlog.map((data, index) => (
         <div className="col-xl-4 col-lg-6 col-md-6 m-b30" key={index}>
           <div
             className={`pricingtable-wrapper box-hover style-1 ${
@@ -253,4 +253,4 @@ const PriceBlog = () => {
     </>
   );
 };
-export default PriceBlog;
+export default MiningPlan;

@@ -28,17 +28,14 @@ function Header() {
 
   return (
     <>
-      <header className={`site-header mo-left header ${headerVisible ? 'is-fixed' : ''}`}>
-        <div className="sticky-header main-bar-wraper navbar-expand-lg">
-          <div className="main-bar clearfix">
+      <header className={`site-header mo-left header ${!headerVisible ? '' : 'is-fixed bg-red'}`}>
+        <div className={`sticky-header  main-bar-wraper navbar-expand-lg`}>
+          <div className={`main-bar clearfix`}>
             <div className="container clearfix">
               <div className="logo-header">
-                <Link to={'/'} className="logo-dark">
-                  <img src={`https://i.postimg.cc/4N94Gycc/fecotrade-web-site-logo-01.png`} alt="" />
+                <Link to={'/'} className={headerVisible ? 'logo-dark' : 'logo-light'}>
+                  <img src={headerVisible ? "https://i.postimg.cc/4N94Gycc/fecotrade-web-site-logo-01.png" : "https://i.postimg.cc/fW675VS6/fecotrade-web-site-logo-01.png"} alt="" />
                 </Link>
-                {/* <Link to={'/'} className="logo-light">
-                  <img src={`https://i.postimg.cc/fW675VS6/fecotrade-web-site-logo-01.png`} alt="" />
-                </Link> */}
               </div>
 
               <button
@@ -52,14 +49,14 @@ function Header() {
               </button>
               <div className="extra-nav">
                 <div className="extra-cell">
-                  <a className="btn btn-outline-primary" target="_blank" rel="noreferrer" href="https://cryptozone.dexignzone.com/react/demo/login">Login</a>
-                  <a className="btn btn-primary btn-gradient btn-shadow" target="_blank" rel="noreferrer" href="https://cryptozone.dexignzone.com/react/demo/page-register">Register</a>
+                  <a className="btn btn-outline-primary" target="_blank" rel="noreferrer" href="https://auth.fecotrade.com/login">Login</a>
+                  <a className="btn btn-primary btn-gradient btn-shadow" target="_blank" rel="noreferrer" href="https://auth.fecotrade.com/register">Register</a>
                 </div>
               </div>
 
               <div className={`header-nav navbar-collapse collapse justify-content-end ${sidebarOpen ? 'show' : ''}`} id="navbarNavDropdown">
                 <div className="logo-header mostion">
-                  <NavLink to={'#'} className="logo-dark"><img src={Logo} alt="" /></NavLink>
+                  <NavLink to={'#'} className="logo-dark"><img src={`https://i.postimg.cc/4N94Gycc/fecotrade-web-site-logo-01.png`} alt="" /></NavLink>
                 </div>
                 <ul className="nav navbar-nav navbar">
                   <li><NavLink to={'/'}>Home</NavLink></li>
