@@ -204,8 +204,7 @@ function Home() {
           <div className="container">
             <div className="section-head text-center">
               <h2 className="title">
-                One-stop solution to buy and sell{" "}
-                <span className="text-primary"> cryptocurrency </span> with Cash
+              Most amazing features
               </h2>
             </div>
             <div className="row sp60">

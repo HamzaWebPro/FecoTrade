@@ -18929,5 +18929,11 @@ pre {
     display: block !important;
   }
 }
+/* Home Page Amazing Feature Icon Style */
+.style{
+  color: #ffffff;
+  transform: rotate(45deg);
+  font-size: 70px;
+}
 
 
