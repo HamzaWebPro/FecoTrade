@@ -60,10 +60,10 @@ function AboutUs(){
                             </div>
                             <div className="col-lg-6 about-content ps-lg-5 m-b30">
                                 <div className="section-head">
-                                    <h2 className="title">The World’s 1st ICO Platform That Offers Rewards</h2>
-                                    <p className="m-0 lh-base">We are an independent gym that is committed to working with you to gain the results you want. Whether your aim is to loose weight</p>
+                                    <h2 className="title">Start Safe Investment Today!</h2>
+                                    <p className="m-0 lh-base">With trading, mining, and staking, you can grow your crypto while you investing! Invest in our crypto mining, trading, staking company and earn cryptocurrencies.</p>
                                 </div>
-                                <Link to={"/contact-us"} className="btn btn-lg btn-primary btn-shadow text-uppercase">Contact Us</Link>
+                                <Link to={"/contact-us"} className="btn btn-lg btn-primary btn-shadow text-uppercase">Contatc Us</Link>
                             </div>
                         </div>
                     </div>                    
@@ -91,7 +91,7 @@ function AboutUs(){
                     <img className="bg-shape2" src={Shape1} alt="" />
                     <div className="container">
                         <div className="section-head text-center">
-                            <h2 className="title">Awesome Pricing Plan for <br /> Cryptocurrency Business</h2>
+                            <h2 className="title">Awesome Mining Plan to <br /> Start Earning Daily</h2>
                         </div>
                         <div className="row justify-content-center">
                             <PriceBlog />
