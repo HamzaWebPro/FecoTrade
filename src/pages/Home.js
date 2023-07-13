@@ -44,11 +44,10 @@ function Home() {
             <div className="row align-items-center">
               <div className="col-12 text-center">
                 <h1 className="">
-                  Your Globel OTC desk for <br />
-                  Cryptocurrencies
+                  Start Safe Investment Today!
                 </h1>
                 <p className="text text-primary ">
-                  Transfer USD, EUR, or Crypto and start trading today!
+                  Best Choice for Staking, Trading and Mining as Compared to Others.
                 </p>
                 <Link
                   to={"/about-us"}
