@@ -25,8 +25,8 @@ import avatar3 from "./../assets/images/avatar/avatar3.jpg";
 import MiningPlan from "../components/Home/MiningPlan";
 
 const trustBlog = [
-  { image: wallet, title: "Earn For Staking", description: "With staking, you can put your digital assets to work and earn passive income without selling them." },
-  { image: friend, title: "Earn For Mining", description: "We are always committed to providing high quality mining to people around the world. Low Maintenance Frees."},
+  { image: wallet, title: "Earn From Staking", description: "With staking, you can put your digital assets to work and earn passive income without selling them." },
+  { image: friend, title: "Earn From Mining", description: "We are always committed to providing high quality mining to people around the world. Low Maintenance Frees."},
 ];
 
 function Home() {
@@ -50,7 +50,7 @@ function Home() {
                   Fecotrade is one of the largest cryptocurrency trading platform in the world who offers a robust selection of trading options and features. 
                 </p>
                 <Link
-                  to={"/about-us"}
+                  to={"https://auth.fecotrade.com/register"}
                   className="btn space-lg btn-gradient btn-shadow btn-primary "
                 >
                   Get Started
