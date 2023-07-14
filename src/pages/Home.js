@@ -8,8 +8,8 @@ import OneStop from "./../components/Home/OneStop";
 import RecentNews from "./../components/Home/RecentNews";
 
 //images
-import baner1 from "./../assets/images/home-banner/img1.png";
-import baner2 from "./../assets/images/home-banner/img2.png";
+import baner1 from "./../assets/images/home-banner/home-icon-right.png";
+import baner2 from "./../assets/images/home-banner/home-icon-right.png";
 import Shape1 from "./../assets/images/home-banner/shape1.png";
 import Shape3 from "./../assets/images/home-banner/shape3.png";
 import wallet from "./../assets/images/icons/wallet.svg";
