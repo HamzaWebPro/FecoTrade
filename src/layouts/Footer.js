@@ -36,8 +36,8 @@ function Footer(){
                                     <h4 className="widget-title">Other Links</h4>
                                     <ul>
                                         <li><Link to={"/about-us"}>About Us</Link></li>
-                                        <li><Link to={"/pricing"}>Pricing Plan</Link></li>
-                                        <li><Link to={"/blog-list"}>Blog List</Link></li>
+                                        <li><Link to={"/pricing"}>Mining Plan</Link></li>
+                                        <li><Link to={"https://auth.fecotrade.com/login"}>Login</Link></li>
                                         <li><Link to={"/blog-grid"}>Our Blogs</Link></li>
                                         <li><Link to={"/contact-us"}>Contact Us</Link></li>
                                     </ul>
@@ -67,8 +67,8 @@ function Footer(){
                                 <div className="widget widget_locations">
                                     <h4 className="widget-title">Locations</h4>
                                     <div className="clearfix">
-                                        <h6 className="title">Washington</h6>
-                                        <p>1559 Alabama Ave SE, DC 20032, Washington, USA</p>
+                                        <h6 className="title">Vladivostok</h6>
+                                        <p>Prospekt Krasnogo Znameni, Vladivostok City, Russia</p>
                                         <img src={flags} alt="" />
                                     </div>
                                 </div>
