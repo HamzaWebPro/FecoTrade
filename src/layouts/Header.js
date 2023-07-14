@@ -74,6 +74,7 @@ function Header() {
                     </ul>
                   </li> */}
                   <li><NavLink to={'/contact-us'}>Contact Us</NavLink></li>
+                 <li><NavLink to={'https://auth.fecotrade.com/register'}>Register</NavLink></li>
                 </ul>
                 <div className="header-bottom">
                   <div className="dz-social-icon">
