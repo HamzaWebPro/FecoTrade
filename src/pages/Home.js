@@ -8,7 +8,7 @@ import OneStop from "./../components/Home/OneStop";
 import RecentNews from "./../components/Home/RecentNews";
 
 //images
-import baner1 from "./../assets/images/home-banner/home-icon-left.png";
+// import baner1 from "./../assets/images/home-banner/home-icon-left.png";
 import baner2 from "./../assets/images/home-banner/home-icon-right.png";
 import Shape1 from "./../assets/images/home-banner/shape1.png";
 import Shape3 from "./../assets/images/home-banner/shape3.png";
