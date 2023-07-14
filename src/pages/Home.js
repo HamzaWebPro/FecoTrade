@@ -25,8 +25,8 @@ import avatar3 from "./../assets/images/avatar/avatar3.jpg";
 import MiningPlan from "../components/Home/MiningPlan";
 
 const trustBlog = [
-  { image: wallet, title: "Your investments are secured", description: "It's a cryptocurrency-based investment platform. It is a growing platform for investors who trust in getting profits from their investments." },
-  { image: friend, title: "Mining, trading & coin staking", description: "It introduces the crypto-based mining, trading, ad coin staking opportunity to all with a profit-sharing plan."},
+  { image: wallet, title: "Stake Your Fund", description: "With staking, you can put your digital assets to work and earn passive income without selling them." },
+  { image: friend, title: "Earn from Mining", description: "We are always committed to providing high quality mining to people around the world. Low Maintenance Frees."},
 ];
 
 function Home() {
@@ -85,7 +85,7 @@ function Home() {
           <div className="container">
             <div className="content-inner-1">
               <div className="section-head text-center">
-                <h2 className="title">Why Trust Us?</h2>
+                <h2 className="title">Best Option for You</h2>
                 <p>
                   Trust comes from experience. Many of the pleased customers may
                   function as a guide for you.
