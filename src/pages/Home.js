@@ -25,8 +25,8 @@ import avatar3 from "./../assets/images/avatar/avatar3.jpg";
 import MiningPlan from "../components/Home/MiningPlan";
 
 const trustBlog = [
-  { image: wallet, title: "Stake Your Fund", description: "With staking, you can put your digital assets to work and earn passive income without selling them." },
-  { image: friend, title: "Earn from Mining", description: "We are always committed to providing high quality mining to people around the world. Low Maintenance Frees."},
+  { image: wallet, title: "Earn For Staking", description: "With staking, you can put your digital assets to work and earn passive income without selling them." },
+  { image: friend, title: "Earn For Mining", description: "We are always committed to providing high quality mining to people around the world. Low Maintenance Frees."},
 ];
 
 function Home() {
@@ -105,9 +105,9 @@ function Home() {
                         </p>
                         <Link
                           className="btn btn-primary btn-gradient btn-shadow"
-                          to={"/about-us"}
+                          to={"https://auth.fecotrade.com/login"}
                         >
-                          Read More
+                          Get Started
                         </Link>
                       </div>
                     </div>
