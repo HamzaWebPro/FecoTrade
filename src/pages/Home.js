@@ -26,7 +26,7 @@ import MiningPlan from "../components/Home/MiningPlan";
 
 const trustBlog = [
   { image: wallet, title: "Earn From Staking", description: "With staking, you can put your digital assets to work and earn passive income without selling them." },
-  { image: friend, title: "Earn From Mining", description: "We are always committed to providing high quality mining to people around the world. Low Maintenance Frees."},
+  { image: friend, title: "Earn From Mining", description: "We are always committed to providing high quality mining to people around the world. Low Maintenance Fees."},
 ];
 
 function Home() {
