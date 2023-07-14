@@ -22,7 +22,7 @@ function Index() {
           <Route path="/about-us" exact element={<AboutUs />} />
           <Route path="/pricing" exact element={<Pricing />} />
           <Route path="/blog-list" exact element={<BlogList />} />
-          <Route path="/blog-grid" exact element={<BlogGrid />} />
+          <Route path="/blog" exact element={<BlogGrid />} />
           <Route path="/blog-details" exact element={<BlogDetails />} />
           <Route path="/contact-us" exact element={<ContactUs />} />
         </Routes>

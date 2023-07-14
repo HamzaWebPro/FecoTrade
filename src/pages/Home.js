@@ -25,8 +25,8 @@ import avatar3 from "./../assets/images/avatar/avatar3.jpg";
 import MiningPlan from "../components/Home/MiningPlan";
 
 const trustBlog = [
-  { image: wallet, title: "Buy Cryptocurrency with cash" },
-  { image: friend, title: "Cryptocurrency Consultancy" },
+  { image: wallet, title: "Your investments are secured", description: "It's a cryptocurrency-based investment platform. It is a growing platform for investors who trust in getting profits from their investments." },
+  { image: friend, title: "Mining, trading & coin staking", description: "It introduces the crypto-based mining, trading, ad coin staking opportunity to all with a profit-sharing plan."},
 ];
 
 function Home() {
@@ -102,9 +102,7 @@ function Home() {
                       <div className="icon-content">
                         <h4 className="title">{data.title}</h4>
                         <p>
-                          Lorem Ipsum has been the industry's standard dummy
-                          text ever since the 1500s, when an unknown printer
-                          took a galley.
+                          {data.description}
                         </p>
                         <Link
                           className="btn btn-primary btn-gradient btn-shadow"
@@ -225,7 +223,6 @@ function Home() {
             <div className="row justify-content-center">
               <MiningPlan />
             </div>
-            
           </div>
         </section>
         <section className="content-inner bg-white blog-wrapper">

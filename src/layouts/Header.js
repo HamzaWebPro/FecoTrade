@@ -62,7 +62,8 @@ function Header() {
                   <li><NavLink to={'/'}>Home</NavLink></li>
                   <li><NavLink to={'/about-us'}>About Us</NavLink></li>
                   <li><NavLink to={'/pricing'}>Mining</NavLink></li>
-                  <li
+                  <li><NavLink to={'/blog'}>Blog</NavLink></li>
+                  {/* <li
                     className={`sub-menu-down ${showMenu ? 'open' : ''}`}
                     id="menushow"
                     onClick={() => setShowMenu(!showMenu)}
@@ -71,10 +72,9 @@ function Header() {
                     <ul className="sub-menu">
                       <li><NavLink to={'/blog-grid'}>Blog grid</NavLink></li>
                     </ul>
-                  </li>
+                  </li> */}
                   <li><NavLink to={'/contact-us'}>Contact Us</NavLink></li>
                 </ul>
-
                 <div className="header-bottom">
                   <div className="dz-social-icon">
                     <ul>

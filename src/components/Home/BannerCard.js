@@ -5,8 +5,8 @@ import coin3 from './../../assets/images/coins/coin3.png';
 import coin4 from './../../assets/images/coins/coin4.png';
 
 const cardData = [
-    {image: coin4, title:'Bitcoin', subtitle:'BTC', price:'16,048.40', percent:'-1.26'},
-    {image: coin3, title:'Ethereum', subtitle:'ETH', price:'1,122.44', percent:'-1.55'},
+    {image: coin4, title:'Bitcoin', subtitle:'BTC', price:'31,428.20', percent:'-1.26'},
+    {image: coin3, title:'Ethereum', subtitle:'ETH', price:'2,011.56', percent:'-1.55'},
     {image: coin1, title:'Tether', subtitle:'USDT', price:'1.00', percent:'0.0099'},
 ];
 

@@ -28,15 +28,15 @@ function ContactUs(){
                                             <ul>
                                                 <li>
                                                     <i className="fa fa-phone"></i>
-                                                    <span>1800-123-4567<br/>+91 987-654-3210</span> 
+                                                    <span>+7(4232)53-48-41</span> 
                                                 </li>
                                                 <li>
                                                     <i className="fa fa-envelope"></i> 
-                                                    <span>info@example.com <br/>services@gmail.com</span>
+                                                    <span>support@fecotrade.com</span>
                                                 </li>
                                                 <li>
                                                     <i className="fas fa-map-marker-alt"></i>
-                                                    <span>Demo Address #8901 Marmora Road <br/>Chi Minh City, Vietnam</span>
+                                                    <span>Address: Prospekt Krasnogo Znameni, Vladivostok City, Russia</span>
                                                 </li>
                                             </ul>
                                         </div>

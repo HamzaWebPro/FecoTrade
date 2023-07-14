@@ -26,7 +26,7 @@ function BlogGrid(){
     return(
         <>
             <div className="page-content">
-                <PageLayout pageTitle="Blog Grid" />
+                <PageLayout pageTitle="Blog" />
                 <section className="content-inner">
                     <div className="container">
                         <div className="row">
