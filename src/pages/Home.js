@@ -44,10 +44,10 @@ function Home() {
             <div className="row align-items-center">
               <div className="col-12 text-center">
                 <h1 className="">
-                  Start Safe Investment Today!
+                  Best Platform for Crypto Trading, Mining and Staking
                 </h1>
                 <p className="text text-primary ">
-                  Best Choice for Staking, Trading and Mining as Compared to Others.
+                  Fecotrade is one of the largest cryptocurrency trading platform in the world who offers a robust selection of trading options and features. 
                 </p>
                 <Link
                   to={"/about-us"}
