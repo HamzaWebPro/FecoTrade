@@ -10,9 +10,9 @@ import RecentNews from './../components/Home/RecentNews';
 import Shape1 from './../assets/images/home-banner/shape1.png';
 import Shape3 from './../assets/images/home-banner/shape3.png'; 
 
-import about2 from './../assets/images/about/about-2.jpg';
-import about3 from './../assets/images/about/about-3.jpg';
-import about4 from './../assets/images/about/about-4.jpg';
+import about2 from './../assets/images/about/feco-about-1.jpg';
+import about3 from './../assets/images/about/feco-about-2.jpg';
+import about4 from './../assets/images/about/feco-about-3.jpg';
 import about1 from './../assets/images/about/about-1.jpg';
 
 import videobox from './../assets/images/about/videobx.png';
@@ -60,10 +60,10 @@ function AboutUs(){
                             </div>
                             <div className="col-lg-6 about-content ps-lg-5 m-b30">
                                 <div className="section-head">
-                                    <h2 className="title">Start Safe Investment Today!</h2>
-                                    <p className="m-0 lh-base">With trading, mining, and staking, you can grow your crypto while you investing! Invest in our crypto mining, trading, staking company and earn cryptocurrencies.</p>
+                                    <h2 className="title">Leading Platform for Cryptocurrency Mining!</h2>
+                                    <p className="m-0 lh-base">Fecotrade is affordable and easy-to-use cloud mining service. We have the cheapest source of renewable electricity in the world. If you’re looking to mine Crypto asset, We are a great choice, allowing you to mine cryptocurrencies without owning any equipment.</p>
                                 </div>
-                                <Link to={"/contact-us"} className="btn btn-lg btn-primary btn-shadow text-uppercase">Contatc Us</Link>
+                                <Link to={"https://auth.fecotrade.com/register"} className="btn btn-lg btn-primary btn-shadow text-uppercase">Start Mining</Link>
                             </div>
                         </div>
                     </div>                    
