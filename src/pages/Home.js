@@ -24,8 +24,8 @@ import avatar3 from "./../assets/images/avatar/avatar3.jpg";
 
 import MiningPlan from "../components/Home/MiningPlan";
 import { Parallax } from "react-scroll-parallax";
-import ScrollAnimation from "react-animate-on-scroll";
-import { MotionAnimate } from "react-motion-animate";
+// import ScrollAnimation from "react-animate-on-scroll";
+// import { MotionAnimate } from "react-motion-animate";
 
 const trustBlog = [
   {
@@ -62,12 +62,12 @@ function Home() {
           <div className="container">
             <div className="row align-items-center">
               <div className="col-12 text-center ">
-                <MotionAnimate
+                {/* <MotionAnimate
                   animation="fadeInUp"
                   reset={true}
                   distance={200}
                   speed={1}
-                >
+                > */}
                   <h1 className="col-lg-9 mx-auto">
                     Best Platform for Crypto Trading, Mining and Staking
                   </h1>
@@ -77,7 +77,7 @@ function Home() {
                     platform in the world who offers a robust selection of
                     trading options and features.
                   </p>
-                </MotionAnimate>
+                {/* </MotionAnimate> */}
 
                 {/* <Parallax speed={30}> */}
                 <Link
@@ -116,12 +116,12 @@ function Home() {
         <section className="clearfix section-wrapper1 bg-primary-light">
           <div className="container">
             <div className="content-inner-1">
-              <MotionAnimate
+              {/* <MotionAnimate
                 animation="fadeInUp"
                 reset={true}
                 distance={200}
                 speed={1}
-              >
+              > */}
                 <div className="section-head text-center">
                   <h2 className="title">Best Option for You</h2>
                   <p className="">
@@ -129,7 +129,7 @@ function Home() {
                     may function as a guide for you.
                   </p>
                 </div>
-              </MotionAnimate>
+              {/* </MotionAnimate> */}
               <div className="row">
                 {trustBlog.map((data, ind) => (
                   <div className="col-lg-4 m-b30" key={ind}>
@@ -156,7 +156,7 @@ function Home() {
             </div>
           </div>
           <div className="container">
-            <MotionAnimate animation="scrollPosition" xPos={[1400, -600]}>
+            {/* <MotionAnimate animation="scrollPosition" xPos={[1400, -600]}> */}
               <div className="form-wrapper-box style-1 text-center">
                 <div className="section-head ">
                   <h4 className="title m-t0">How to Purchase from us ?</h4>
@@ -239,22 +239,22 @@ function Home() {
                   </div>
                 </form>
               </div>
-            </MotionAnimate>
+            {/* </MotionAnimate> */}
           </div>
           <img className="bg-shape1" src={Shape1} alt="" />
         </section>
         <section className="content-inner bg-light icon-section section-wrapper2">
           <div className="container">
-            <MotionAnimate
+            {/* <MotionAnimate
               animation="fadeInUp"
               reset={true}
               distance={200}
               speed={1}
-            >
+            > */}
               <div className="section-head text-center">
                 <h2 className="title">Most amazing features</h2>
               </div>
-            </MotionAnimate>
+            {/* </MotionAnimate> */}
             <div className="row sp60">
               <OneStop />
             </div>
@@ -280,17 +280,17 @@ function Home() {
           <div className="container">
             <div className="row">
               <div className="col-xl-7 col-lg-12">
-                <MotionAnimate
+                {/* <MotionAnimate
                   animation="fadeInUp"
                   reset={true}
                   distance={200}
                   speed={1}
-                >
+                > */}
                   <div className="section-head ">
                     <h6 className="sub-title text-primary">FROM OUR BLOG</h6>
                     <h2 className="title">Recent News &amp; Updates</h2>
                   </div>
-                </MotionAnimate>
+                {/* </MotionAnimate> */}
                 <RecentNews />
               </div>
           
@@ -339,16 +339,16 @@ function Home() {
         </section>
         <section className="content-inner bg-light icon-section section-wrapper2">
           <div className="container">
-            <MotionAnimate
+            {/* <MotionAnimate
               animation="fadeInUp"
               reset={true}
               distance={200}
               speed={1}
-            >
+            > */}
               <div className="section-head text-center">
                 <h2 className="title">Most amazing features</h2>
               </div>
-            </MotionAnimate>
+            {/* </MotionAnimate> */}
             <div className="row sp60">
               <OneStop />
             </div>
