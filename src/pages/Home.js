@@ -42,9 +42,9 @@ const trustBlog = [
   },
   {
     image: friend,
-    title: "Earn From Mining",
+    title: "Earn From Trading",
     description:
-      "We are always committed to providing high quality mining to people around the world. Low Maintenance Fees.",
+      "Earn DeFi crypto rewards with Binance. We offer numerous opportunities for traders and users who want to earn crypto rewards.",
   },
 ];
 
@@ -346,7 +346,7 @@ function Home() {
               speed={1}
             > */}
               <div className="section-head text-center">
-                <h2 className="title">Most amazing features</h2>
+                <h2 className="title">Fecotrade Ecosystem</h2>
               </div>
             {/* </MotionAnimate> */}
             <div className="row sp60">
