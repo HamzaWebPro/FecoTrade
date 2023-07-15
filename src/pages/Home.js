@@ -284,7 +284,7 @@ function Home() {
                             name="dzName"
                             type="text"
                             required=""
-                            placeholder="Hashrate gainers <br>in last 6 hours"
+                            placeholder="Hashrate gainers in last 6 hours"
                             className="form-control"
                           />
                         </div>
@@ -293,7 +293,7 @@ function Home() {
                             name="dzName"
                             type="text"
                             required=""
-                            placeholder="Hashrate losers <br>in last 6 hours"
+                            placeholder="Hashrate losers in last 6 hours"
                             className="form-control"
                           />
                         </div>
