@@ -28,7 +28,7 @@ import about1 from './../assets/images/about/about-1.jpg';
 
 
 import MiningPlan from "../components/Home/MiningPlan";
-import { Parallax } from "react-scroll-parallax";
+import { Parallax, useParallax } from "react-scroll-parallax";
 // import { Parallax } from "react-scroll-parallax";
 // import ScrollAnimation from "react-animate-on-scroll";
 // import { MotionAnimate } from "react-motion-animate";
@@ -73,18 +73,20 @@ function Home() {
     nav("/contact-us");
   };
   const [selecttext, setSelectText] = useState([coin4, "Bitcoin"]);
+
+  // parallax
+  const parallax = useParallax({
+    easing: 'easeOutQuad',
+    translateX: [-40, 20],
+  });
   return (
     <>
       <div className="page-content">
-        <div className="main-bnr style-1">
+        <div className="main-bnr  style-1">
           <div className="container">
             <div className="row align-items-center">
               <div className="col-12 text-center ">
-                <Parallax
-                 
-                  speed={100}
                
-                >
                   <h1 className="col-lg-9 mx-auto">
                     Best Platform for Crypto Trading, Mining and Staking
                   </h1>
@@ -94,10 +96,10 @@ function Home() {
                     platform in the world who offers a robust selection of
                     trading options and features.
                   </p>
-                </Parallax>
+              
 
                 {/* <Parallax speed={30}> */}
-                <div   className="mt-3">
+   
 
                 <Link
                   to={"https://auth.fecotrade.com/register"}
@@ -105,7 +107,7 @@ function Home() {
                 >
                   Get Started
                 </Link>
-                </div>
+         
                 {/* </Parallax> */}
                 <ul className="image-before">
                   <li className="left-img">
@@ -179,7 +181,7 @@ function Home() {
                   </p>
                 </div>
               {/* </MotionAnimate> */}
-              <div className="row">
+              <div className="row" ref={parallax.ref}>
                 {trustBlog.map((data, ind) => (
                   <div className="col-lg-4 m-b30" key={ind}>
                     {/* <Parallax speed={ind * 25}> */}
