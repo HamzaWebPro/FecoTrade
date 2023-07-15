@@ -20,11 +20,11 @@ const featureIconFour = <AiFillDatabase className='style' />
 const featureIconFive = <FaDatabase className='style'/>
 
 const cardData = [
-    {image: featureIconOne, title:'Instant Connect', description: 'Your selected mining contract Is activated automatically once your payment Is confirmed'},
-    {image: featureIconTwo, title:'Easy Withdrawal', description: "Request for a payout and receive your earnings on personal wallet any time, any day.No hassle"},
-    {image: featureIconThree, title:'Detailed Statistics', description: "Get a detailed mining tracks/history on your dashboard on how your mining contract Is running."},
-    {image: featureIconFour, title:'Daily Mining Output', description: "Once your mining contract Is activated, your daily earnings are distributed to your preferred mining account after 24hours."},
-    {image: featureIconFive, title:'Easy Payment System', description: "We have and accepts the most widely used payment system therefore making it easy for you to get started."},
+    {image: featureIconOne, title:'Custom Blockchain', description: 'Your selected mining contract Is activated automatically once your payment Is confirmed'},
+    {image: featureIconTwo, title:'Feco Native Coin', description: "Request for a payout and receive your earnings on personal wallet any time, any day.No hassle"},
+    {image: featureIconThree, title:'Feco Network', description: "Get a detailed mining tracks/history on your dashboard on how your mining contract Is running."},
+    {image: featureIconFour, title:'Feco Explorer', description: "Once your mining contract Is activated, your daily earnings are distributed to your preferred mining account after 24hours."},
+    {image: featureIconFive, title:'Feco Wallet', description: "We have and accepts the most widely used payment system therefore making it easy for you to get started."},
 ];
 
 function OneStop(){
