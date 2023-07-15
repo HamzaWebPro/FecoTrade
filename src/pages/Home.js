@@ -21,9 +21,9 @@ import coin4 from "./../assets/images/coins/coin4.png";
 
 import bloglg from "./../assets/images/blog/blog-ig.png";
 import avatar3 from "./../assets/images/avatar/avatar3.jpg";
-import about2 from './../assets/images/about/about-2.jpg';
-import about3 from './../assets/images/about/about-3.jpg';
-import about4 from './../assets/images/about/about-4.jpg';
+import about2 from './../assets/images/about/feco-about-2.jpg';
+import about3 from './../assets/images/about/feco-about-1.jpg';
+import about4 from './../assets/images/about/feco-about-3.jpg';
 import about1 from './../assets/images/about/about-1.jpg';
 
 
