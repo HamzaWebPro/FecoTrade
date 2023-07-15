@@ -322,6 +322,7 @@ function Home() {
             > */}
               <div className="section-head text-center">
                 <h2 className="title">Most amazing features</h2>
+		  <p>Learn how blockchain can increase trust, security, transparency, and the traceability of data across a business network — and deliver cost savings.</p>
               </div>
             {/* </MotionAnimate> */}
             <div className="row sp60">
