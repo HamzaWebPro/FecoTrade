@@ -21,8 +21,14 @@ import coin4 from "./../assets/images/coins/coin4.png";
 
 import bloglg from "./../assets/images/blog/blog-ig.png";
 import avatar3 from "./../assets/images/avatar/avatar3.jpg";
+import about2 from './../assets/images/about/about-2.jpg';
+import about3 from './../assets/images/about/about-3.jpg';
+import about4 from './../assets/images/about/about-4.jpg';
+import about1 from './../assets/images/about/about-1.jpg';
+
 
 import MiningPlan from "../components/Home/MiningPlan";
+import { Parallax } from "react-scroll-parallax";
 // import { Parallax } from "react-scroll-parallax";
 // import ScrollAnimation from "react-animate-on-scroll";
 // import { MotionAnimate } from "react-motion-animate";
@@ -42,11 +48,23 @@ const trustBlog = [
   },
   {
     image: friend,
-    title: "Earn From Trading",
+    title: "Earn From Mining",
     description:
-      "Earn DeFi crypto rewards with Binance. We offer numerous opportunities for traders and users who want to earn crypto rewards.",
+      "We are always committed to providing high quality mining to people around the world. Low Maintenance Fees.",
   },
 ];
+
+const ImageBox = ({image, changeClass}) =>{
+  return(
+      
+      <div className="col-6">
+          <div className={`image-box ${changeClass}`}>
+              <img src={image} alt="" />
+          </div>
+      </div>
+      
+  )
+}
 
 function Home() {
   const nav = useNavigate();
@@ -62,12 +80,11 @@ function Home() {
           <div className="container">
             <div className="row align-items-center">
               <div className="col-12 text-center ">
-                {/* <MotionAnimate
-                  animation="fadeInUp"
-                  reset={true}
-                  distance={200}
-                  speed={1}
-                > */}
+                <Parallax
+                 
+                  speed={100}
+               
+                >
                   <h1 className="col-lg-9 mx-auto">
                     Best Platform for Crypto Trading, Mining and Staking
                   </h1>
@@ -77,15 +94,18 @@ function Home() {
                     platform in the world who offers a robust selection of
                     trading options and features.
                   </p>
-                {/* </MotionAnimate> */}
+                </Parallax>
 
                 {/* <Parallax speed={30}> */}
+                <div   >
+
                 <Link
                   to={"https://auth.fecotrade.com/register"}
-                  className="btn space-lg btn-gradient btn-shadow btn-primary "
+                  className="btn space-lg btn-gradient btn-shadow btn-primary"
                 >
                   Get Started
                 </Link>
+                </div>
                 {/* </Parallax> */}
                 <ul className="image-before">
                   <li className="left-img">
@@ -113,6 +133,35 @@ function Home() {
             </div>
           </div>
         </div>
+        <section className="content-inner about-sec bg-primary-light">
+                    <div className="container">
+                        <div className="row about-bx2 style-1 align-items-center">
+                            <div className="col-lg-6">
+                                <div className="dz-media">
+                                    <div className="row align-items-end">                                        
+                                        <ImageBox image={about4} changeClass="image-box-1" />
+                                        <ImageBox image={about2} changeClass="image-box-2" />                                      
+                                    </div>
+                                    <div className="row">                                        
+                                        <ImageBox image={about3} changeClass="image-box-3" />
+                                        <ImageBox image={about1} changeClass="image-box-4" />                                        
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-lg-6 about-content ps-lg-5 m-b30">
+                                <div className="section-head">
+                                    <h2 className="title">Start Safe Investment Today!</h2>
+                                    <p className="m-0 lh-base">With trading, mining, and staking, you can grow your crypto while you investing! Invest in our crypto mining, trading, staking company and earn cryptocurrencies.</p>
+                                </div>
+                                <Link to={"/contact-us"} className="btn btn-lg btn-primary btn-shadow text-uppercase">Contatc Us</Link>
+                            </div>
+                        </div>
+                    </div>                    
+                    <img className="bg-shape1" src={Shape1} alt="" />
+					<img className="bg-shape2" src={Shape3} alt="" />
+					<img className="bg-shape3" src={Shape3} alt="" />
+					<img className="bg-shape4" src={Shape3} alt="" />
+                </section>
         <section className="clearfix section-wrapper1 bg-primary-light">
           <div className="container">
             <div className="content-inner-1">
@@ -155,6 +204,24 @@ function Home() {
               </div>
             </div>
           </div>
+          <section className="content-inner bg-light icon-section section-wrapper2">
+          <div className="container">
+            {/* <MotionAnimate
+              animation="fadeInUp"
+              reset={true}
+              distance={200}
+              speed={1}
+            > */}
+              <div className="section-head text-center">
+                <h2 className="title">Most amazing features</h2>
+              </div>
+            {/* </MotionAnimate> */}
+            <div className="row sp60">
+              <OneStop />
+            </div>
+          </div>
+          <img className="bg-shape1" src={Shape1} alt="" />
+        </section>
           <div className="container">
             {/* <MotionAnimate animation="scrollPosition" xPos={[1400, -600]}> */}
               <div className="form-wrapper-box style-1 text-center">
@@ -337,24 +404,7 @@ function Home() {
             </div>
           </div>
         </section>
-        <section className="content-inner bg-light icon-section section-wrapper2">
-          <div className="container">
-            {/* <MotionAnimate
-              animation="fadeInUp"
-              reset={true}
-              distance={200}
-              speed={1}
-            > */}
-              <div className="section-head text-center">
-                <h2 className="title">Fecotrade Ecosystem</h2>
-              </div>
-            {/* </MotionAnimate> */}
-            <div className="row sp60">
-              <OneStop />
-            </div>
-          </div>
-          <img className="bg-shape1" src={Shape1} alt="" />
-        </section>
+       
       </div>
     </>
   );

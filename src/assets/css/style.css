@@ -16552,9 +16552,9 @@ column-gap: 20px;
 .currancy-wrapper {
   position: relative;
   padding: 0 75px;
-  margin-top: -140px;
+  margin-top: -70px !important;
   z-index: 3; }
-  .currancy-wrapper:after {
+  /* .currancy-wrapper:after {
     content: "";
     height: 58px;
     width: 100%;
@@ -16565,7 +16565,7 @@ column-gap: 20px;
     border-radius: 20px 20px 0 0;
     z-index: -1;
     transform: translate(0px, -118px);
-  }
+  } */
   @media only screen and (max-width: 1280px) {
     .currancy-wrapper {
       margin-top: -113px; } }
@@ -16626,7 +16626,8 @@ column-gap: 20px;
   animation: aniRotate 10s infinite linear; }
 
 .about-sec.content-inner {
-  padding-bottom: 30px; }
+  padding-bottom: 0px;
+padding-top: 100px !important; }
   .about-sec.content-inner .bg-shape1,
   .about-sec.content-inner .bg-shape2,
   .about-sec.content-inner .bg-shape3,
