@@ -284,7 +284,7 @@ function Home() {
                             name="dzName"
                             type="text"
                             required=""
-                            placeholder="How much worth in $?"
+                            placeholder="Supported Mining Clients"
                             className="form-control"
                           />
                         </div>
