@@ -39,7 +39,7 @@ function Footer(){
                                         <li><Link to={"/pricing"}>Mining Plan</Link></li>
                                         <li><Link to={"https://auth.fecotrade.com/login"}>Login</Link></li>
                                          <li><Link to={"https://auth.fecotrade.com/login"}>Login</Link></li>
-                                        // <li><Link to={"/blog-grid"}>Our Blogs</Link></li>
+                                        <li><Link to={"/blog-grid"}>Our Blogs</Link></li>
                                         <li><Link to={"/contact-us"}>Contact Us</Link></li>
                                     </ul>
                                 </div>
