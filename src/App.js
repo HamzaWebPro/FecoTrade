@@ -1,13 +1,15 @@
-import React from 'react';
-import Route from './pages/route';	
-
+import React from "react";
+import Route from "./pages/route";
+import "./index.css";
 import "./assets/css/style.css";
-
+import { ParallaxProvider } from "react-scroll-parallax";
 
 function App() {
   return (
     <div className="App">
-		  <Route />
+      <ParallaxProvider>
+        <Route />
+      </ParallaxProvider>
     </div>
   );
 }

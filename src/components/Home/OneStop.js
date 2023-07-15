@@ -10,6 +10,7 @@ import { BiServer } from "react-icons/bi";
 //Images
 import pic1 from './../../assets/images/about/pic1.jpg';
 import support1 from './../../assets/images/icons/support1.png';
+// import { Parallax } from 'react-scroll-parallax';
 
 // react icons 
 const featureIconOne = <FaServer className='style'/>
@@ -30,8 +31,9 @@ function OneStop(){
     return(
         <>
             {cardData.map((item, ind)=>(
-                <div className="col-xl-4 col-md-6 m-b60" key={ind}>
-                    <div className="icon-bx-wraper style-3 text-center">
+                <div className="col-xl-4 col-md-6  flex-row-reverse m-b60" key={ind}>
+                     {/* <Parallax speed={ind*20}> */}
+                    <div className="icon-bx-wraper  style-3 text-center">
                         <div className="icon-media">
                             <p>{item.image}</p>
                         </div>
@@ -40,6 +42,7 @@ function OneStop(){
                             <p className="m-b0">{item.description}</p>
                         </div>
                     </div>
+               {/* </Parallax> */}
                 </div>
             ))}
             <div className="col-xl-4 col-md-6 m-b60">

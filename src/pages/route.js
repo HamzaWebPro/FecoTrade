@@ -26,6 +26,7 @@ function Index() {
           <Route path="/blog-details" exact element={<BlogDetails />} />
           <Route path="/contact-us" exact element={<ContactUs />} />
         </Routes>
+        {/* back to button here */}
         <Footer />
         <ScrollToTop />
       </div>
