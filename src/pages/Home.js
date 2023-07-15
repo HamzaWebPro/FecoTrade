@@ -243,7 +243,7 @@ function Home() {
                             name="dzName"
                             type="text"
                             required=""
-                            placeholder="Wallet Address"
+                            placeholder="Top rated coins <br>in last 24 hours"
                             className="form-control"
                           />
                         </div>
@@ -284,7 +284,7 @@ function Home() {
                             name="dzName"
                             type="text"
                             required=""
-                            placeholder="Supported Mining Clients"
+                            placeholder="Hashrate gainers <br>in last 6 hours"
                             className="form-control"
                           />
                         </div>
@@ -293,7 +293,7 @@ function Home() {
                             name="dzName"
                             type="text"
                             required=""
-                            placeholder="Email Address"
+                            placeholder="Hashrate losers <br>in last 6 hours"
                             className="form-control"
                           />
                         </div>
