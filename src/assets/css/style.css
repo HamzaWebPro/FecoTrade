@@ -18927,6 +18927,9 @@ pre {
   .bg-shape2,.bg-shape3,.bg-shape4,.bg-shape5{
     display: block !important;
   }
+  .currancy-wrapper{
+ margin-top:  50px !important;
+  }
 }
 
 /* Medium Devices */
