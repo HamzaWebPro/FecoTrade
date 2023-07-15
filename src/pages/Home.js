@@ -89,7 +89,7 @@ function Home() {
                     Best Platform for Crypto Trading, Mining and Staking
                   </h1>
 
-                  <p className="text text-primary col-lg-6 mx-auto">
+                  <p className="text text-primary col-lg-6 mx-auto ">
                     Fecotrade is one of the largest cryptocurrency trading
                     platform in the world who offers a robust selection of
                     trading options and features.
@@ -97,7 +97,7 @@ function Home() {
                 </Parallax>
 
                 {/* <Parallax speed={30}> */}
-                <div   >
+                <div   className="mt-3">
 
                 <Link
                   to={"https://auth.fecotrade.com/register"}
