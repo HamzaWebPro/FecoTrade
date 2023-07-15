@@ -21,10 +21,10 @@ import coin4 from "./../assets/images/coins/coin4.png";
 
 import bloglg from "./../assets/images/blog/blog-ig.png";
 import avatar3 from "./../assets/images/avatar/avatar3.jpg";
-import about2 from './../assets/images/about/feco-about-2.jpg';
-import about3 from './../assets/images/about/feco-about-1.jpg';
-import about4 from './../assets/images/about/feco-about-3.jpg';
-import about1 from './../assets/images/about/about-1.jpg';
+import about2 from './../assets/images/about/pic-01.jpg';
+import about3 from './../assets/images/about/pic-02.jpg';
+import about4 from './../assets/images/about/pic-03.jpg';
+import about1 from './../assets/images/about/pic-04.jpg';
 
 
 import MiningPlan from "../components/Home/MiningPlan";
@@ -215,7 +215,8 @@ function Home() {
               speed={1}
             > */}
               <div className="section-head text-center">
-                <h2 className="title">Most amazing features</h2>
+                <h2 className="title">Fecotrade Ecosystem</h2>
+		<p>A blockchain ecosystem refers to the different parts that make up a blockchain network and how they interact.</p>
               </div>
             {/* </MotionAnimate> */}
             <div className="row sp60">
