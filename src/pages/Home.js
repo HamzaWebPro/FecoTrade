@@ -23,7 +23,7 @@ import bloglg from "./../assets/images/blog/blog-ig.png";
 import avatar3 from "./../assets/images/avatar/avatar3.jpg";
 
 import MiningPlan from "../components/Home/MiningPlan";
-import { Parallax } from "react-scroll-parallax";
+// import { Parallax } from "react-scroll-parallax";
 // import ScrollAnimation from "react-animate-on-scroll";
 // import { MotionAnimate } from "react-motion-animate";
 
@@ -133,7 +133,7 @@ function Home() {
               <div className="row">
                 {trustBlog.map((data, ind) => (
                   <div className="col-lg-4 m-b30" key={ind}>
-                    <Parallax speed={ind * 25}>
+                    {/* <Parallax speed={ind * 25}> */}
                       <div className="icon-bx-wraper style-2">
                         <div className="icon-media d-flex">
                           <img src={data.image} alt="" />
@@ -149,7 +149,7 @@ function Home() {
                           </Link>
                         </div>
                       </div>
-                    </Parallax>
+                    {/* </Parallax> */}
                   </div>
                 ))}
               </div>
