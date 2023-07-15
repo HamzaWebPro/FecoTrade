@@ -229,10 +229,9 @@ function Home() {
             {/* <MotionAnimate animation="scrollPosition" xPos={[1400, -600]}> */}
               <div className="form-wrapper-box style-1 text-center">
                 <div className="section-head ">
-                  <h4 className="title m-t0">How to Purchase from us ?</h4>
+                  <h4 className="title m-t0">Empower Your Mining Machines</h4>
                   <p>
-                    Fill out the below form and we will contact you via email &
-                    details
+                    Unlock Maximum Efficiency, Save Time, and Increase Earnings with Our Leading Mining Management and Analytics Platform
                   </p>
                 </div>
                 <form className="dz-form" onSubmit={(e) => formDetails(e)}>
@@ -260,22 +259,22 @@ function Home() {
                             <Dropdown.Menu>
                               <Dropdown.Item
                                 onClick={() =>
-                                  setSelectText([coin4, "Bitcoin"])
+                                  setSelectText([coin4, "RTX 4090"])
                                 }
                               >
-                                <img src={coin4} alt="" /> Bitcoin
+                                <img src={coin4} alt="" /> RTX 4090
                               </Dropdown.Item>
                               <Dropdown.Item
                                 onClick={() =>
-                                  setSelectText([coin3, "Ethereum"])
+                                  setSelectText([coin3, "RTX 4070Ti"])
                                 }
                               >
-                                <img src={coin3} alt="" /> Ethereum
+                                <img src={coin3} alt="" /> RTX 3060Ti LHR
                               </Dropdown.Item>
                               <Dropdown.Item
-                                onClick={() => setSelectText([coin1, "Tether"])}
+                                onClick={() => setSelectText([coin1, "RTX 2070"])}
                               >
-                                <img src={coin1} alt="" /> Tether
+                                <img src={coin1} alt="" /> RTX 2070
                               </Dropdown.Item>
                             </Dropdown.Menu>
                           </Dropdown>
