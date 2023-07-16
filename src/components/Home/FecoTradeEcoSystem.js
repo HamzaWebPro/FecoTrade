@@ -52,7 +52,7 @@ const cardData = [
   },
 ];
 
-function OneStop() {
+function FecoTradeEcoSystem() {
   return (
     <>
       {cardData.map((item, ind) => (
@@ -90,4 +90,4 @@ function OneStop() {
     </>
   );
 }
-export default OneStop;
+export default FecoTradeEcoSystem;

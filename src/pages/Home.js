@@ -29,6 +29,7 @@ import about1 from './../assets/images/about/about-1.jpg';
 
 import MiningPlan from "../components/Home/MiningPlan";
 import { Parallax, useParallax } from "react-scroll-parallax";
+import FecoTradeEcoSystem from "../components/Home/FecoTradeEcoSystem";
 
 
 
@@ -309,7 +310,7 @@ function Home() {
               </div>
          
             <div className="row sp60">
-              <OneStop />
+              <FecoTradeEcoSystem />
             </div>
           </div>
           <img className="bg-shape1" src={Shape1} alt="" />
