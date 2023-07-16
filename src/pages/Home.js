@@ -21,17 +21,16 @@ import coin4 from "./../assets/images/coins/coin4.png";
 
 import bloglg from "./../assets/images/blog/blog-ig.png";
 import avatar3 from "./../assets/images/avatar/avatar3.jpg";
-import about2 from './../assets/images/about/pic-01.jpg';
-import about3 from './../assets/images/about/pic-02.jpg';
-import about4 from './../assets/images/about/pic-03.jpg';
-import about1 from './../assets/images/about/pic-04.jpg';
+import about2 from './../assets/images/about/feco-about-2.jpg';
+import about3 from './../assets/images/about/feco-about-1.jpg';
+import about4 from './../assets/images/about/feco-about-3.jpg';
+import about1 from './../assets/images/about/about-1.jpg';
 
 
 import MiningPlan from "../components/Home/MiningPlan";
 import { Parallax, useParallax } from "react-scroll-parallax";
 
 
-import { MotionAnimate } from "react-motion-animate";
 
 const trustBlog = [
   {
@@ -167,12 +166,7 @@ function Home() {
         <section className="clearfix section-wrapper1 bg-primary-light">
           <div className="container">
             <div className="content-inner-1">
-              {/* <MotionAnimate
-                animation="fadeInUp"
-                reset={true}
-                distance={200}
-                speed={1}
-              > */}
+             
                 <div className="section-head text-center">
                   <h2 className="title">Best Option for You</h2>
                   <p className="">
@@ -180,7 +174,7 @@ function Home() {
                     may function as a guide for you.
                   </p>
                 </div>
-              {/* </MotionAnimate> */}
+        
               <div className="row" ref={parallax.ref}>
                 {trustBlog.map((data, ind) => (
                   <div className="col-lg-4 m-b30" key={ind}>
@@ -208,17 +202,11 @@ function Home() {
           </div>
           <section className="content-inner bg-light icon-section section-wrapper2">
           <div className="container">
-            <MotionAnimate
-              animation="fadeInUp"
-              reset={true}
-              distance={200}
-              speed={1}
-            >
+         
               <div className="section-head text-center">
-                <h2 className="title">Fecotrade Ecosystem</h2>
-		<p>A blockchain ecosystem refers to the different parts that make up a blockchain network and how they interact.</p>
+                <h2 className="title">Most amazing features</h2>
               </div>
-            </MotionAnimate>
+        
             <div className="row sp60">
               <OneStop />
             </div>
@@ -226,12 +214,13 @@ function Home() {
           <img className="bg-shape1" src={Shape1} alt="" />
         </section>
           <div className="container">
-            {/* <MotionAnimate animation="scrollPosition" xPos={[1400, -600]}> */}
+
               <div className="form-wrapper-box style-1 text-center">
                 <div className="section-head ">
-                  <h4 className="title m-t0">Empower Your Mining Machines</h4>
+                  <h4 className="title m-t0">How to Purchase from us ?</h4>
                   <p>
-                    Unlock Maximum Efficiency, Save Time, and Increase Earnings with Our Leading Mining Management and Analytics Platform
+                    Fill out the below form and we will contact you via email &
+                    details
                   </p>
                 </div>
                 <form className="dz-form" onSubmit={(e) => formDetails(e)}>
@@ -243,7 +232,7 @@ function Home() {
                             name="dzName"
                             type="text"
                             required=""
-                            placeholder="Top rated coins <br>in last 24 hours"
+                            placeholder="Wallet Address"
                             className="form-control"
                           />
                         </div>
@@ -259,22 +248,22 @@ function Home() {
                             <Dropdown.Menu>
                               <Dropdown.Item
                                 onClick={() =>
-                                  setSelectText([coin4, "RTX 4090"])
+                                  setSelectText([coin4, "Bitcoin"])
                                 }
                               >
-                                <img src={coin4} alt="" /> RTX 4090
+                                <img src={coin4} alt="" /> Bitcoin
                               </Dropdown.Item>
                               <Dropdown.Item
                                 onClick={() =>
-                                  setSelectText([coin3, "RTX 4070Ti"])
+                                  setSelectText([coin3, "Ethereum"])
                                 }
                               >
-                                <img src={coin3} alt="" /> RTX 3060Ti LHR
+                                <img src={coin3} alt="" /> Ethereum
                               </Dropdown.Item>
                               <Dropdown.Item
-                                onClick={() => setSelectText([coin1, "RTX 2070"])}
+                                onClick={() => setSelectText([coin1, "Tether"])}
                               >
-                                <img src={coin1} alt="" /> RTX 2070
+                                <img src={coin1} alt="" /> Tether
                               </Dropdown.Item>
                             </Dropdown.Menu>
                           </Dropdown>
@@ -284,7 +273,7 @@ function Home() {
                             name="dzName"
                             type="text"
                             required=""
-                            placeholder="Hashrate gainers in last 6 hours"
+                            placeholder="How much worth in $?"
                             className="form-control"
                           />
                         </div>
@@ -293,7 +282,7 @@ function Home() {
                             name="dzName"
                             type="text"
                             required=""
-                            placeholder="Hashrate losers in last 6 hours"
+                            placeholder="Email Address"
                             className="form-control"
                           />
                         </div>
@@ -308,23 +297,17 @@ function Home() {
                   </div>
                 </form>
               </div>
-            {/* </MotionAnimate> */}
+
           </div>
           <img className="bg-shape1" src={Shape1} alt="" />
         </section>
         <section className="content-inner bg-light icon-section section-wrapper2">
           <div className="container">
-            {/* <MotionAnimate
-              animation="fadeInUp"
-              reset={true}
-              distance={200}
-              speed={1}
-            > */}
+            
               <div className="section-head text-center">
                 <h2 className="title">Most amazing features</h2>
-		  <p>Learn how blockchain can increase trust, security, transparency, and the traceability of data across a business network — and deliver cost savings.</p>
               </div>
-            {/* </MotionAnimate> */}
+         
             <div className="row sp60">
               <OneStop />
             </div>
@@ -350,17 +333,12 @@ function Home() {
           <div className="container">
             <div className="row">
               <div className="col-xl-7 col-lg-12">
-                {/* <MotionAnimate
-                  animation="fadeInUp"
-                  reset={true}
-                  distance={200}
-                  speed={1}
-                > */}
+            
                   <div className="section-head ">
                     <h6 className="sub-title text-primary">FROM OUR BLOG</h6>
                     <h2 className="title">Recent News &amp; Updates</h2>
                   </div>
-                {/* </MotionAnimate> */}
+           
                 <RecentNews />
               </div>
           
