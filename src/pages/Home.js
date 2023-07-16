@@ -21,10 +21,10 @@ import coin4 from "./../assets/images/coins/coin4.png";
 
 import bloglg from "./../assets/images/blog/blog-ig.png";
 import avatar3 from "./../assets/images/avatar/avatar3.jpg";
-import about2 from './../assets/images/about/feco-about-2.jpg';
-import about3 from './../assets/images/about/feco-about-1.jpg';
-import about4 from './../assets/images/about/feco-about-3.jpg';
-import about1 from './../assets/images/about/about-1.jpg';
+import about2 from './../assets/images/about/pic-01.jpg';
+import about3 from './../assets/images/about/pic-02.jpg';
+import about4 from './../assets/images/about/pic-03.jpg';
+import about1 from './../assets/images/about/pic-04.jpg';
 
 
 import MiningPlan from "../components/Home/MiningPlan";
@@ -215,7 +215,8 @@ function Home() {
               speed={1}
             >
               <div className="section-head text-center">
-                <h2 className="title">Most amazing features</h2>
+                <h2 className="title">Fecotrade Ecosystem</h2>
+		<p>A blockchain ecosystem refers to the different parts that make up a blockchain network and how they interact.</p>
               </div>
             </MotionAnimate>
             <div className="row sp60">
@@ -228,10 +229,9 @@ function Home() {
             {/* <MotionAnimate animation="scrollPosition" xPos={[1400, -600]}> */}
               <div className="form-wrapper-box style-1 text-center">
                 <div className="section-head ">
-                  <h4 className="title m-t0">How to Purchase from us ?</h4>
+                  <h4 className="title m-t0">Empower Your Mining Machines</h4>
                   <p>
-                    Fill out the below form and we will contact you via email &
-                    details
+                    Unlock Maximum Efficiency, Save Time, and Increase Earnings with Our Leading Mining Management and Analytics Platform
                   </p>
                 </div>
                 <form className="dz-form" onSubmit={(e) => formDetails(e)}>
@@ -243,7 +243,7 @@ function Home() {
                             name="dzName"
                             type="text"
                             required=""
-                            placeholder="Wallet Address"
+                            placeholder="Top rated coins <br>in last 24 hours"
                             className="form-control"
                           />
                         </div>
@@ -259,22 +259,22 @@ function Home() {
                             <Dropdown.Menu>
                               <Dropdown.Item
                                 onClick={() =>
-                                  setSelectText([coin4, "Bitcoin"])
+                                  setSelectText([coin4, "RTX 4090"])
                                 }
                               >
-                                <img src={coin4} alt="" /> Bitcoin
+                                <img src={coin4} alt="" /> RTX 4090
                               </Dropdown.Item>
                               <Dropdown.Item
                                 onClick={() =>
-                                  setSelectText([coin3, "Ethereum"])
+                                  setSelectText([coin3, "RTX 4070Ti"])
                                 }
                               >
-                                <img src={coin3} alt="" /> Ethereum
+                                <img src={coin3} alt="" /> RTX 3060Ti LHR
                               </Dropdown.Item>
                               <Dropdown.Item
-                                onClick={() => setSelectText([coin1, "Tether"])}
+                                onClick={() => setSelectText([coin1, "RTX 2070"])}
                               >
-                                <img src={coin1} alt="" /> Tether
+                                <img src={coin1} alt="" /> RTX 2070
                               </Dropdown.Item>
                             </Dropdown.Menu>
                           </Dropdown>
@@ -284,7 +284,7 @@ function Home() {
                             name="dzName"
                             type="text"
                             required=""
-                            placeholder="How much worth in $?"
+                            placeholder="Hashrate gainers in last 6 hours"
                             className="form-control"
                           />
                         </div>
@@ -293,7 +293,7 @@ function Home() {
                             name="dzName"
                             type="text"
                             required=""
-                            placeholder="Email Address"
+                            placeholder="Hashrate losers in last 6 hours"
                             className="form-control"
                           />
                         </div>
@@ -322,6 +322,7 @@ function Home() {
             > */}
               <div className="section-head text-center">
                 <h2 className="title">Most amazing features</h2>
+		  <p>Learn how blockchain can increase trust, security, transparency, and the traceability of data across a business network — and deliver cost savings.</p>
               </div>
             {/* </MotionAnimate> */}
             <div className="row sp60">

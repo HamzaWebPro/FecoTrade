@@ -12,9 +12,9 @@ const stakingIcon = <FaChartSimple size={50} />
 const tradingIcon = <FaHammer size={50} />
 
 const cardData = [
-    { icon: miningIcon, title: 'Mining', description: 'For each of the blockchain algorithms that we have proposed, we are providing some of the highest performance mining systems available.' },
-    { icon: stakingIcon, title: 'Staking', description: 'Earn daily rewards on your idle tokens. Simple & Secure. Search popular coins and start earning.' },
-    { icon: tradingIcon, title: 'Trading', description: 'Supercharged features to make you happy and lorem ipsum sit dolor amet' },
+    { icon: miningIcon, title: 'What is Mining?', description: 'Mining is like a process of validating a block on the chain network and getting paid in Crypto. ' },
+    { icon: stakingIcon, title: 'What is Staking?', description: 'Staking crypto means locking up coins to maintain the security of a blockchain network and earning rewards in return. ' },
+    { icon: tradingIcon, title: 'What is Trading', description: 'Cryptocurrency trading involves buying and selling digital assets to make a profit in many ways.' },
 ];
 
 function BannerCard() {
