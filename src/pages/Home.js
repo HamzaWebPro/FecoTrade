@@ -306,7 +306,7 @@ function Home() {
           <div className="container">
             
               <div className="section-head text-center">
-                <h2 className="title">Most amazing features</h2>
+                <h2 className="title">Fecotrade Ecosystem</h2>
               </div>
          
             <div className="row sp60">
