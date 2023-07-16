@@ -29,9 +29,9 @@ import about1 from './../assets/images/about/about-1.jpg';
 
 import MiningPlan from "../components/Home/MiningPlan";
 import { Parallax, useParallax } from "react-scroll-parallax";
-// import { Parallax } from "react-scroll-parallax";
-// import ScrollAnimation from "react-animate-on-scroll";
-// import { MotionAnimate } from "react-motion-animate";
+
+
+import { MotionAnimate } from "react-motion-animate";
 
 const trustBlog = [
   {
@@ -208,16 +208,16 @@ function Home() {
           </div>
           <section className="content-inner bg-light icon-section section-wrapper2">
           <div className="container">
-            {/* <MotionAnimate
+            <MotionAnimate
               animation="fadeInUp"
               reset={true}
               distance={200}
               speed={1}
-            > */}
+            >
               <div className="section-head text-center">
                 <h2 className="title">Most amazing features</h2>
               </div>
-            {/* </MotionAnimate> */}
+            </MotionAnimate>
             <div className="row sp60">
               <OneStop />
             </div>
