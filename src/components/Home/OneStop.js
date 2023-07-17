@@ -40,15 +40,15 @@ const cardData = [
   },
   {
     image: featureIconFour,
-    title: "Feco Explorer",
+    title: "Daily Mining Output",
     description:
       "Once your mining contract Is activated, your daily earnings are distributed to your preferred mining account after 24hours.",
   },
   {
     image: featureIconFive,
-    title: "Feco Wallet",
+    title: "Our Expert Team",
     description:
-      "We have and accepts the most widely used payment system therefore making it easy for you to get started.",
+      "A professional team of traders and financial experts guarantees a high return on investment and constant passive income.",
   },
 ];
 
