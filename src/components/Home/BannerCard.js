@@ -20,8 +20,8 @@ function BannerCard() {
     return (
         <>
             {cardData.map((data, index) => (
-                <div className="col-lg-4 col-md-6 m-b30 wow fadeInUp" data-wow-delay="0.2s" key={index}>
-                    <div className="icon-bx-wraper style-1 box-hover">
+                <div className="col-lg-4 col-md-6 m-b30 wow fadeInUp hover-color" data-wow-delay="0.2s" key={index}>
+                    <div className="icon-bx-wraper style-1 box-hover ">
                         <div className="icon-media flex justify-content-center align-items-center">
                             <div className="icon-info">
                                 <div className='text-center'>
