@@ -25,7 +25,7 @@ import bloglg from "./../assets/images/blog/blog-ig.png";
 import avatar3 from "./../assets/images/avatar/avatar3.jpg";
 import about2 from "./../assets/images/home-banner/btc-eth-ltch.gif";
 import about3 from "./../assets/images/home-banner/animated-home.gif";
-import about4 from "./../assets/images/home-banner/bitcoin-mining-pool.gif";
+import about4 from "./../assets/images/home-banner/hardware-mining.gif";
 import about1 from "./../assets/images/home-banner/bitcoin-animation.gif";
 
 import { Parallax, useParallax } from "react-scroll-parallax";
