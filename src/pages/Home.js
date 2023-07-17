@@ -279,6 +279,7 @@ function Home() {
           <div className="container">
             <div className="section-head text-center">
               <h2 className="title">Most amazing features</h2>
+              <p>Fecotrade exists to improve your systematic trading profitability and to help you succeed at a career in quantitative finance. And you don't need to learn any complicated financial trading skills, all of this is done by our expert team.</p>
             </div>
             <div className="row sp60">
               <OneStop />
@@ -437,6 +438,19 @@ function Home() {
           <img className="bg-shape3" src={Shape3} alt="" />
           <img className="bg-shape4" src={Shape3} alt="" />
         </section>
+        // ====Our Team section starts here====
+        <section className="content-inner bg-light icon-section section-wrapper2">
+          <div className="container">
+            <div className="section-head text-center">
+              <h2 className="title">Our Team</h2>
+              <p>we are proud of our great team. He is one of the most motivated and enthusiastic people we have, and is always ready and willing to help out where needed.</p>
+            </div>
+            <div className="row sp60">
+              <OurTeam />
+            </div>
+          </div>
+        </section>
+        // ====Our Team section ends here====
         <section className="clearfix section-wrapper1 bg-primary-light">
           <div className="container">
             <div className="content-inner-1">
@@ -475,16 +489,7 @@ function Home() {
             </div>
           </div>
         </section>
-        <section className="content-inner bg-light icon-section section-wrapper2">
-          <div className="container">
-            <div className="section-head text-center">
-              <h2 className="title">Our Team</h2>
-            </div>
-            <div className="row sp60">
-              <OurTeam />
-            </div>
-          </div>
-        </section>
+
         <section className="content-inner bg-white blog-wrapper">
           <img className="bg-shape1" src={Shape1} alt="" />
           <div className="container">
