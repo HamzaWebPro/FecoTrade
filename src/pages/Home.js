@@ -82,14 +82,24 @@ function Home() {
 
   const accordionData = [
     {
-      question: "What is Bitcoin?",
+      question: "What is Fecotrade?",
       answer:
-        "Bitcoin is a decentralized digital currency that allows for secure, peer-to-peer transactions on the internet. It was created in 2009 by an unknown person or group of people using the name Satoshi Nakamoto.",
+        "Fectotrade is a Russian - registered fintech company with an extensive ecosystem of crypto asset management services. The main activity of the company are cryptocurrency mining, staking and trading.",
     },
     {
-      question: "How does Bitcoin work?",
+      question: "How it works?",
       answer:
-        "Bitcoin works on a technology called blockchain, which is a distributed ledger that records all transactions across a network of computers. When a transaction is made, it is added to a block and verified by miners. Once verified, the block is added to the blockchain, making the transaction permanent and transparent.",
+        "Fecotrade is the pioneer solution for anyone who wants to get involved in cryptocurrency mining. With its powerful algorithms and easy-to-use interface, Fecotrade is the perfect way to start earning cryptocurrency directly from your browser.",
+    },
+     {
+      question: "Is there any autorun and smart CPU controller?",
+      answer:
+        "Effortlessly increase your earnings with Fecotrade's autorun and smart CPU controller. Our application is easy to install and will run automatically using your computer's free CPU resources to generate profits.",
+    },
+         {
+      question: "Is there any autorun and smart CPU controller?",
+      answer:
+        "Effortlessly increase your earnings with Fecotrade's autorun and smart CPU controller. Our application is easy to install and will run automatically using your computer's free CPU resources to generate profits.",
     },
     // Add more questions and answers here...
   ];
@@ -438,7 +448,7 @@ function Home() {
           <img className="bg-shape3" src={Shape3} alt="" />
           <img className="bg-shape4" src={Shape3} alt="" />
         </section>
-        // ====Our Team section starts here====
+        //Our Team section starts here
         <section className="content-inner bg-light icon-section section-wrapper2">
           <div className="container">
             <div className="section-head text-center">
@@ -450,15 +460,14 @@ function Home() {
             </div>
           </div>
         </section>
-        // ====Our Team section ends here====
+        //Our Team section ends here
         <section className="clearfix section-wrapper1 bg-primary-light">
           <div className="container">
             <div className="content-inner-1">
               <div className="section-head text-center">
                 <h2 className="title">FAQ</h2>
                 <p className="">
-                  Frequently Asked Questions: Get answers to commonly asked
-                  questions about our platform and services.
+                 We have collected the most detailed answers to frequently asked questions. If you have not found the answer to your question, please contact us.
                 </p>
               </div>
               <div className="">
