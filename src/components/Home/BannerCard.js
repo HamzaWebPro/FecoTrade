@@ -21,17 +21,12 @@ function BannerCard() {
     return (
         <>
             {cardData.map((data, index) => (
-<<<<<<< HEAD
-                <div className="col-lg-4 col-md-6 m-b30 wow fadeInUp hover-color" data-wow-delay="0.2s" key={index}>
-                    <div className="icon-bx-wraper style-1 box-hover ">
-=======
                 <div className="col-lg-4 col-md-6 m-b30 wow fadeInUp" data-wow-delay="0.2s" key={index}>
                     <Parallax
                      speed={index*20}
                     >
 
                     <div className="icon-bx-wraper style-1 box-hover">
->>>>>>> 3c686c1fcfd9fd4d5eb131758209b8b885fe4c5c
                         <div className="icon-media flex justify-content-center align-items-center">
                             <div className="icon-info">
                                 <div className='text-center'>
