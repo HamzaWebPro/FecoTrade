@@ -1,4 +1,5 @@
-
+import { Parallax } from "react-scroll-parallax";
+import ScrollAnimation from "react-animate-on-scroll";
 
 const personImageOne = "https://i.ibb.co/LSYS36V/male-man-icon.png"
 
