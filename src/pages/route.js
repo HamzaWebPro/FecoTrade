@@ -11,6 +11,7 @@ import BlogList from "./BlogList";
 import BlogGrid from "./BlogGrid";
 import BlogDetails from "./BlogDetails";
 import ContactUs from "./ContactUs";
+import BackToTopButton from "../components/BackToTopButton";
 
 function Index() {
   return (
@@ -27,6 +28,7 @@ function Index() {
           <Route path="/contact-us" exact element={<ContactUs />} />
         </Routes>
         {/* back to button here */}
+        <BackToTopButton/>
         <Footer />
         <ScrollToTop />
       </div>

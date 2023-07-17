@@ -371,30 +371,7 @@ function Home() {
         <section className="content-inner about-sec bg-primary-light">
           <div className="container">
             <div className="row about-bx2 style-1 align-items-center">
-              <div className="col-lg-6">
-                <div className="time-container d-flex justify-content-between mb-5">
-                  <div className="time d-flex flex-column justify-content-center align-items-center mb-0">
-                    <h3 className="value mb-0">{formatTime(days)}</h3>
-                    <div className="label">Days</div>
-                  </div>
-                  <div className="time d-flex flex-column justify-content-center align-items-center mb-0">
-                    <h3 className="value mb-0">{formatTime(hours)}</h3>
-                    <span className="label">Hours</span>
-                  </div>
-                  <div className="time d-flex flex-column justify-content-center align-items-center mb-0">
-                    <h3 className="value mb-0">{formatTime(minutes)}</h3>
-                    <span className="label">Minutes</span>
-                  </div>
-                  <div className="time d-flex flex-column justify-content-center align-items-center mb-0">
-                    <h3 className="value mb-0">{formatTime(seconds)}</h3>
-                    <span className="label">Seconds</span>
-                  </div>
-                </div>
-                <div className="progress-bar">
-                  <div className="progress" style={{ width: progressBarWidth }}></div>
-                </div>
-              </div>
-              <div className="col-lg-6 about-content ps-lg-5 m-b30">
+            <div className="col-lg-6 about-content ps-lg-5 m-b30">
                 <div className="section-head">
                   <h2 className="title">
                     Leading Platform for Cryptocurrency Mining!
@@ -423,6 +400,36 @@ function Home() {
                   Start Mining Today
                 </Link>
               </div>
+              <div className="col-lg-6 py-4">
+                
+              <div className="countdown-wrapper">
+              <div className="time-container mb-5">
+                <h5 className="text-center mb-4">Your event</h5>
+                 <div className="d-flex justify-content-around ">
+                 <div className="time d-flex flex-column justify-content-center align-items-center mb-0">
+                    <h3 className="value mb-0">{formatTime(days)}</h3>
+                    <div className="label">Days</div>
+                  </div>
+                  <div className="time d-flex flex-column justify-content-center align-items-center mb-0">
+                    <h3 className="value mb-0">{formatTime(hours)}</h3>
+                    <span className="label">Hours</span>
+                  </div>
+                  <div className="time d-flex flex-column justify-content-center align-items-center mb-0">
+                    <h3 className="value mb-0">{formatTime(minutes)}</h3>
+                    <span className="label">Minutes</span>
+                  </div>
+                  <div className="time d-flex flex-column justify-content-center align-items-center mb-0">
+                    <h3 className="value mb-0">{formatTime(seconds)}</h3>
+                    <span className="label">Seconds</span>
+                  </div>
+                 </div>
+                </div>
+                <div className="progress-bar">
+                  <div className="progress" style={{ width: progressBarWidth }}></div>
+                </div>
+              </div>
+              </div>
+             
             </div>
           </div>
           <img className="bg-shape1" src={Shape1} alt="" />
