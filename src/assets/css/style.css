@@ -28259,3 +28259,59 @@ pre {
   color: #362465;
   font-size: 14px;
 }
+
+/* accordion faq css
+ */
+ .accordion {
+  width: 100%;
+}
+
+.accordion-item {
+  border-bottom: 1px solid #ddd;
+}
+
+.accordion-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  cursor: pointer;
+}
+
+.accordion-icon {
+  width: 10px;
+  height: 10px;
+  border-bottom: 2px solid #333;
+  border-right: 2px solid #333;
+  transform: rotate(45deg);
+  transition: transform 0.3s ease;
+}
+
+.accordion-icon.active {
+  transform: rotate(225deg) !important;
+}
+
+.accordion-content {
+  padding: 20px;
+}
+/* progress bar */
+.progress-bar{
+  padding: 10px;
+  border-radius: 15px;
+  position: relative;
+
+}
+.progress-bar::after{
+position: absolute;
+content: "";
+width: 10px;
+height:1rem;
+right:0;
+top:50%;
+transform: translateY(-50%);
+background-color: #9467FE !important;
+}
+.progress{
+  background-color: #d1d1d1;
+  border-radius: 0 !important;
+}
