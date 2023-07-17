@@ -464,7 +464,7 @@ function Home() {
           <img className="bg-shape3" src={Shape3} alt="" />
           <img className="bg-shape4" src={Shape3} alt="" />
         </section>
-        //Our Team section starts here
+       
         <section className="content-inner bg-light icon-section section-wrapper2">
           <div className="container">
             <div className="section-head text-center">
@@ -476,7 +476,7 @@ function Home() {
             </div>
           </div>
         </section>
-        //Our Team section ends here
+        
         <section className="clearfix section-wrapper1 bg-primary-light">
           <div className="container">
             <div className="content-inner-1">
