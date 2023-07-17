@@ -136,10 +136,10 @@ function Home() {
 
   const totalSeconds =
     days * 24 * 60 * 60 + hours * 60 * 60 + minutes * 60 + seconds;
-  
-    const progressBarWidth = `${ (((totalSeconds / (60 * 60 * 24)) * 100).toFixed(2))/100}%`;
 
-  console.log(progressBarWidth,"kk");
+  const progressBarWidth = `${(((totalSeconds / (60 * 60 * 24)) * 100).toFixed(2)) / 100}%`;
+
+  console.log(progressBarWidth, "kk");
   return (
     <>
       <div className="page-content">
@@ -368,6 +368,116 @@ function Home() {
           </div>
           <img className="bg-shape1" src={Shape1} alt="" />
         </section>
+        <section className="content-inner about-sec bg-primary-light">
+          <div className="container">
+            <div className="row about-bx2 style-1 align-items-center">
+              <div className="col-lg-6">
+                <div className="time-container d-flex justify-content-between mb-5">
+                  <div className="time d-flex flex-column justify-content-center align-items-center mb-0">
+                    <h3 className="value mb-0">{formatTime(days)}</h3>
+                    <div className="label">Days</div>
+                  </div>
+                  <div className="time d-flex flex-column justify-content-center align-items-center mb-0">
+                    <h3 className="value mb-0">{formatTime(hours)}</h3>
+                    <span className="label">Hours</span>
+                  </div>
+                  <div className="time d-flex flex-column justify-content-center align-items-center mb-0">
+                    <h3 className="value mb-0">{formatTime(minutes)}</h3>
+                    <span className="label">Minutes</span>
+                  </div>
+                  <div className="time d-flex flex-column justify-content-center align-items-center mb-0">
+                    <h3 className="value mb-0">{formatTime(seconds)}</h3>
+                    <span className="label">Seconds</span>
+                  </div>
+                </div>
+                <div className="progress-bar">
+                  <div className="progress" style={{ width: progressBarWidth }}></div>
+                </div>
+              </div>
+              <div className="col-lg-6 about-content ps-lg-5 m-b30">
+                <div className="section-head">
+                  <h2 className="title">
+                    Leading Platform for Cryptocurrency Mining!
+                  </h2>
+                  <p className="m-0 lh-base">
+                    Fecotrade is affordable and easy-to-use cloud mining
+                    service. We have the cheapest source of renewable
+                    electricity in the world. If you’re looking to mine Crypto
+                    asset, We are a great choice, allowing you to mine
+                    cryptocurrencies without owning any equipment.
+                  </p>
+                  <p>
+                    Fectotrade is a Russian - registered fintech company with an
+                    extensive ecosystem of crypto asset management services. The
+                    main activity of the company are cryptocurrency mining,
+                    staking and trading. Our team consists of professional
+                    traders with real experience and high profit rates. Unique
+                    trading strategies allow our clients to receive high stable
+                    profits against their funds.
+                  </p>
+                </div>
+                <Link
+                  to={"https://auth.fecotrade.com/register"}
+                  className="btn btn-lg btn-primary btn-shadow text-uppercase"
+                >
+                  Start Mining Today
+                </Link>
+              </div>
+            </div>
+          </div>
+          <img className="bg-shape1" src={Shape1} alt="" />
+          <img className="bg-shape2" src={Shape3} alt="" />
+          <img className="bg-shape3" src={Shape3} alt="" />
+          <img className="bg-shape4" src={Shape3} alt="" />
+        </section>
+        <section className="clearfix section-wrapper1 bg-primary-light">
+          <div className="container">
+            <div className="content-inner-1">
+              <div className="section-head text-center">
+                <h2 className="title">FAQ</h2>
+                <p className="">
+                  Frequently Asked Questions: Get answers to commonly asked
+                  questions about our platform and services.
+                </p>
+              </div>
+              <div className="">
+                {accordionData.map((data, index) => (
+                  <div
+                    className={`accordion-item ${activeIndex === index ? "active" : ""
+                      }`}
+                    key={index}
+                  >
+                    <div
+                      className="accordion-title"
+                      onClick={() => handleAccordion(index)}
+                    >
+                      <h3>{data.question}</h3>
+                      <span
+                        className={`accordion-icon ${activeIndex === index ? "active" : ""
+                          }`}
+                      ></span>
+                    </div>
+                    {activeIndex === index && (
+                      <div className="accordion-content">
+                        <p>{data.answer}</p>
+                      </div>
+                    )}
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
+        </section>
+        <section className="content-inner bg-light icon-section section-wrapper2">
+          <div className="container">
+            <div className="section-head text-center">
+              <h2 className="title">Our Team</h2>
+            </div>
+            <div className="row sp60">
+              <OurTeam />
+            </div>
+          </div>
+        </section>
         <section className="content-inner bg-white blog-wrapper">
           <img className="bg-shape1" src={Shape1} alt="" />
           <div className="container">
@@ -417,118 +527,6 @@ function Home() {
               </div>
             </div>
           </div>
-        </section>
-        <section className="content-inner bg-light icon-section section-wrapper2">
-          <div className="container">
-            <div className="section-head text-center">
-              <h2 className="title">Our Team</h2>
-            </div>
-            <div className="row sp60">
-              <OurTeam />
-            </div>
-          </div>
-        </section>
-        <section className="clearfix section-wrapper1 bg-primary-light">
-          <div className="container">
-            <div className="content-inner-1">
-              <div className="section-head text-center">
-                <h2 className="title">FAQ</h2>
-                <p className="">
-                  Frequently Asked Questions: Get answers to commonly asked
-                  questions about our platform and services.
-                </p>
-              </div>
-              <div className="">
-                {accordionData.map((data, index) => (
-                  <div
-                    className={`accordion-item ${
-                      activeIndex === index ? "active" : ""
-                    }`}
-                    key={index}
-                  >
-                    <div
-                      className="accordion-title"
-                      onClick={() => handleAccordion(index)}
-                    >
-                      <h3>{data.question}</h3>
-                      <span
-                        className={`accordion-icon ${
-                          activeIndex === index ? "active" : ""
-                        }`}
-                      ></span>
-                    </div>
-                    {activeIndex === index && (
-                      <div className="accordion-content">
-                        <p>{data.answer}</p>
-                      </div>
-                    )}
-                  </div>
-                ))}
-              </div>
-            </div>
-          </div>
-        </section>
-        <section className="content-inner about-sec bg-primary-light">
-          <div className="container">
-            <div className="row about-bx2 style-1 align-items-center">
-              <div className="col-lg-6">
-                <div className="time-container d-flex justify-content-between mb-5">
-                  <div className="time d-flex flex-column justify-content-center align-items-center mb-0">
-                    <h3 className="value mb-0">{formatTime(days)}</h3>
-                    <div className="label">Days</div>
-                  </div>
-                  <div className="time d-flex flex-column justify-content-center align-items-center mb-0">
-                    <h3 className="value mb-0">{formatTime(hours)}</h3>
-                    <span className="label">Hours</span>
-                  </div>
-                  <div className="time d-flex flex-column justify-content-center align-items-center mb-0">
-                    <h3 className="value mb-0">{formatTime(minutes)}</h3>
-                    <span className="label">Minutes</span>
-                  </div>
-                  <div className="time d-flex flex-column justify-content-center align-items-center mb-0">
-                    <h3 className="value mb-0">{formatTime(seconds)}</h3>
-                    <span className="label">Seconds</span>
-                  </div>
-                </div>
-                <div className="progress-bar">
-                <div className="progress" style={{ width: progressBarWidth }}></div>
-                </div>
-              </div>
-              <div className="col-lg-6 about-content ps-lg-5 m-b30">
-                <div className="section-head">
-                  <h2 className="title">
-                    Leading Platform for Cryptocurrency Mining!
-                  </h2>
-                  <p className="m-0 lh-base">
-                    Fecotrade is affordable and easy-to-use cloud mining
-                    service. We have the cheapest source of renewable
-                    electricity in the world. If you’re looking to mine Crypto
-                    asset, We are a great choice, allowing you to mine
-                    cryptocurrencies without owning any equipment.
-                  </p>
-                  <p>
-                    Fectotrade is a Russian - registered fintech company with an
-                    extensive ecosystem of crypto asset management services. The
-                    main activity of the company are cryptocurrency mining,
-                    staking and trading. Our team consists of professional
-                    traders with real experience and high profit rates. Unique
-                    trading strategies allow our clients to receive high stable
-                    profits against their funds.
-                  </p>
-                </div>
-                <Link
-                  to={"https://auth.fecotrade.com/register"}
-                  className="btn btn-lg btn-primary btn-shadow text-uppercase"
-                >
-                  Start Mining Today
-                </Link>
-              </div>
-            </div>
-          </div>
-          <img className="bg-shape1" src={Shape1} alt="" />
-          <img className="bg-shape2" src={Shape3} alt="" />
-          <img className="bg-shape3" src={Shape3} alt="" />
-          <img className="bg-shape4" src={Shape3} alt="" />
         </section>
       </div>
     </>
