@@ -32,27 +32,29 @@ const cardData = [
     description:
       "Request for a payout and receive your earnings on personal wallet any time, any day.No hassle",
   },
-  {
+    {
     image: featureIconThree,
     title: "Feco Network",
     description:
-      "Get a detailed mining tracks/history on your dashboard on how your mining contract Is running.",
+      "Request for a payout and receive your earnings on personal wallet any time, any day.No hassle",
   },
-  {
+    {
     image: featureIconFour,
     title: "Feco Explorer",
     description:
-      "Once your mining contract Is activated, your daily earnings are distributed to your preferred mining account after 24hours.",
+      "Request for a payout and receive your earnings on personal wallet any time, any day.No hassle",
   },
-  {
+      {
     image: featureIconFive,
     title: "Feco Wallet",
     description:
-      "We have and accepts the most widely used payment system therefore making it easy for you to get started.",
+      "Request for a payout and receive your earnings on personal wallet any time, any day.No hassle",
   },
+ 
+  
 ];
 
-function OneStop() {
+function FecoTradeEcoSystem() {
   return (
     <>
       {cardData.map((item, ind) => (
@@ -90,4 +92,4 @@ function OneStop() {
     </>
   );
 }
-export default OneStop;
+export default FecoTradeEcoSystem;

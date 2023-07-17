@@ -12,8 +12,9 @@ import baner1 from "./../assets/images/home-banner/home-icon-left.png";
 import baner2 from "./../assets/images/home-banner/home-icon-right.png";
 import Shape1 from "./../assets/images/home-banner/shape1.png";
 import Shape3 from "./../assets/images/home-banner/shape3.png";
-import wallet from "./../assets/images/icons/wallet.svg";
-import friend from "./../assets/images/icons/friend.svg";
+import wallet from "./../assets/images/icons/staking icon.svg";
+import mining from "./../assets/images/icons/mining icon.svg";
+import trading from "./../assets/images/icons/trading icon.svg";
 
 import coin1 from "./../assets/images/coins/coin1.png";
 import coin3 from "./../assets/images/coins/coin3.png";
@@ -21,12 +22,24 @@ import coin4 from "./../assets/images/coins/coin4.png";
 
 import bloglg from "./../assets/images/blog/blog-ig.png";
 import avatar3 from "./../assets/images/avatar/avatar3.jpg";
+import about2 from './../assets/images/about/feco-about-2.jpg';
+import about3 from './../assets/images/about/feco-about-1.jpg';
+import about4 from './../assets/images/about/feco-about-3.jpg';
+import about1 from './../assets/images/about/about-1.jpg';
+
 
 import MiningPlan from "../components/Home/MiningPlan";
+<<<<<<< HEAD
 import OurTeam from "./OurTeam";
 // import { Parallax } from "react-scroll-parallax";
 // import ScrollAnimation from "react-animate-on-scroll";
 // import { MotionAnimate } from "react-motion-animate";
+=======
+import { Parallax, useParallax } from "react-scroll-parallax";
+import FecoTradeEcoSystem from "../components/Home/FecoTradeEcoSystem";
+
+
+>>>>>>> 3c686c1fcfd9fd4d5eb131758209b8b885fe4c5c
 
 const trustBlog = [
   {
@@ -36,18 +49,30 @@ const trustBlog = [
       "With staking, you can put your digital assets to work and earn passive income without selling them.",
   },
   {
-    image: friend,
+    image: mining,
     title: "Earn From Mining",
     description:
       "We are always committed to providing high quality mining to people around the world. Low Maintenance Fees.",
   },
   {
-    image: friend,
+    image: trading,
     title: "Earn From Trading",
     description:
-      "Earn DeFi crypto rewards with Binance. We offer numerous opportunities for traders and users who want to earn crypto rewards.",
+      "Trading cryptocurrencies on Binance is acquiring and disposing of digital assets to profit from price changes.",
   },
 ];
+
+const ImageBox = ({image, changeClass}) =>{
+  return(
+      
+      <div className="col-6">
+          <div className={`image-box ${changeClass}`}>
+              <img src={image} alt="" />
+          </div>
+      </div>
+      
+  )
+}
 
 function Home() {
   const nav = useNavigate();
@@ -56,13 +81,20 @@ function Home() {
     nav("/contact-us");
   };
   const [selecttext, setSelectText] = useState([coin4, "Bitcoin"]);
+
+  // parallax
+  const parallax = useParallax({
+    easing: 'easeOutQuad',
+    translateX: [-40, 20],
+  });
   return (
     <>
       <div className="page-content">
-        <div className="main-bnr style-1">
+        <div className="main-bnr  style-1">
           <div className="container">
             <div className="row align-items-center">
               <div className="col-12 text-center ">
+<<<<<<< HEAD
                 {/* <MotionAnimate
                   animation="fadeInUp"
                   reset={true}
@@ -79,14 +111,30 @@ function Home() {
                   trading options and features.
                 </p>
                 {/* </MotionAnimate> */}
+=======
+               
+                  <h1 className="col-lg-9 mx-auto">
+                    Best Platform for Crypto Trading, Mining and Staking
+                  </h1>
+
+                  <p className="text text-primary col-lg-6 mx-auto ">
+                    Fecotrade is one of the largest cryptocurrency trading
+                    platform in the world who offers a robust selection of
+                    trading options and features.
+                  </p>
+              
+>>>>>>> 3c686c1fcfd9fd4d5eb131758209b8b885fe4c5c
 
                 {/* <Parallax speed={30}> */}
+   
+
                 <Link
                   to={"https://auth.fecotrade.com/register"}
-                  className="btn space-lg btn-gradient btn-shadow btn-primary "
+                  className="btn space-lg btn-gradient btn-shadow btn-primary"
                 >
                   Get Started
                 </Link>
+         
                 {/* </Parallax> */}
                 <ul className="image-before">
                   <li className="left-img">
@@ -114,9 +162,40 @@ function Home() {
             </div>
           </div>
         </div>
+        <section className="content-inner about-sec bg-primary-light">
+                    <div className="container">
+                        <div className="row about-bx2 style-1 align-items-center">
+                            <div className="col-lg-6">
+                                <div className="dz-media">
+                                    <div className="row align-items-end">                                        
+                                        <ImageBox image={about4} changeClass="image-box-1" />
+                                        <ImageBox image={about2} changeClass="image-box-2" />                                      
+                                    </div>
+                                    <div className="row">                                        
+                                        <ImageBox image={about3} changeClass="image-box-3" />
+                                        <ImageBox image={about1} changeClass="image-box-4" />                                        
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-lg-6 about-content ps-lg-5 m-b30">
+                                <div className="section-head">
+                                    <h2 className="title">Leading Platform for Cryptocurrency Mining!</h2>
+                                    <p className="m-0 lh-base">Fecotrade is affordable and easy-to-use cloud mining service. We have the cheapest source of renewable electricity in the world. If you’re looking to mine Crypto asset, We are a great choice, allowing you to mine cryptocurrencies without owning any equipment.</p>
+				<p>Fectotrade is a Russian - registered fintech company with an extensive ecosystem of crypto asset management services. The main activity of the company are cryptocurrency mining, staking and trading. Our team consists of professional traders with real experience and high profit rates. Unique trading strategies allow our clients to receive high stable profits against their funds.</p>
+                                </div>
+                                <Link to={"https://auth.fecotrade.com/register"} className="btn btn-lg btn-primary btn-shadow text-uppercase">Start Mining Today</Link>
+                            </div>
+                        </div>
+                    </div>                    
+                    <img className="bg-shape1" src={Shape1} alt="" />
+					<img className="bg-shape2" src={Shape3} alt="" />
+					<img className="bg-shape3" src={Shape3} alt="" />
+					<img className="bg-shape4" src={Shape3} alt="" />
+                </section>
         <section className="clearfix section-wrapper1 bg-primary-light">
           <div className="container">
             <div className="content-inner-1">
+<<<<<<< HEAD
               {/* <MotionAnimate
                 animation="fadeInUp"
                 reset={true}
@@ -132,6 +211,18 @@ function Home() {
               </div>
               {/* </MotionAnimate> */}
               <div className="row">
+=======
+             
+                <div className="section-head text-center">
+                  <h2 className="title">Best Option for You</h2>
+                  <p className="">
+                    Trust comes from experience. Many of the pleased customers
+                    may function as a guide for you.
+                  </p>
+                </div>
+        
+              <div className="row" ref={parallax.ref}>
+>>>>>>> 3c686c1fcfd9fd4d5eb131758209b8b885fe4c5c
                 {trustBlog.map((data, ind) => (
                   <div className="col-lg-4 m-b30" key={ind}>
                     {/* <Parallax speed={ind * 25}> */}
@@ -156,7 +247,9 @@ function Home() {
               </div>
             </div>
           </div>
+          <section className="content-inner bg-light icon-section section-wrapper2">
           <div className="container">
+<<<<<<< HEAD
             {/* <MotionAnimate animation="scrollPosition" xPos={[1400, -600]}> */}
             <div className="form-wrapper-box style-1 text-center">
               <div className="section-head ">
@@ -193,6 +286,47 @@ function Home() {
                               onClick={() =>
                                 setSelectText([coin4, "Bitcoin"])
                               }
+=======
+         
+              <div className="section-head text-center">
+                <h2 className="title">Most amazing features</h2>
+              </div>
+        
+            <div className="row sp60">
+              <OneStop />
+            </div>
+          </div>
+          <img className="bg-shape1" src={Shape1} alt="" />
+        </section>
+          <div className="container">
+
+              <div className="form-wrapper-box style-1 text-center">
+                <div className="section-head ">
+                  <h4 className="title m-t0">How to Purchase from us ?</h4>
+                  <p>
+                    Fill out the below form and we will contact you via email &
+                    details
+                  </p>
+                </div>
+                <form className="dz-form" onSubmit={(e) => formDetails(e)}>
+                  <div className="form-wrapper">
+                    <div className="flex-1">
+                      <div className="row g-3">
+                        <div className="col-xl-3 col-md-6 ">
+                          <input
+                            name="dzName"
+                            type="text"
+                            required=""
+                            placeholder="Wallet Address"
+                            className="form-control"
+                          />
+                        </div>
+                        <div className="col-xl-3 col-md-6 ">
+                          <Dropdown className="select-drop">
+                            <Dropdown.Toggle
+                              as="div"
+                              className="i-false select-drop-toggle"
+>>>>>>> 3c686c1fcfd9fd4d5eb131758209b8b885fe4c5c
                             >
                               <img src={coin4} alt="" /> Bitcoin
                             </Dropdown.Item>
@@ -231,6 +365,7 @@ function Home() {
                       </div>
                     </div>
                   </div>
+<<<<<<< HEAD
                   <button
                     type="submit"
                     className="btn btn-lg btn-gradient btn-primary btn-shadow"
@@ -241,11 +376,17 @@ function Home() {
               </form>
             </div>
             {/* </MotionAnimate> */}
+=======
+                </form>
+              </div>
+
+>>>>>>> 3c686c1fcfd9fd4d5eb131758209b8b885fe4c5c
           </div>
           <img className="bg-shape1" src={Shape1} alt="" />
         </section>
         <section className="content-inner bg-light icon-section section-wrapper2">
           <div className="container">
+<<<<<<< HEAD
             {/* <MotionAnimate
               animation="fadeInUp"
               reset={true}
@@ -256,8 +397,15 @@ function Home() {
               <h2 className="title">Most amazing features</h2>
             </div>
             {/* </MotionAnimate> */}
+=======
+            
+              <div className="section-head text-center">
+                <h2 className="title">Fecotrade Ecosystem</h2>
+              </div>
+         
+>>>>>>> 3c686c1fcfd9fd4d5eb131758209b8b885fe4c5c
             <div className="row sp60">
-              <OneStop />
+              <FecoTradeEcoSystem />
             </div>
           </div>
           <img className="bg-shape1" src={Shape1} alt="" />
@@ -281,6 +429,7 @@ function Home() {
           <div className="container">
             <div className="row">
               <div className="col-xl-7 col-lg-12">
+<<<<<<< HEAD
                 {/* <MotionAnimate
                   animation="fadeInUp"
                   reset={true}
@@ -292,6 +441,14 @@ function Home() {
                   <h2 className="title">Recent News &amp; Updates</h2>
                 </div>
                 {/* </MotionAnimate> */}
+=======
+            
+                  <div className="section-head ">
+                    <h6 className="sub-title text-primary">FROM OUR BLOG</h6>
+                    <h2 className="title">Recent News &amp; Updates</h2>
+                  </div>
+           
+>>>>>>> 3c686c1fcfd9fd4d5eb131758209b8b885fe4c5c
                 <RecentNews />
               </div>
 
@@ -338,6 +495,7 @@ function Home() {
             </div>
           </div>
         </section>
+<<<<<<< HEAD
         <section className="content-inner bg-light icon-section section-wrapper2">
           <div className="container">
             {/* <MotionAnimate
@@ -366,6 +524,9 @@ function Home() {
             </div>
           </div>
         </section>
+=======
+       
+>>>>>>> 3c686c1fcfd9fd4d5eb131758209b8b885fe4c5c
       </div>
     </>
   );
