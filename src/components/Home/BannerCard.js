@@ -25,7 +25,6 @@ function BannerCard() {
                     <Parallax
                      speed={index*20}
                     >
-
                     <div className="icon-bx-wraper style-1 box-hover">
                         <div className="icon-media flex justify-content-center align-items-center">
                             <div className="icon-info">

@@ -29,6 +29,7 @@ import about1 from "./../assets/images/about/about-1.jpg";
 
 import { Parallax, useParallax } from "react-scroll-parallax";
 import FecoTradeEcoSystem from "../components/Home/FecoTradeEcoSystem";
+import OurTeam from "./OurTeam";
 
 const trustBlog = [
   {
@@ -336,6 +337,16 @@ function Home() {
                   </div>
                 </div>
               </div>
+            </div>
+          </div>
+        </section>
+        <section className="content-inner bg-light icon-section section-wrapper2">
+          <div className="container">
+            <div className="section-head text-center">
+              <h2 className="title">Our Team</h2>
+            </div>
+            <div className="row sp60">
+              <OurTeam />
             </div>
           </div>
         </section>

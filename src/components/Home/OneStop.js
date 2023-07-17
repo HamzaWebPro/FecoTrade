@@ -2,10 +2,10 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 // react icons import
-import { AiFillDatabase } from "react-icons/ai";
 import { FaDatabase, FaServer } from "react-icons/fa";
 import { TbCloudDataConnection } from "react-icons/tb";
-import { BiServer } from "react-icons/bi";
+import { SiServerfault } from "react-icons/si";
+import { BsHddNetwork } from "react-icons/bs";
 
 //Images
 import pic1 from "./../../assets/images/about/pic1.jpg";
@@ -15,8 +15,8 @@ import support1 from "./../../assets/images/icons/support1.png";
 // react icons
 const featureIconOne = <FaServer className="style" />;
 const featureIconTwo = <TbCloudDataConnection className="style" />;
-const featureIconThree = <BiServer className="style" />;
-const featureIconFour = <AiFillDatabase className="style" />;
+const featureIconThree = <BsHddNetwork className="style" />;
+const featureIconFour = <SiServerfault className="style" />;
 const featureIconFive = <FaDatabase className="style" />;
 
 const cardData = [
