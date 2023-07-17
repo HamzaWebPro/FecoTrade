@@ -25,7 +25,7 @@ import avatar3 from "./../assets/images/avatar/avatar3.jpg";
 import about2 from "./../assets/images/about/feco-about-2.jpg";
 import about3 from "./../assets/images/about/feco-about-1.jpg";
 import about4 from "./../assets/images/about/feco-about-3.jpg";
-import about1 from "./../assets/images/about/about-1.jpg";
+import about1 from "./../assets/images/about/home-about-04.png";
 
 import { Parallax, useParallax } from "react-scroll-parallax";
 import FecoTradeEcoSystem from "../components/Home/FecoTradeEcoSystem";
@@ -199,6 +199,7 @@ function Home() {
           <div className="container">
             <div className="section-head text-center">
               <h2 className="title">Most amazing features</h2>
+              <p>We provide an open opportunity to use the hashpower and earn Cryptocurrency. Fecotrade is also one of the safest crypto companies in the world and is an industry leader in security innovation for mining software.</p>
             </div>
             <div className="row sp60">
               <OneStop />
