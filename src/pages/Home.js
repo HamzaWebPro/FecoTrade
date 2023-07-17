@@ -12,8 +12,9 @@ import baner1 from "./../assets/images/home-banner/home-icon-left.png";
 import baner2 from "./../assets/images/home-banner/home-icon-right.png";
 import Shape1 from "./../assets/images/home-banner/shape1.png";
 import Shape3 from "./../assets/images/home-banner/shape3.png";
-import wallet from "./../assets/images/icons/wallet.svg";
-import friend from "./../assets/images/icons/friend.svg";
+import wallet from "./../assets/images/icons/staking icon.svg";
+import mining from "./../assets/images/icons/mining icon.svg";
+import trading from "./../assets/images/icons/trading icon.svg";
 
 import coin1 from "./../assets/images/coins/coin1.png";
 import coin3 from "./../assets/images/coins/coin3.png";
@@ -41,16 +42,16 @@ const trustBlog = [
       "With staking, you can put your digital assets to work and earn passive income without selling them.",
   },
   {
-    image: friend,
+    image: mining,
     title: "Earn From Mining",
     description:
       "We are always committed to providing high quality mining to people around the world. Low Maintenance Fees.",
   },
   {
-    image: friend,
-    title: "Earn From Mining",
+    image: trading,
+    title: "Earn From Trading",
     description:
-      "We are always committed to providing high quality mining to people around the world. Low Maintenance Fees.",
+      "Trading cryptocurrencies on Binance is acquiring and disposing of digital assets to profit from price changes.",
   },
 ];
 
