@@ -387,6 +387,7 @@ function Home() {
           <div className="container">
             <div className="section-head text-center">
               <h2 className="title">Fecotrade Ecosystem</h2>
+              <p>Our plan is to create a highly scalable, decentralized, permissionless and open-source platform used to build crypto DApps. Fecotrade blockchain ecosystem will consist the following products.</p>
             </div>
             <div className="row sp60">
               <FecoTradeEcoSystem />
