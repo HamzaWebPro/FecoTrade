@@ -22,21 +22,21 @@ const featureIconFive = <FaDatabase className="style" />;
 const cardData = [
   {
     image: featureIconOne,
-    title: "Custom Blockchain",
+    title: "Data Protection",
     description:
-      "Your selected mining contract Is activated automatically once your payment Is confirmed",
+      "Maximum security and data protection Is in our DNA, it's our first priority to ensure that your Information and data is fully encrypted with a 6 Layer security.",
   },
   {
     image: featureIconTwo,
-    title: "Feco Native Coin",
+    title: "Inclusive Services",
     description:
-      "Request for a payout and receive your earnings on personal wallet any time, any day.No hassle",
+      "We offer all-inclusive services that foreign companies need in Russia: vcounting, tax and legal support as well as IT support",
   },
   {
     image: featureIconThree,
-    title: "Feco Network",
+    title: "Easy Payment System",
     description:
-      "Get a detailed mining tracks/history on your dashboard on how your mining contract Is running.",
+      "We have and accepts the most widely used payment system therefore making it easy for you to get started.",
   },
   {
     image: featureIconFour,
