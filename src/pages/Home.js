@@ -468,7 +468,7 @@ function Home() {
         <section className="content-inner bg-light icon-section section-wrapper2">
           <div className="container">
             <div className="section-head text-center">
-              <h2 className="title">Our Team</h2>
+              <h2 className="title">Our Professional Team</h2>
               <p>we are proud of our great team. He is one of the most motivated and enthusiastic people we have, and is always ready and willing to help out where needed.</p>
             </div>
             <div className="row sp60">
