@@ -100,7 +100,7 @@ function Home() {
   };
 
   // count down timer functionality
-  const [targetDate, setTargetDate] = useState(new Date("2023-09-17T23:59:59"));
+  const [targetDate, setTargetDate] = useState(new Date("2024-09-17T23:59:59"));
   const [timeLeft, setTimeLeft] = useState(calculateTimeLeft());
 
   function calculateTimeLeft() {

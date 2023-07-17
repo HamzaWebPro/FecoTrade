@@ -1,5 +1,4 @@
-import { Parallax } from "react-scroll-parallax";
-import ScrollAnimation from "react-animate-on-scroll";
+
 
 const personImageOne = "https://i.ibb.co/LSYS36V/male-man-icon.png"
 
@@ -18,6 +17,7 @@ const OurTeam = () => {
         <>
             {personData.map((data, index) => (
                 <div className="col-lg-4 col-md-6 m-b30 wow fadeInUp hover-color" data-wow-delay="0.2s" key={index}>
+
                     <div className="icon-bx-wraper style-1 box-model box-hover">
                         <div className="persondata-img-style">
                             <img src={data.image} alt="" />
