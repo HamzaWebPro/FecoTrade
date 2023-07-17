@@ -33,14 +33,20 @@ const cardData = [
       "Request for a payout and receive your earnings on personal wallet any time, any day.No hassle",
   },
     {
-    image: featureIconTwo,
-    title: "Feco Native Coin",
+    image: featureIconThree,
+    title: "Feco Network",
     description:
       "Request for a payout and receive your earnings on personal wallet any time, any day.No hassle",
   },
     {
-    image: featureIconTwo,
-    title: "Feco Native Coin",
+    image: featureIconFour,
+    title: "Feco Explorer",
+    description:
+      "Request for a payout and receive your earnings on personal wallet any time, any day.No hassle",
+  },
+      {
+    image: featureIconFive,
+    title: "Feco Wallet",
     description:
       "Request for a payout and receive your earnings on personal wallet any time, any day.No hassle",
   },
