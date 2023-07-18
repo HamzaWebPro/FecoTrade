@@ -24357,7 +24357,7 @@ ul a.rsswidget:hover {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.2); /* Adjust the transparency as needed */
+  background-color: rgba(0, 0, 0, 0.4); /* Adjust the transparency as needed */
 }
 
 .banner-video {
@@ -24368,7 +24368,12 @@ ul a.rsswidget:hover {
   height: 100%;
   object-fit: cover;
 }
-
+.banner-small-text{
+  color: #baffc9 !important;
+}
+.banner-sub-heading{
+  color: #dfbbfb !important;
+}
 
 
 .main-bnr .container,

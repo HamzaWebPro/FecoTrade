@@ -183,18 +183,19 @@ function Home() {
       <div className="container">
         <div className="row align-items-center">
           <div className="col-12 text-center">
+            <h2 className="banner-sub-heading">Welcome to Fecotrade Ecosystem</h2>
             <h1 className="col-lg-9 mx-auto">
               Best Platform for Crypto Trading, Mining and Staking
             </h1>
-            <p className="text text-primary col-lg-6 mx-auto">
+            <p className="text text-primary banner-small-text col-lg-6 mx-auto">
               Fecotrade is one of the largest cryptocurrency trading platform in the world who offers a robust selection of trading options and features.
             </p>
-            <a
+            {/* <a
               href="https://auth.fecotrade.com/register"
               className="btn space-lg btn-gradient btn-shadow btn-primary"
             >
               Get Started
-            </a>
+            </a> */}
             <ul className="image-before">
               <li className="left-img">
                 <img src={baner1} alt="" />
