@@ -34,7 +34,7 @@ const cardData = [
   },
   {
     image: featureIconThree,
-    title: "Easy Payment System",
+    title: "Easy Payment Method",
     description:
       "We have and accepts the most widely used payment system therefore making it easy for you to get started.",
   },
@@ -81,7 +81,7 @@ function OneStop() {
             </div>
             <div className="icon-content">
               <Link to={"/contact-us"} className="btn btn-primary">
-                Call Us
+                Contact Us
               </Link>
             </div>
           </div>
