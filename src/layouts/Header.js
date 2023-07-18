@@ -62,7 +62,7 @@ function Header() {
                   <li><NavLink to={'/'}>Home</NavLink></li>
                   <li><NavLink to={'/about-us'}>About Us</NavLink></li>
                   <li><NavLink to={'/pricing'}>Mining</NavLink></li>
-                <li><NavLink to={'#'}>Staking (Upcoming)</NavLink></li>
+                <li><NavLink to={'#'}>Staking</NavLink></li>
                   <li><NavLink to={'/blog'}>FAQ</NavLink></li>
                   {/* <li
                     className={`sub-menu-down ${showMenu ? 'open' : ''}`}
