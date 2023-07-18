@@ -168,43 +168,51 @@ function Home() {
   return (
     <>
       <div className="page-content">
-        <div className="main-bnr  style-1">
-          <div className="container">
-            <div className="row align-items-center">
-              <div className="col-12 text-center">
-                <h1 className="col-lg-9 mx-auto">
-                  Best Platform for Crypto Trading, Mining and Staking
-                </h1>
-
-                <p className="text text-primary col-lg-6 mx-auto">
-                  Fecotrade is one of the largest cryptocurrency trading
-                  platform in the world who offers a robust selection of trading
-                  options and features.
-                </p>
-
-                <Link
-                  to={"https://auth.fecotrade.com/register"}
-                  className="btn space-lg btn-gradient btn-shadow btn-primary"
-                >
-                  Get Started
-                </Link>
-
-                <ul className="image-before">
-                  <li className="left-img">
-                    <img src={baner1} alt="" />
-                  </li>
-                  <li className="right-img">
-                    <img src={baner2} alt="" />
-                  </li>
-                </ul>
-              </div>
-            </div>
+        
+      <div className="main-bnr style-1">
+      <div className="video-overlay"></div> {/* Add the overlay div */}
+      <video
+        className="banner-video"
+        autoPlay
+        loop
+        muted
+        poster="path_to_video_poster_image"
+      >
+        <source src="https://cdn.dribbble.com/userupload/4060992/file/original-18cd5cd4f56b7238b424f309081a2ef9.mp4" type="video/mp4" />
+      </video>
+      <div className="container">
+        <div className="row align-items-center">
+          <div className="col-12 text-center">
+            <h1 className="col-lg-9 mx-auto">
+              Best Platform for Crypto Trading, Mining and Staking
+            </h1>
+            <p className="text text-primary col-lg-6 mx-auto">
+              Fecotrade is one of the largest cryptocurrency trading platform in the world who offers a robust selection of trading options and features.
+            </p>
+            <a
+              href="https://auth.fecotrade.com/register"
+              className="btn space-lg btn-gradient btn-shadow btn-primary"
+            >
+              Get Started
+            </a>
+            <ul className="image-before">
+              <li className="left-img">
+                <img src={baner1} alt="" />
+              </li>
+              <li className="right-img">
+                <img src={baner2} alt="" />
+              </li>
+            </ul>
           </div>
-          <img className="bg-shape1" src={Shape1} alt="" />
-          <img className="bg-shape2" src={Shape1} alt="" />
-          <img className="bg-shape3" src={Shape3} alt="" />
-          <img className="bg-shape4" src={Shape3} alt="" />
         </div>
+      </div>
+      <img className="bg-shape1" src={Shape1} alt="" />
+      <img className="bg-shape2" src={Shape1} alt="" />
+      <img className="bg-shape3" src={Shape3} alt="" />
+      <img className="bg-shape4" src={Shape3} alt="" />
+    </div>
+
+
 
         <div className="clearfix bg-primary-light">
           <div className="container">

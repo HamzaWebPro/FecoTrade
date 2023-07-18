@@ -24327,10 +24327,10 @@ ul a.rsswidget:hover {
   background-color: #F0EAFF;
 }
 
-.main-bnr {
+/* .main-bnr {
   height: 920px;
   position: relative;
-  background-image: url(../images/home-banner/bg.jpg);
+  background: url();
   background-color: #261355;
   display: flex;
   background-size: cover;
@@ -24339,7 +24339,37 @@ ul a.rsswidget:hover {
   padding-bottom: 200px;
   background-position: center;
   margin-top:50px ;
+} */
+.main-bnr {
+  height: 920px;
+  position: relative;
+  background-color: #261355;
+  overflow: hidden;
+  padding-top: 250px;
+  padding-bottom: 200px;
+  margin-top: 50px;
 }
+
+.video-overlay {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.2); /* Adjust the transparency as needed */
+}
+
+.banner-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
 
 .main-bnr .container,
 .main-bnr .container-fluid,
@@ -24366,7 +24396,8 @@ ul a.rsswidget:hover {
   left: 0;
   width: 100%;
   height: 100%;
-  z-index: -1;
+  z-index: 9999999999999999999999999999999999;
+  display: none;
 }
 
 .main-bnr .image-before .left-img {
@@ -24376,6 +24407,7 @@ ul a.rsswidget:hover {
   animation: dZwobble2 4s infinite;
   animation-delay: 1s;
   width: 550px;
+  z-index: 9999999999999999999999999;
 }
 
 .main-bnr .image-before .right-img {
@@ -24384,6 +24416,7 @@ ul a.rsswidget:hover {
   top: -180px;
   animation: dZwobble2 4s infinite;
   width: 600px;
+  z-index: 9990999999999999;
 }
 
 .main-bnr .text {
@@ -24398,6 +24431,7 @@ ul a.rsswidget:hover {
 .main-bnr .bg-shape3,
 .main-bnr .bg-shape4 {
   position: absolute;
+  z-index: 999999999999999999999;
 }
 
 .main-bnr .bg-shape1 {
@@ -24405,6 +24439,7 @@ ul a.rsswidget:hover {
   left: 8%;
   -webkit-animation: aniRotate 10s infinite linear;
   animation: aniRotate 10s infinite linear;
+  z-index: 999999999999999;
 }
 
 .main-bnr .bg-shape2 {
@@ -28365,7 +28400,7 @@ background-color: #9467FE !important;
   visibility: hidden;
   transition: opacity 0.3s ease, visibility 0s linear 0.3s;
   animation: bounceAnimation 1s infinite;
-  z-index: 99999999999999999999999;
+  z-index: 9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999 !important;
 }
 
 .back-to-top-button.visible {
