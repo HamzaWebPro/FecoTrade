@@ -62,7 +62,8 @@ function Header() {
                   <li><NavLink to={'/'}>Home</NavLink></li>
                   <li><NavLink to={'/about-us'}>About Us</NavLink></li>
                   <li><NavLink to={'/pricing'}>Mining</NavLink></li>
-                  <li><NavLink to={'/blog'}>Blog</NavLink></li>
+                <li><NavLink to={'#'}>Staking (Upcoming)</NavLink></li>
+                  <li><NavLink to={'/blog'}>FAQ</NavLink></li>
                   {/* <li
                     className={`sub-menu-down ${showMenu ? 'open' : ''}`}
                     id="menushow"
@@ -74,12 +75,11 @@ function Header() {
                     </ul>
                   </li> */}
                   <li><NavLink to={'/contact-us'}>Contact Us</NavLink></li>
-                 <li><NavLink to={'https://auth.fecotrade.com/register'}>Register</NavLink></li>
                 </ul>
                 <div className="header-bottom">
                   <div className="dz-social-icon">
                     <ul>
-                      <li><a target="_blank" className="fab fa-facebook-f" rel="noreferrer" href="https://www.facebook.com/"></a></li>
+                      <li><a target="_blank" className="fab fa-facebook-f" rel="noreferrer" href="https://www.facebook.com/fectorade"></a></li>
                       <li><a target="_blank" className="fab fa-twitter" rel="noreferrer" href="https://twitter.com/"></a></li>
                       <li><a target="_blank" className="fab fa-linkedin-in" rel="noreferrer" href="https://www.linkedin.com/"></a></li>
                       <li><a target="_blank" className="fab fa-instagram" rel="noreferrer" href="https://www.instagram.com/"></a></li>
