@@ -11,9 +11,9 @@ import Shape1 from './../assets/images/home-banner/shape1.png';
 import Shape3 from './../assets/images/home-banner/shape3.png';
 
 import about2 from './../assets/images/home-banner/btc-eth-ltch.gif';
-import about3 from './../assets/images/about/feco-about-2.jpg';
-import about4 from './../assets/images/about/feco-about-3.jpg';
-import about1 from './../assets/images/about/about-1.jpg';
+import about3 from './../assets/images/home-banner/hii-good-morning-bitcoin-logo.gif';
+import about4 from './../assets/images/home-banner/hardware-mining.gif';
+import about1 from './../assets/images/home-banner/bitcoin-animation.gif';
 
 import videobox from './../assets/images/about/videobx.png';
 
