@@ -244,14 +244,7 @@ function Home() {
                     Leading Platform for Cryptocurrency Mining!
                   </h2>
                   <p className="m-0 lh-base">
-                    Fecotrade is affordable and easy-to-use cloud mining
-                    service. We have the cheapest source of renewable
-                    electricity in the world. If you’re looking to mine Crypto
-                    asset, We are a great choice, allowing you to mine
-                    cryptocurrencies without owning any equipment.
-                  </p>
-                  <p>
-                    Fectotrade is a Russian - registered fintech company with an
+                   Fectotrade is a Russian - registered fintech company with an
                     extensive ecosystem of crypto asset management services. The
                     main activity of the company are cryptocurrency mining,
                     staking and trading. Our team consists of professional
@@ -264,7 +257,7 @@ function Home() {
                   to={"https://auth.fecotrade.com/register"}
                   className="btn btn-lg btn-primary btn-shadow text-uppercase"
                 >
-                  Start Mining Today
+                  Start Mining Now!
                 </Link>
               </div>
             </div>
@@ -311,7 +304,7 @@ function Home() {
         <section className="content-inner bg-light icon-section section-wrapper2">
           <div className="container">
             <div className="section-head text-center">
-              <h2 className="title">Most amazing features</h2>
+              <h2 className="title">Most Amazing Features</h2>
               <p>Fecotrade exists to improve your systematic trading profitability and to help you succeed at a career in quantitative finance. And you don't need to learn any complicated financial trading skills, all of this is done by our expert team.</p>
             </div>
             <div className="row sp60">
@@ -405,6 +398,7 @@ function Home() {
           </div>
           <img className="bg-shape1" src={Shape1} alt="" />
         </section>
+          
         <section className="content-inner about-sec bg-primary-light">
           <div className="container">
             <div className="row about-bx2 style-1 align-items-center">
@@ -414,21 +408,15 @@ function Home() {
                     FECOTRADE SPECIAL STAKING OPPORTUNITY! 
                   </h2>
                   <p className="m-0 lh-base">
-                    Fecotrade is affordable and easy-to-use cloud mining
-                    service. We have the cheapest source of renewable
-                    electricity in the world. If you’re looking to mine Crypto
-                    asset, We are a great choice, allowing you to mine
-                    cryptocurrencies without owning any equipment.
-                  </p>
-                  <p>
-                    Our Staking feature will go live in next month.
+                   Fecotrade is a decentralized, algorithmic protocol for mining, staking, and trading assets, that operates on the Fecotrade Network. 
+          We're going to live the staking features for our registered users soon.
                   </p>
                 </div>
                 <Link
                   to={"https://auth.fecotrade.com/register"}
-                  className="btn btn-lg btn-primary btn-shadow text-uppercase"
+                  className="btn btn-lg btn-primary btn-shadow text-uppercase btn btn-warning"
                 >
-                  Start Mining Today
+                  Join Today!
                 </Link>
               </div>
               <div className="col-lg-6 py-4">
