@@ -62,7 +62,9 @@ function AboutUs() {
                             <div className="col-lg-6 about-content ps-lg-5 m-b30">
                                 <div className="section-head">
                                     <h2 className="title">Leading Platform for Cryptocurrency Mining!</h2>
-                                    <p className="m-0 lh-base">Fecotrade is affordable and easy-to-use cloud mining service. We have the cheapest source of renewable electricity in the world. If you’re looking to mine Crypto asset, We are a great choice, allowing you to mine cryptocurrencies without owning any equipment.</p>
+                                    <p className="m-0 lh-base">Fecotrade is affordable and easy-to-use cloud mining service. We have the cheapest source of renewable electricity in the world. If you’re looking to mine Crypto asset, We are a great choice, allowing you to mine cryptocurrencies without owning any equipment.
+
+                                Fectotrade is a Russian - registered fintech company with an extensive ecosystem of crypto asset management services. The main activity of the company are cryptocurrency mining, staking and trading. Our team consists of professional traders with real experience and high profit rates. Unique trading strategies allow our clients to receive high stable profits against their funds.</p>
                                 </div>
                                 <Link to={"https://auth.fecotrade.com/register"} className="btn btn-lg btn-primary btn-shadow text-uppercase">Start Mining</Link>
                             </div>
