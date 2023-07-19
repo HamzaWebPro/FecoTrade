@@ -426,13 +426,7 @@ function Home() {
                     cryptocurrencies without owning any equipment.
                   </p>
                   <p>
-                    Fectotrade is a Russian - registered fintech company with an
-                    extensive ecosystem of crypto asset management services. The
-                    main activity of the company are cryptocurrency mining,
-                    staking and trading. Our team consists of professional
-                    traders with real experience and high profit rates. Unique
-                    trading strategies allow our clients to receive high stable
-                    profits against their funds.
+                    Our Staking feature will go live in next month.
                   </p>
                 </div>
                 <Link
@@ -446,7 +440,7 @@ function Home() {
                 
               <div className="countdown-wrapper">
               <div className="time-container mb-5">
-                <h4 className="text-center mb-4">Staking Starts In</h4>
+                <h5 className="text-center mb-4">Staking Starts In</h5>
                  <div className="d-flex justify-content-around ">
                  <div className="time d-flex flex-column justify-content-center align-items-center mb-0">
                     <h3 className="value mb-0">{formatTime(days)}</h3>
