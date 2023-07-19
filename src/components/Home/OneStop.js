@@ -17,18 +17,26 @@ import support1 from "./../../assets/images/icons/support1.png";
 
 
 const cardData = [
+
+    {
+    image: service,
+    title: "Affiliate Program",
+    description:
+      "Smart affiliate program. Create an account with us and use your referral link to get up to 20% income from deposits of attracted referrals.",
+  },
+    {
+    image: expertTeam,
+    title: "Our Expert Team",
+    description:
+      "A professional team of traders and financial experts guarantees a high return on investment and constant passive income.",
+  },
   {
     image: protection,
     title: "Data Protection",
     description:
       "Maximum security and data protection Is in our DNA, it's our first priority to ensure that your Information and data is fully encrypted with a 6 Layer security.",
   },
-  {
-    image: service,
-    title: "Inclusive Services",
-    description:
-      "We offer all-inclusive services that foreign companies need in Russia: vcounting, tax and legal support as well as IT support",
-  },
+
   {
     image: payment,
     title: "Easy Payment Method",
@@ -41,12 +49,7 @@ const cardData = [
     description:
       "Once your mining contract Is activated, your daily earnings are distributed to your preferred mining account after 24hours.",
   },
-  {
-    image: expertTeam,
-    title: "Our Expert Team",
-    description:
-      "A professional team of traders and financial experts guarantees a high return on investment and constant passive income.",
-  },
+
   {
     image: connect,
     title: "Easy Withdraw",
