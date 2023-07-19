@@ -7,6 +7,7 @@ import service from "../../assets/images/amazing-features/Inclusive-Services.gif
 import payment from "../../assets/images/amazing-features/easy-payment.gif";
 import mining from "../../assets/images/amazing-features/mining.gif";
 import expertTeam from "../../assets/images/amazing-features/our-tean.gif";
+import connect from "../../assets/images/amazing-features/cammect.gif";
 
 
 //Images
@@ -47,7 +48,7 @@ const cardData = [
       "A professional team of traders and financial experts guarantees a high return on investment and constant passive income.",
   },
   {
-    image: expertTeam,
+    image: connect,
     title: "Easy Withdraw",
     description:
       "Request for a payout and receive your earnings on personal wallet any time, any day.No hassle",
