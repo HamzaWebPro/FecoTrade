@@ -17231,6 +17231,7 @@ section {
 
 .bg-shape4 {
   animation: aniRotate 10s infinite linear;
+  margin-top: 30px;
 }
 
 .dz-bnr-inr {
@@ -24376,9 +24377,20 @@ ul a.rsswidget:hover {
 }
 
 .banner-sub-heading {
-  color: #dfbbfb !important;
+  color: #f7ba00 !important;
 }
 
+@media (min-width: 992px) {
+  .banner-sub-heading {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 768px) {
+  .banner-sub-heading {
+    font-size: 15px;
+  }
+}
 
 .main-bnr .container,
 .main-bnr .container-fluid,
@@ -28459,14 +28471,23 @@ pre {
 .banner-background:hover {
   color: white;
 }
-.title-font{
+
+.title-font {
   font-size: 20px;
   font-weight: bold;
   color: white;
 }
-#banner-background{
+
+#banner-background {
   background-color: #00127F;
 }
-#banner-background:hover{
+
+#banner-background:hover {
   background-color: #2E42BD;
+}
+
+
+/* Amazing Feature Hover Color */
+#hoverd-color:hover {
+  background-color: #f7ba00;
 }

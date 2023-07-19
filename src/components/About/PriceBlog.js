@@ -6,7 +6,8 @@ const pricePlan = [
     price: "1000",
     title: "Venus",
     title2: "Life-includes:",
-    totalroi: "1450 Gala",
+    minimal: "1 MH/s",
+    equip: "HashCoins SCRYPT",
     dailyreleased: "3.97 Gala",
     validity: "365 Days",
   },
@@ -14,32 +15,36 @@ const pricePlan = [
     price: "3500",
     title: "Mercury",
     content: <div className="tagline">POPULER</div>,
-    title2: "Everythings in Lite, Plus",
-    totalroi: "5250 Gala",
+    title2: "Everythings in Mercury",
+    minimal: "10 GH/s",
+    equip: "HashCoins SHA-256",
     dailyreleased: "14.38 Gala",
     validity: "365 Days",
   },
   {
     price: "7000",
     title: "Uranus",
-    title2: "Everythings in Lite",
-    totalroi: "11200 Gala",
+    title2: "Everythings in Uranus",
+    minimal: "100 KH/s",
+    equip: "GPU Rigs",
     dailyreleased: "30.68 Gala",
     validity: "365 Days",
   },
   {
     price: "14000",
     title: "Neptune",
-    title2: "Everythings in Lite",
-    totalroi: "23240 Gala",
+    title2: "Everythings in Neptune",
+    minimal: "1 MH/s",
+    equip: "Multi-Factor",
     dailyreleased: "63.67 Gala",
     validity: "365 Days",
   },
   {
     price: "28000",
     title: "Pluto",
-    title2: "Everythings in Lite",
-    totalroi: "47600 Gala",
+    title2: "Everythings in Pluto",
+    minimal: "1 MH/s",
+    equip: "Multi-Factor",
     dailyreleased: "130.41 Gala",
     validity: "365 Days",
   },
@@ -165,7 +170,7 @@ const PriceBlog = () => {
                       fill="#9467FE"
                     />
                   </svg>
-                  <span>Total ROI: {data.totalroi}</span>
+                  <span>Minimal Hashedrate: {data.minimal}</span>
                 </li>
                 <li>
                   <svg
@@ -181,6 +186,21 @@ const PriceBlog = () => {
                     />
                   </svg>
                   <span>Daily Released: {data.dailyreleased}</span>
+                </li>
+                <li>
+                  <svg
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M23 12L20.56 9.21L20.9 5.52L17.29 4.7L15.4 1.5L12 2.96L8.6 1.5L6.71 4.69L3.1 5.5L3.44 9.2L1 12L3.44 14.79L3.1 18.49L6.71 19.31L8.6 22.5L12 21.03L15.4 22.49L17.29 19.3L20.9 18.48L20.56 14.79L23 12ZM9.38 16.01L7 13.61C6.61 13.22 6.61 12.59 7 12.2L7.07 12.13C7.46 11.74 8.1 11.74 8.49 12.13L10.1 13.75L15.25 8.59C15.64 8.2 16.28 8.2 16.67 8.59L16.74 8.66C17.13 9.05 17.13 9.68 16.74 10.07L10.82 16.01C10.41 16.4 9.78 16.4 9.38 16.01Z"
+                      fill="#9467FE"
+                    />
+                  </svg>
+                  <span>Equipment: {data.equip}</span>
                 </li>
                 <li>
                   <svg

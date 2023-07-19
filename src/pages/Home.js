@@ -183,7 +183,7 @@ function Home() {
       <div className="container">
         <div className="row align-items-center">
           <div className="col-12 text-center">
-            <h2 className="banner-sub-heading">Welcome to Fecotrade Ecosystem</h2>
+            <h2 className="banner-sub-heading">Welcome to Our Ecosystem</h2>
             <h1 className="col-lg-9 mx-auto">
               Best Platform for Crypto Trading, Mining and Staking
             </h1>

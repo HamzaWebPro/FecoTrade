@@ -56,7 +56,7 @@ function FecoTradeEcoSystem() {
           {/* <Parallax speed={ind*20}> */}
           <div className="icon-bx-wraper style-3 text-center">
             <div className="icon-media">
-              <img src={item.image} alt="" />
+              <img style={{width: "80px"}} src={item.image} alt="" />
             </div>
             <div className="icon-content">
               <h4 className="title">{item.title}</h4>
