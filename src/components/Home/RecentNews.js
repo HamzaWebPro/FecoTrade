@@ -20,7 +20,7 @@ function RecentNews(){
                     <div className="dz-media">
                         <Link to={"/blog-details"}><img src={data.image1} alt="" /></Link>
                         <ul className="dz-badge-list">
-                            <li><Link to={"#"} className="dz-badge">14 Fan 2022</Link></li>
+                            <li><Link to={"#"} className="dz-badge">14 June 2023</Link></li>
                         </ul>
                         <Link to={"/blog-details"} className="btn btn-secondary">Read More</Link>
                     </div>
@@ -33,7 +33,7 @@ function RecentNews(){
                                         <span>By Noare</span>
                                     </Link>
                                 </li>
-                                <li className="post-date"><Link to={"#"}> 12 May 2022</Link></li>
+                                <li className="post-date"><Link to={"#"}> 12 May 2023</Link></li>
                             </ul>
                         </div>
                         <h4 className="dz-title"><Link to={"/blog-details"}>{data.title}</Link></h4>
