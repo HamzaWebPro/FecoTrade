@@ -10,7 +10,7 @@ import RecentNews from './../components/Home/RecentNews';
 import Shape1 from './../assets/images/home-banner/shape1.png';
 import Shape3 from './../assets/images/home-banner/shape3.png';
 
-import about2 from './../assets/images/about/feco-about-1.jpg';
+import about2 from './../assets/images/home-banner/btc-eth-ltch.gif';
 import about3 from './../assets/images/about/feco-about-2.jpg';
 import about4 from './../assets/images/about/feco-about-3.jpg';
 import about1 from './../assets/images/about/about-1.jpg';
