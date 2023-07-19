@@ -20,31 +20,31 @@ const cardData = [
     image: iconBlockchain,
     title: "Custom Blockchain",
     description:
-      "Your selected mining contract Is activated automatically once your payment Is confirmed",
+      "Feco is an open and fast blockchain. Our mainnet runs Ethereum applications with 3-second transaction finality and 100 times lower fees.",
   },
   {
     image: iconCoin,
     title: "Feco Native Coin",
     description:
-      "Request for a payout and receive your earnings on personal wallet any time, any day.No hassle",
+      "Feco Token is a cryptocurrency that will launch on the Binanace Blockchain as the first native cryptocurrency as soon as possible.",
   },
   {
     image: iconNetwork,
     title: "Feco Network",
     description:
-      "Request for a payout and receive your earnings on personal wallet any time, any day.No hassle",
+      "The Feco network will include the features of trustless cross-chain bridges and four shards, which process transactions in parallel.",
   },
   {
     image: iconExplorer,
     title: "Feco Explorer",
     description:
-      "Request for a payout and receive your earnings on personal wallet any time, any day.No hassle",
+      "Explore Feco Explorer for transactions, addresses, tokens, prices and other information. It will be built for Feco Ecosystem.",
   },
   {
     image: iconWallet,
     title: "Feco Wallet",
     description:
-      "Request for a payout and receive your earnings on personal wallet any time, any day.No hassle",
+      " Consumers can buy crypto assets via credit cards, then trade between multiple platforms using Feco Decentralized Wallet.",
   },
 ];
 
