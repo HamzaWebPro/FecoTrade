@@ -36,7 +36,12 @@ const cardData = [
     description:
       "Maximum security and data protection Is in our DNA, it's our first priority to ensure that your Information and data is fully encrypted with a 6 Layer security.",
   },
-
+  {
+    image: connect,
+    title: "Easy Withdraw",
+    description:
+      "Request for a payout and receive your earnings on personal wallet any time, any day.No hassle",
+  },
   {
     image: payment,
     title: "Easy Payment Method",
@@ -50,12 +55,6 @@ const cardData = [
       "Once your mining contract Is activated, your daily earnings are distributed to your preferred mining account after 24hours.",
   },
 
-  {
-    image: connect,
-    title: "Easy Withdraw",
-    description:
-      "Request for a payout and receive your earnings on personal wallet any time, any day.No hassle",
-  },
 ];
 
 function OneStop() {
