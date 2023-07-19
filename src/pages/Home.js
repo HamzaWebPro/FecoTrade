@@ -546,7 +546,7 @@ function Home() {
                     <ul className="dz-badge-list">
                       <li>
                         <Link to={"#"} className="dz-badge">
-                          14 Fan 2022
+                          14 June 2023
                         </Link>
                       </li>
                     </ul>
@@ -566,7 +566,7 @@ function Home() {
                           </Link>
                         </li>
                         <li className="post-date">
-                          <Link to={"#"}>12 May 2022</Link>
+                          <Link to={"#"}>12 May 2023</Link>
                         </li>
                       </ul>
                     </div>
