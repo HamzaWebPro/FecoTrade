@@ -66,9 +66,10 @@ function AboutUs() {
 
                                 Fectotrade is a Russian - registered fintech company with an extensive ecosystem of crypto asset management services. The main activity of the company are cryptocurrency mining, staking and trading. Our team consists of professional traders with real experience and high profit rates. 
         Unique trading strategies allow our clients to receive high stable profits against their funds.</p>
-                                <h2>Our Mission</h2>
-        <p className="m-0 lh-base">Fectotrade is a Russian - registered fintech company with an extensive ecosystem of crypto asset management services. The main activity of the company are cryptocurrency mining, staking and trading. Our team consists of professional traders with real experience and high profit rates. 
-        Unique trading strategies allow our clients to receive high stable profits against their funds.</p>
+                                <h3>Our Mission</h3>
+        <p className="m-0 lh-base">Partners from all around the world collaborate with us to enhance the DeFi on the Fecotrade Ecosystem..</p>
+        <h3>Our Vision</h3>
+        <p className="m-0 lh-base">Through an easy and flexible dashboard, you can leverage Feco's advanced technology, which opens up a new world of possibilities for projects</p>
                                 </div>
                                 <Link to={"https://auth.fecotrade.com/register"} className="btn btn-lg btn-primary btn-shadow text-uppercase">Start Mining</Link>
                             </div>
@@ -160,43 +161,43 @@ function AboutUs() {
                         </div>
                     </div>
                 </section>
-                // <section className="content-inner bg-white blog-wrapper">
-                //     <img className="bg-shape1" src={Shape1} alt="" />
-                //     <div className="container">
-                //         <div className="row">
-                //             <div className="col-xl-7 col-lg-12">
-                //                 <div className="section-head " >
-                //                     <h6 className="sub-title text-primary">FROM OUR BLOG</h6>
-                //                     <h2 className="title">Recent News &amp; Updates</h2>
-                //                 </div>
-                //                 <RecentNews />
-                //             </div>
-                //             <div className="col-xl-5 col-lg-12 m-b30 " >
-                //                 <div className="dz-card style-2" style={{ backgroundImage: "url(" + bloglg + ")" }}>
-                //                     <div className="dz-category">
-                //                         <ul className="dz-badge-list">
-                //                             <li><Link to={"#"} className="dz-badge">14 Feb 2023</Link></li>
-                //                         </ul>
-                //                     </div>
-                //                     <div className="dz-info">
-                //                         <h2 className="dz-title"><Link to={"/blog-details"} className="text-white">Directly support individuals Crypto</Link></h2>
-                //                         <div className="dz-meta">
-                //                             <ul>
-                //                                 <li className="post-author">
-                //                                     <Link to={"#"}>
-                //                                         <img src={avatar3} alt="" className="me-2" />
-                //                                         <span>By Noare</span>
-                //                                     </Link>
-                //                                 </li>
-                //                                 <li className="post-date"><Link to={"#"}> 12 May 2023</Link></li>
-                //                             </ul>
-                //                         </div>
-                //                     </div>
-                //                 </div>
-                //             </div>
-                //         </div>
-                //     </div>
-                // </section>
+             {/*   <section className="content-inner bg-white blog-wrapper">
+                    <img className="bg-shape1" src={Shape1} alt="" />
+                    <div className="container">
+                        <div className="row">
+                            <div className="col-xl-7 col-lg-12">
+                                <div className="section-head " >
+                                    <h6 className="sub-title text-primary">FROM OUR BLOG</h6>
+                                    <h2 className="title">Recent News &amp; Updates</h2>
+                                </div>
+                                <RecentNews />
+                            </div>
+                            <div className="col-xl-5 col-lg-12 m-b30 " >
+                                <div className="dz-card style-2" style={{ backgroundImage: "url(" + bloglg + ")" }}>
+                                    <div className="dz-category">
+                                        <ul className="dz-badge-list">
+                                            <li><Link to={"#"} className="dz-badge">14 June 2023</Link></li>
+                                        </ul>
+                                    </div>
+                                    <div className="dz-info">
+                                        <h2 className="dz-title"><Link to={"/blog-details"} className="text-white">Directly support individuals Crypto</Link></h2>
+                                        <div className="dz-meta">
+                                            <ul>
+                                                <li className="post-author">
+                                                    <Link to={"#"}>
+                                                        <img src={avatar3} alt="" className="me-2" />
+                                                        <span>By Noare</span>
+                                                    </Link>
+                                                </li>
+                                                <li className="post-date"><Link to={"#"}> 12 May 2023</Link></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section> */}
             </div>
             <ModalVideo channel='youtube' autoplay isOpen={isOpen} videoId="cfmQFW1DpA0" onClose={() => setOpen(false)} />
         </>
