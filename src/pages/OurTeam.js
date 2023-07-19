@@ -3,12 +3,12 @@
 const personImageOne = "https://i.ibb.co/LSYS36V/male-man-icon.png"
 
 const personData = [
-    { image: personImageOne, name: "John Cambell", title: "FOUNDER / CEO", description: "John is a Crypto enthusiast. He was one of the first bolckchain actors in the world." },
-    { image: personImageOne, name: "Lucy Wong", title: "FOUNDER / CFO", description: "Lucy is a Crypto enthusiast. He was one of the first bolckchain actors in the world." },
-    { image: personImageOne, name: "Joshua Stevens", title: "ENGINEER", description: "Joshua is a Crypto enthusiast. He was one of the first bolckchain actors in the world." },
-    { image: personImageOne, name: "Sara Jackson", title: "FOUNDER / CEO", description: "Sara is a Crypto enthusiast. He was one of the first bolckchain actors in the world." },
-    { image: personImageOne, name: "Mike Kovalsky", title: "FOUNDER / CEO", description: "Mike Kobalsky is a Crypto enthusiast. He was one of the first bolckchain actors in the world." },
-    { image: personImageOne, name: "Sandra Bernard", title: "FOUNDER / CEO", description: "Sandra is a Crypto enthusiast. He was one of the first bolckchain actors in the world." },
+    { image: personImageOne, name: "PC Daniel", title: "FOUNDER & CEO", description: "PC is our passionate CEO and leads Fecotrade Ecosystem for the revoulationary change." },
+    { image: personImageOne, name: "Shang Cheng", title: "Co-Founder", description: "Our core team leader is Shang Cheng and he has the pioneer knowledge about crypto mining." },
+    { image: personImageOne, name: "Nash Josef", title: "Cheif Technical Officer", description: "Nash Josef is one of the best CTO of the world. He leads Feco Technically." },
+    { image: personImageOne, name: "Criss Jordan", title: "Cheif Marketing Officer", description: "Criss is our Cheif Technical Officer. He leads the core marketing team." },
+    { image: personImageOne, name: "Rosario Lion", title: "Operations Manager", description: "Rosario Lion is our Operations Manager. She works for the operational management." },
+    { image: personImageOne, name: "Alex Sam", title: "Finance Manager", description: "Finance Manager is a Finance and Administration expert. He is one of the best team member of Fecotrade." },
 ]
 
 
