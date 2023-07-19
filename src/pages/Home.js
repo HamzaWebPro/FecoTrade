@@ -321,7 +321,8 @@ function Home() {
           </div>
           <img className="bg-shape1" src={Shape1} alt="" />
         </section>
-        <div className="container">
+
+        {/* <div className="container">
           <div className="form-wrapper-box style-1 text-center">
             <div className="section-head">
               <h4 className="title m-t0">How to Purchase from us ?</h4>
@@ -390,7 +391,8 @@ function Home() {
               </div>
             </form>
           </div>
-        </div>
+        </div> */}
+        
         <img className="bg-shape1" src={Shape1} alt="" />
         <section className="content-inner bg-light icon-section section-wrapper2">
           <div className="container">

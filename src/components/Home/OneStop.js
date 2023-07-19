@@ -50,6 +50,12 @@ const cardData = [
     description:
       "A professional team of traders and financial experts guarantees a high return on investment and constant passive income.",
   },
+  {
+    image: featureIconFive,
+    title: "Easy Withdraw",
+    description:
+      "Request for a payout and receive your earnings on personal wallet any time, any day.No hassle",
+  },
 ];
 
 function OneStop() {
@@ -70,7 +76,7 @@ function OneStop() {
           {/* </Parallax> */}
         </div>
       ))}
-      <div className="col-xl-4 col-md-6 m-b60">
+      {/* <div className="col-xl-4 col-md-6 m-b60">
         <div
           className="icon-bx-wraper style-4"
           style={{ backgroundImage: "url(" + pic1 + ")" }}
@@ -86,7 +92,7 @@ function OneStop() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </>
   );
 }

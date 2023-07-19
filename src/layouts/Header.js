@@ -4,6 +4,7 @@ import { NavLink } from 'react-router-dom';
 import Logo from './../assets/images/logo.png';
 import LogoWhite from './../assets/images/logo-white.png';
 
+
 function Header() {
   const [headerVisible, setHeaderVisible] = useState(true);
   const [prevScrollPos, setPrevScrollPos] = useState(window.pageYOffset);
@@ -47,7 +48,7 @@ function Header() {
             <div className="container clearfix">
               <div className="logo-header">
                 <NavLink to="/" className={headerVisible ? 'logo-dark' : 'logo-light'}>
-                  <img src={headerVisible ? "https://i.postimg.cc/4N94Gycc/fecotrade-web-site-logo-01.png" : "https://i.postimg.cc/fW675VS6/fecotrade-web-site-logo-01.png"} alt="" />
+                  <img src={headerVisible ? "https://i.postimg.cc/q7YnjMdw/logo.png" : "https://i.postimg.cc/q7YnjMdw/logo.png"} alt="" />
                 </NavLink>
               </div>
 
@@ -63,7 +64,7 @@ function Header() {
               <div className={`header-nav navbar-collapse collapse justify-content-end ${sidebarOpen ? 'show' : ''}`} id="navbarNavDropdown">
                 <div className="logo-header mostion">
                   <NavLink to="#" className="logo-dark">
-                    <img src={`https://i.postimg.cc/4N94Gycc/fecotrade-web-site-logo-01.png`} alt="" />
+                    <img style={{width: "200px"}} src={`https://i.postimg.cc/q7YnjMdw/logo.png`} alt="" />
                   </NavLink>
                 </div>
                 <ul className="nav navbar-nav navbar">

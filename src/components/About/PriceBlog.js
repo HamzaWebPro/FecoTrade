@@ -138,10 +138,9 @@ const PriceBlog = () => {
                 <div className="d-flex align-items-center gap-2">
                 <h2 className=" text-primary">
                   {" "}
-                  <span>$</span>
                   {data.price}
                 </h2>
-                  <small>/ GALA</small>
+                  <small> GALA</small>
                 </div>
                 <a
                   className="text-white"

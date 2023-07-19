@@ -25,7 +25,7 @@ function BannerCard() {
                     <Parallax
                      speed={index*20}
                     >
-                    <div className="icon-bx-wraper style-1 box-hover">
+                    <div className="icon-bx-wraper style-1 box-hover" id='banner-background'>
                         <div className="icon-media flex justify-content-center align-items-center">
                             <div className="icon-info">
                                 <div className='text-center'>
@@ -34,8 +34,8 @@ function BannerCard() {
                             </div>
                         </div>
                         <div className="icon-content"><div className='text-center'>
-                            <h6>{data.title}</h6>
-                            <p className='text-black'><small>{data.description}</small></p>
+                            <p className='title-font'>{data.title}</p>
+                            <p><small>{data.description}</small></p>
                         </div>
                         </div>
                     </div>

@@ -23044,7 +23044,8 @@ ul a.rsswidget:hover {
 
 .icon-bx-wraper.style-1:hover {
   transform: translateY(-8px);
-  background-color: #edf5ff;
+  background-color: #2E42BD;
+  color: #fff;
 }
 
 .icon-bx-wraper.style-1 .title {
@@ -23053,7 +23054,7 @@ ul a.rsswidget:hover {
 }
 
 .icon-bx-wraper.style-1 .icon-media {
-  margin-bottom: 15px;
+  margin-bottom: 30px;
   display: flex;
   align-items: center;
 }
@@ -24357,7 +24358,8 @@ ul a.rsswidget:hover {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.4); /* Adjust the transparency as needed */
+  background-color: rgba(0, 0, 0, 0.4);
+  /* Adjust the transparency as needed */
 }
 
 .banner-video {
@@ -24368,10 +24370,12 @@ ul a.rsswidget:hover {
   height: 100%;
   object-fit: cover;
 }
-.banner-small-text{
+
+.banner-small-text {
   color: #baffc9 !important;
 }
-.banner-sub-heading{
+
+.banner-sub-heading {
   color: #dfbbfb !important;
 }
 
@@ -28237,11 +28241,13 @@ pre {
   .bg-shape5 {
     display: block !important;
   }
-  .currancy-wrapper{
- padding-top:  50px !important;
- margin: 0 !important;
+
+  .currancy-wrapper {
+    padding-top: 50px !important;
+    margin: 0 !important;
   }
-  .site-header{
+
+  .site-header {
     margin-top: 0px;
   }
 }
@@ -28304,7 +28310,7 @@ pre {
 
 /* accordion faq css
  */
- .accordion {
+.accordion {
   width: 100%;
 }
 
@@ -28336,25 +28342,29 @@ pre {
 .accordion-content {
   padding: 20px;
 }
+
 /* progress bar */
-.progress-bar{
+.progress-bar {
   padding: 10px;
   border-radius: 15px;
   position: relative;
 
 }
-.progress-bar::after{
-position: absolute;
-content: "";
-width: 10px;
-height:1rem;
-right:0;
-top:50%;
-transform: translateY(-50%);
-background-color: #9467FE !important;
+
+.progress-bar::after {
+  position: absolute;
+  content: "";
+  width: 10px;
+  height: 1rem;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #9467FE !important;
 }
+
 .progress {
-  background-color: #E5D4FF; /* Background color */
+  background-color: #E5D4FF;
+  /* Background color */
   border-radius: 0 !important;
   position: relative;
   overflow: hidden;
@@ -28372,17 +28382,24 @@ background-color: #9467FE !important;
 }
 
 @keyframes progressAnimation {
-  0% { right: -100%; }
-  100% { right: 100%; }
+  0% {
+    right: -100%;
+  }
+
+  100% {
+    right: 100%;
+  }
 }
 
 
 /* countdown-wrapper */
-.countdown-wrapper{
-  background-color: #E5D4FF; /* Lighter shade of purple */
+.countdown-wrapper {
+  background-color: #E5D4FF;
+  /* Lighter shade of purple */
   border-radius: 20px;
   padding: 15px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Soft box shadow */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  /* Soft box shadow */
 }
 
 
@@ -28419,13 +28436,37 @@ background-color: #9467FE !important;
 }
 
 @keyframes bounceAnimation {
-  0%, 20%, 50%, 80%, 100% {
+
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
     transform: translateY(0);
   }
+
   40% {
     transform: translateY(-10px);
   }
+
   60% {
     transform: translateY(-5px);
   }
+}
+
+/* banner card font color */
+
+.banner-background:hover {
+  color: white;
+}
+.title-font{
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+}
+#banner-background{
+  background-color: #00127F;
+}
+#banner-background:hover{
+  background-color: #2E42BD;
 }
