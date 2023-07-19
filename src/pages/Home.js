@@ -28,6 +28,8 @@ import about3 from "./../assets/images/home-banner/animated-home.gif";
 import about4 from "./../assets/images/home-banner/hardware-mining.gif";
 import about1 from "./../assets/images/home-banner/bitcoin-animation.gif";
 
+import aboutImg from "./../assets/images/home-banner/image_processing20210908-24724-i7p381.gif";
+
 import { Parallax, useParallax } from "react-scroll-parallax";
 import FecoTradeEcoSystem from "../components/Home/FecoTradeEcoSystem";
 import { BsArrowDownCircle } from "react-icons/bs";
@@ -167,6 +169,7 @@ function Home() {
   console.log(progressBarWidth, "kk");
   return (
     <>
+    
       <div className="page-content">
         
       <div className="main-bnr style-1">
@@ -180,14 +183,20 @@ function Home() {
       >
         <source src="https://cdn.dribbble.com/userupload/4060992/file/original-18cd5cd4f56b7238b424f309081a2ef9.mp4" type="video/mp4" />
       </video>
+
+      
       <div className="container">
         <div className="row align-items-center">
-          <div className="col-12 text-center">
+          <div className="col-12 text-center relative">
+            {/* text aniamtion */}
+          <div className="col-3-lg animation__main">
+                <h2 className="text__animation animation__item text-white pb-[20px]">Trading</h2>
+                <h2 className="animation__item  text-white pb-[20px]">Mining</h2>
+                <h2 className="animation__item  text-white pb-[20px]">Staking</h2>
+             </div>
             <h2 className="banner-sub-heading">Welcome to Our Ecosystem</h2>
-            <h1 className="col-lg-9 mx-auto">
-              Best Platform for Crypto Trading, Mining and Staking
-            </h1>
-            <p className="text text-primary banner-small-text col-lg-6 mx-auto">
+            <h1 className="col-lg-9 mx-auto mb-5">Best Platform for Crypto</h1>
+            <p className="pera__size text text-primary banner-small-text col-lg-6 mx-auto mt-5">
               Fecotrade is one of the largest cryptocurrency trading platform in the world who offers a robust selection of trading options and features.
             </p>
             {/* <a
@@ -230,12 +239,7 @@ function Home() {
               <div className="col-lg-6">
                 <div className="dz-media">
                   <div className="row align-items-end">
-                    <ImageBox image={about4} changeClass="image-box-1" />
-                    <ImageBox image={about2} changeClass="image-box-2" />
-                  </div>
-                  <div className="row">
-                    <ImageBox image={about3} changeClass="image-box-3" />
-                    <ImageBox image={about1} changeClass="image-box-4" />
+                    <img src={aboutImg} alt="" />
                   </div>
                 </div>
               </div>
