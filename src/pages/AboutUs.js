@@ -10,10 +10,10 @@ import RecentNews from './../components/Home/RecentNews';
 import Shape1 from './../assets/images/home-banner/shape1.png';
 import Shape3 from './../assets/images/home-banner/shape3.png';
 
-import about2 from './../assets/images/home-banner/btc-eth-ltch.gif';
-import about3 from './../assets/images/home-banner/hii-good-morning-bitcoin-logo.gif';
-import about4 from './../assets/images/home-banner/hardware-mining.gif';
-import about1 from './../assets/images/home-banner/bitcoin-animation.gif';
+import about2 from './../assets/images/about/feco-about-1.jpg';
+import about3 from './../assets/images/about/feco-about-2.jpg';
+import about4 from './../assets/images/about/feco-about-2.jpg';
+import about1 from './../assets/images/about/feco-about-2.jpg';
 
 import videobox from './../assets/images/about/videobx.png';
 
@@ -160,7 +160,43 @@ function AboutUs() {
                         </div>
                     </div>
                 </section>
-                
+                <section className="content-inner bg-white blog-wrapper">
+                    <img className="bg-shape1" src={Shape1} alt="" />
+                    <div className="container">
+                        <div className="row">
+                            <div className="col-xl-7 col-lg-12">
+                                <div className="section-head " >
+                                    <h6 className="sub-title text-primary">FROM OUR BLOG</h6>
+                                    <h2 className="title">Recent News &amp; Updates</h2>
+                                </div>
+                                <RecentNews />
+                            </div>
+                            <div className="col-xl-5 col-lg-12 m-b30 " >
+                                <div className="dz-card style-2" style={{ backgroundImage: "url(" + bloglg + ")" }}>
+                                    <div className="dz-category">
+                                        <ul className="dz-badge-list">
+                                            <li><Link to={"#"} className="dz-badge">14 Feb 2023</Link></li>
+                                        </ul>
+                                    </div>
+                                    <div className="dz-info">
+                                        <h2 className="dz-title"><Link to={"/blog-details"} className="text-white">Directly support individuals Crypto</Link></h2>
+                                        <div className="dz-meta">
+                                            <ul>
+                                                <li className="post-author">
+                                                    <Link to={"#"}>
+                                                        <img src={avatar3} alt="" className="me-2" />
+                                                        <span>By Noare</span>
+                                                    </Link>
+                                                </li>
+                                                <li className="post-date"><Link to={"#"}> 12 May 2023</Link></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
             </div>
             <ModalVideo channel='youtube' autoplay isOpen={isOpen} videoId="cfmQFW1DpA0" onClose={() => setOpen(false)} />
         </>
