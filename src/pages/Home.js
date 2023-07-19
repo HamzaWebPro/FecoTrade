@@ -37,7 +37,7 @@ import OurTeam from "./OurTeam";
 
 const trustBlog = [
   {
-    image: wallet,
+    image: trading,
     title: "Earn From Staking",
     description:
       "With staking, you can put your digital assets to work and earn passive income without selling them.",
@@ -49,7 +49,7 @@ const trustBlog = [
       "We are always committed to providing high quality mining to people around the world. Low Maintenance Fees.",
   },
   {
-    image: trading,
+    image: wallet,
     title: "Earn From Trading",
     description:
       "Trading cryptocurrencies on Binance is acquiring and disposing of digital assets to profit from price changes.",
@@ -94,11 +94,6 @@ function Home() {
         "Fecotrade is the pioneer solution for anyone who wants to get involved in cryptocurrency mining. With its powerful algorithms and easy-to-use interface, Fecotrade is the perfect way to start earning cryptocurrency directly from your browser.",
     },
      {
-      question: "Is there any autorun and smart CPU controller?",
-      answer:
-        "Effortlessly increase your earnings with Fecotrade's autorun and smart CPU controller. Our application is easy to install and will run automatically using your computer's free CPU resources to generate profits.",
-    },
-         {
       question: "Is there any autorun and smart CPU controller?",
       answer:
         "Effortlessly increase your earnings with Fecotrade's autorun and smart CPU controller. Our application is easy to install and will run automatically using your computer's free CPU resources to generate profits.",
@@ -190,9 +185,9 @@ function Home() {
           <div className="col-12 text-center relative">
             {/* text aniamtion */}
           <div className="col-3-lg animation__main">
-                <h2 className="text__animation animation__item text-white pb-[20px]">Trading</h2>
-                <h2 className="animation__item  text-white pb-[20px]">Mining</h2>
-                <h2 className="animation__item  text-white pb-[20px]">Staking</h2>
+                <h2 className="text__animation animation__item text-warning pb-[20px]">Trading</h2>
+                <h2 className="animation__item  text-warning pb-[20px]">Mining</h2>
+                <h2 className="animation__item  text-warning pb-[20px]">Staking</h2>
              </div>
             <h2 className="banner-sub-heading">Welcome to Our Ecosystem</h2>
             <h1 className="col-lg-9 mx-auto mb-5">Best Platform for Crypto</h1>
