@@ -412,7 +412,7 @@ function Home() {
             <div className="col-lg-6 about-content ps-lg-5 m-b30">
                 <div className="section-head">
                   <h2 className="title">
-                    Leading Platform for Cryptocurrency Mining!
+                    FECOTRADE SPECIAL STAKING OPPORTUNITY! 
                   </h2>
                   <p className="m-0 lh-base">
                     Fecotrade is affordable and easy-to-use cloud mining
@@ -442,7 +442,7 @@ function Home() {
                 
               <div className="countdown-wrapper">
               <div className="time-container mb-5">
-                <h5 className="text-center mb-4">Your event</h5>
+                <h4 className="text-center mb-4">Staking Starts In</h4>
                  <div className="d-flex justify-content-around ">
                  <div className="time d-flex flex-column justify-content-center align-items-center mb-0">
                     <h3 className="value mb-0">{formatTime(days)}</h3>
