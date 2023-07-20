@@ -456,7 +456,7 @@ function Home() {
           <img className="bg-shape3" src={Shape3} alt="" />
           <img className="bg-shape4" src={Shape3} alt="" />
         </section>
-       
+        {/*
         <section className="content-inner bg-light icon-section section-wrapper2">
           <div className="container">
             <div className="section-head text-center">
@@ -468,8 +468,8 @@ function Home() {
             </div>
           </div>
         </section>
-        
-        <section className="clearfix section-wrapper1 bg-primary-light">
+        */}
+       {/*  <section className="clearfix section-wrapper1 bg-primary-light">
           <div className="container">
             <div className="content-inner-1">
               <div className="section-head text-center">
@@ -505,9 +505,9 @@ function Home() {
               </div>
             </div>
           </div>
-        </section>
+        </section> */}
 
-        <section className="content-inner bg-white blog-wrapper">
+       {/*  <section className="content-inner bg-white blog-wrapper">
           <img className="bg-shape1" src={Shape1} alt="" />
           <div className="container">
             <div className="row">
@@ -556,7 +556,7 @@ function Home() {
               </div>
             </div>
           </div>
-        </section>
+        </section> */}
       </div>
     </>
   );
