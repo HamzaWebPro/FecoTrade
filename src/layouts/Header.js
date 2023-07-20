@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState, useRef } from 'react';
 import { NavLink } from 'react-router-dom';
 
 import Logo from './../assets/images/logo.png';
@@ -13,7 +13,7 @@ function Header() {
     const handleScroll = () => {
       const currentScrollPos = window.pageYOffset;
       const isScrolledDown = prevScrollPos < currentScrollPos;
-
+      
       setHeaderVisible(!isScrolledDown);
       setPrevScrollPos(currentScrollPos);
     };
@@ -39,10 +39,29 @@ function Header() {
   const handleSidebarToggle = () => {
     setSidebarOpen(!sidebarOpen);
   };
+  
+  // 
+
+  const divRef = useRef();
+  useEffect(() => {
+    const handleMouseDown = (event) => {
+      // Check if the mousedown event target is outside the div
+      if (divRef.current && !divRef.current.contains(event.target)) {
+        setSidebarOpen(false);// Call the onClose function to handle the event outside the div
+      }
+    };
+
+    document.addEventListener('mousedown', handleMouseDown);
+
+    return () => {
+      document.removeEventListener('mousedown', handleMouseDown);
+    };
+  }, [setSidebarOpen]);
+
 
   return (
     <>
-      <header className={`site-header mo-left header ${!headerVisible ? '' : 'is-fixed bg-red'}`}>
+      <header className={`site-header mo-left header ${!headerVisible ? '' : 'is-fixed bg-red'}`} ref={divRef}>
         <div className={`sticky-header  main-bar-wraper navbar-expand-lg`}>
           <div className={`main-bar clearfix`}>
             <div className="container clearfix">
@@ -123,8 +142,8 @@ function Header() {
                     </NavLink>
                   </li>
                 </ul>
-                <div className="extra-nav">
-                  <div className="extra-cell">
+                <div className="">
+                  <div className="extra-cell d-flex gap-1 pt-2 pt-md-2 pt-lg-0 justify-content-center ">
                     <a className="btn btn-outline-primary" target="_blank" rel="noreferrer" href="https://auth.fecotrade.com/login">Login</a>
                     <a className="btn btn-primary btn-gradient btn-shadow" target="_blank" rel="noreferrer" href="https://auth.fecotrade.com/register">Register</a>
                   </div>

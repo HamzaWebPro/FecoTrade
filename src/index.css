@@ -3,16 +3,19 @@
 @tailwind utilities; */
 
 
-
+/* .extra-cell {
+    padding: 20px 0 0;
+} */
 
 .animation__main {
     height: 90px;
     overflow: hidden;
     position: absolute;
-    top: 35%;
-    left: 38%;
+    top: 118%;
+    left: 33%;
+     /* left: 20%; */
     transform: translate(-50% -50%);
-}
+} 
 
 .pera__size {
     padding-top: 100px;
@@ -23,9 +26,14 @@
 }
 
 .text__animation {
-    animation: text-animation 4s infinite;
+    animation: text-animation 6s infinite;
+    
 }
 
+
+.postion__animation {
+    position: relative;
+}
 
 @keyframes text-animation {
     0% {
@@ -44,4 +52,89 @@
         margin-top: -8px;
     }
 }
+
+/* responsive */
+
+/* @media (max-width: 400px) {
+    .animation__main {
+    height: 90px;
+    overflow: hidden;
+    position: absolute;
+    top: 118%;
+    left: 29%;
+        
+    }
+ } */
+
+@media (max-width: 400px) { 
+    .pera__size {
+        padding-top: 30px;
+    }
+    .animation__main {
+        height: 48px;
+        overflow: hidden;
+        top: 129%;
+        left: 27% !important;
+    }
+
+    .animation__item {
+        font-size: 24px;
+    }
+ } 
+
+
+@media (max-width: 767.98px) { 
+    .animation__item {
+        font-size: 32px;
+    }
+
+    .pera__size {
+        padding-top: 30px;
+    }
+
+    .animation__main {
+        height: 48px;
+        overflow: hidden;
+        top: 129%;
+        left: 40%;
+    }
+ }
+
+
+@media (max-width: 991.98px) { 
+    .animation__item {
+        font-size: 32px;
+    }
+
+    .pera__size {
+        padding-top: 30px;
+    }
+
+    .animation__main {
+        height: 48px;
+        overflow: hidden;
+        top: 129%;
+        left: 40%;
+    }
+}
+
+
+@media (max-width: 1199.98px) { 
+    .animation__item {
+        font-size: 40px;
+    }
+
+    .animation__main {
+        height: 48px;
+        overflow: hidden;
+        top: 129%;
+        left:40%;
+    }
+ }
+
+
+
+
+
+
 
