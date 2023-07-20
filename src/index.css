@@ -9,6 +9,10 @@
 
 
 /* navbar */
+ .show {
+    background-color: #000A !important;
+    
+ }
 
 .animation__main {
     height: 90px;

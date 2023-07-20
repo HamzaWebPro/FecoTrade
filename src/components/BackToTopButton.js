@@ -23,7 +23,7 @@ const BackToTopButton = () => {
 
   return (
     <div
-      className={`back-to-top-button ${isVisible ? 'visible' : ''}`}
+      className={`back-to-top-button ${isVisible ? 'visible' : 'visible'}`}
       onClick={scrollToTop}
     >
       <FaArrowUp />
