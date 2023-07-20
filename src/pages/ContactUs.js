@@ -27,8 +27,8 @@ function ContactUs(){
                                         <div className="widget widget_getintuch">
                                             <ul>
                                                 <li>
-                                                    <i className="fa fa-phone"></i>
-                                                    <span>+7(4232)53-48-41</span> 
+                                                    <i className="fa fa-telegram"></i>
+                                                    <span>@fecotrade</span> 
                                                 </li>
                                                 <li>
                                                     <i className="fa fa-envelope"></i> 
