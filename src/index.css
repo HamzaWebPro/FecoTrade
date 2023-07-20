@@ -7,6 +7,10 @@
     padding: 20px 0 0;
 } */
 
+/* back to top */
+.back-to-top-button {
+	z-index: 400 !important;
+}
 
 /* navbar */
  .show {
