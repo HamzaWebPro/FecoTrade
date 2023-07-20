@@ -26,14 +26,20 @@
 }
 
 
+/* banner */
+
+.position {
+    position: relative;
+}
+
 .animation__main {
     height: 90px;
     overflow: hidden;
     position: absolute;
-    top: 118%;
-    left: 33%;
-     /* left: 20%; */
-    transform: translate(-50% -50%);
+    top: 32%;
+    left: 50%;
+    transform: translateX(-50%) !important;
+    z-index: 4000;
 } 
 
 .pera__size {
@@ -50,9 +56,6 @@
 }
 
 
-.postion__animation {
-    position: relative;
-}
 
 @keyframes text-animation {
     0% {
@@ -74,16 +77,13 @@
 
 /* responsive */
 
-/* @media (max-width: 400px) {
+@media (max-width: 400px) {
     .animation__main {
     height: 90px;
     overflow: hidden;
     position: absolute;
-    top: 118%;
-    left: 29%;
-        
     }
- } */
+ }
 
 @media (max-width: 400px) { 
     .pera__size {
@@ -92,8 +92,6 @@
     .animation__main {
         height: 48px;
         overflow: hidden;
-        top: 129%;
-        left: 27% !important;
     }
 
     .animation__item {
@@ -114,8 +112,6 @@
     .animation__main {
         height: 48px;
         overflow: hidden;
-        top: 129%;
-        left: 40%;
     }
  }
 
@@ -132,10 +128,14 @@
     .animation__main {
         height: 48px;
         overflow: hidden;
-        top: 129%;
-        left: 40%;
     }
-}
+
+    .animation__main {
+
+        top: 35%;
+
+    } 
+} 
 
 
 @media (max-width: 1199.98px) { 
@@ -146,8 +146,6 @@
     .animation__main {
         height: 48px;
         overflow: hidden;
-        top: 129%;
-        left:40%;
     }
  }
 
