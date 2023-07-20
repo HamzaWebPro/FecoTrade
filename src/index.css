@@ -7,6 +7,10 @@
     padding: 20px 0 0;
 } */
 
+/* back to top */
+.back-to-top-button {
+	z-index: 400 !important;
+}
 
 /* navbar */
  .show {
@@ -22,14 +26,20 @@
 }
 
 
+/* banner */
+
+.position {
+    position: relative;
+}
+
 .animation__main {
-    height: 90px;
+    height: 92px;
     overflow: hidden;
     position: absolute;
-    top: 118%;
-    left: 33%;
-     /* left: 20%; */
-    transform: translate(-50% -50%);
+    top: 32%;
+    left: 50%;
+    transform: translateX(-50%) !important;
+    z-index: 4000;
 } 
 
 .pera__size {
@@ -38,80 +48,122 @@
 
 .animation__item {
     font-size: 70px;
+    height: 92px;
+    line-height: 92px;
 }
 
 .text__animation {
-    animation: text-animation 6s infinite;
+    animation: text-animation 8s infinite;
     
 }
 
 
-.postion__animation {
-    position: relative;
-}
-
 @keyframes text-animation {
     0% {
-        margin-top: -8px;
+        margin-top: -5px;
     }
     25% {
         margin-top: -114px;
     }
     50% {
-        margin-top: -228px;
+        margin-top: -200px;
     }
     75% {
         margin-top: -114px;
     }
     100% {
-        margin-top: -8px;
+        margin-top: -5px;
     }
-}
+} 
 
 /* responsive */
 
-/* @media (max-width: 400px) {
-    .animation__main {
-    height: 90px;
-    overflow: hidden;
-    position: absolute;
-    top: 118%;
-    left: 29%;
-        
-    }
- } */
-
-@media (max-width: 400px) { 
+@media (min-width:300px) and (max-width:766px) { 
     .pera__size {
         padding-top: 30px;
     }
     .animation__main {
-        height: 48px;
+        height: 90px;
         overflow: hidden;
-        top: 129%;
-        left: 27% !important;
     }
 
     .animation__item {
         font-size: 24px;
+        height: 90px;
+        line-height: 90px !important;
     }
+    .animation__item:first-child {
+        font-size: 24px;
+        height: 90px;
+        line-height: 50px !important;
+    }
+    .animation__item:nth-child(2) {
+        font-size: 24px;
+        height: 90px;
+        line-height: 70px !important;
+
+    }
+    .animation__item:last-child {
+        font-size: 24px;
+        height: 90px;
+        line-height: 50px !important;
+    }
+
+    @keyframes text-animation {
+        0% {
+            margin-top: 0px;
+        }
+        25% {
+            margin-top: -114px;
+        }
+        50% {
+            margin-top: -220px;
+        }
+        75% {
+            margin-top: -114px;
+        }
+        100% {
+            margin-top: 0px;
+        }
+    } 
+    
+
  } 
 
 
 @media (max-width: 767.98px) { 
-    .animation__item {
-        font-size: 32px;
-    }
-
+    
     .pera__size {
         padding-top: 30px;
     }
 
     .animation__main {
-        height: 48px;
+        height: 90px;
         overflow: hidden;
-        top: 129%;
-        left: 40%;
+    }
+
+    .animation__item {
+        font-size: 32px;
+        height: 90px;
+        line-height: 90px;
+    }
+
+    @keyframes text-animation {
+        0% {
+            margin-top: 0px;
+        }
+        25% {
+            margin-top: -120px;
+        }
+        50% {
+            margin-top: -100px;
+        }
+        75% {
+            margin-top: -120px;
+        }
+        100% {
+            margin-top: 0px;
+        }
     }
  }
 
@@ -119,6 +171,8 @@
 @media (max-width: 991.98px) { 
     .animation__item {
         font-size: 32px;
+        height: 90px;
+        line-height: 90px;
     }
 
     .pera__size {
@@ -128,24 +182,69 @@
     .animation__main {
         height: 48px;
         overflow: hidden;
-        top: 129%;
-        left: 40%;
-    }
-}
-
-
-@media (max-width: 1199.98px) { 
-    .animation__item {
-        font-size: 40px;
     }
 
     .animation__main {
-        height: 48px;
-        overflow: hidden;
-        top: 129%;
-        left:40%;
+        top: 35%;
+
+    } 
+
+    @keyframes text-animation {
+        0% {
+            margin-top: -5px;
+        }
+        25% {
+            margin-top: -114px;
+        }
+        50% {
+            margin-top: -200px;
+        }
+        75% {
+            margin-top: -114px;
+        }
+        100% {
+            margin-top: -5px;
+        }
     }
+} 
+
+
+@media (min-width: 1199.98px) { 
+    .animation__item {
+        font-size: 70px;
+        height: 90px;
+        line-height: 90px;
+    }
+
+    .animation__main {
+        height: 90px;
+        overflow: hidden;
+    }
+
+    @keyframes text-animation {
+        0% {
+            margin-top: -5px;
+        }
+        25% {
+            margin-top: -114px;
+        }
+        50% {
+            margin-top: -200px;
+        }
+        75% {
+            margin-top: -114px;
+        }
+        100% {
+            margin-top: -5px;
+        }
+    } 
+    
+
  }
+/* @media(min-width: 1399.98px) { 
+
+    
+ } */
 
 
 

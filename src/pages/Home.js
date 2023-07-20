@@ -180,17 +180,18 @@ function Home() {
       </video>
 
       
-      <div className="container">
+      <div className="container position">
+      <span className=" animation__main ">
+                <h2 className="text__animation animation__item text-warning">Trading</h2>
+                <h2 className="animation__item  text-warning">Mining</h2>
+                <h2 className="animation__item text-warning">Staking</h2>
+             </span>
         <div className="row align-items-center">
           <div className="col-12 text-center postion__animation">
             {/* text aniamtion */} 
             <h2 className="banner-sub-heading">Welcome to Our Ecosystem</h2>
             <h1 className="col-lg-9 mx-auto mb-5">Best Platform for Crypto
-            <span className=" animation__main ">
-                <h2 className="text__animation animation__item text-warning">Trading</h2>
-                <h2 className="animation__item  text-warning">Mining</h2>
-                <h2 className="animation__item text-warning">Staking</h2>
-             </span>
+            
             </h1>
             <p className="pera__size text text-primary banner-small-text col-lg-6 mx-auto mt-5">
               Fecotrade is one of the largest cryptocurrency trading platform in the world who offers a robust selection of trading options and features.
