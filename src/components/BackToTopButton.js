@@ -3,7 +3,7 @@ import { FaArrowUp } from 'react-icons/fa';
  // Import the CSS file for styling (create it separately)
 
 const BackToTopButton = () => {
-  const [isVisible, setIsVisible] = useState(false);
+  const [isVisible, setIsVisible] = useState(true);
 
   const handleScroll = () => {
     const scrollTop = window.pageYOffset;
