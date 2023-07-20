@@ -1,7 +1,7 @@
 import React, { useEffect, useState, useRef } from 'react';
 import { NavLink } from 'react-router-dom';
 
-import Logo from './../assets/images/logo.png';
+import Logo from './../assets/favicon-01.png';
 import LogoWhite from './../assets/images/logo-white.png';
 
 
@@ -62,9 +62,10 @@ function Header() {
   return (
     <>
       <header className={`site-header mo-left header ${!headerVisible ? '' : 'is-fixed bg-red'}`} ref={divRef}>
-        <div className={`sticky-header  main-bar-wraper navbar-expand-lg`}>
-          <div className={`main-bar clearfix`}>
-            <div className="container clearfix">
+        <div className={`sticky-header  main-bar-wraper
+        ] navbar-expand-lg`}>
+          <div className={`main-bar clearfix bg-black`}>
+            <div className="container clearfix ">
               <div className="logo-header">
                 <NavLink to="/" className={headerVisible ? 'logo-dark' : 'logo-light'}>
                   <img src={headerVisible ? "https://i.postimg.cc/q7YnjMdw/logo.png" : "https://i.postimg.cc/q7YnjMdw/logo.png"} alt="" />
@@ -83,10 +84,10 @@ function Header() {
               <div className={`header-nav navbar-collapse collapse justify-content-end ${sidebarOpen ? 'show' : ''}`} id="navbarNavDropdown">
                 <div className="logo-header mostion">
                   <NavLink to="#" className="logo-dark">
-                    <img style={{width: "200px"}} src={`https://i.postimg.cc/q7YnjMdw/logo.png`} alt="" />
+                    {/* <img style={{width: "200px"}} src={`https://i.postimg.cc/q7YnjMdw/logo.png`} alt="" /> */}
                   </NavLink>
                 </div>
-                <ul className="nav navbar-nav navbar">
+                <ul className="nav navbar-nav navbar text-warning">
                   <li>
                     <NavLink
                       to="/"
