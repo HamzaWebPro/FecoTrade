@@ -57,7 +57,7 @@ function Footer(){
                                         <div className="widget-post clearfix">
                                             <div className="dz-info">
                                                 <h6 className="title"><Link to={"/blog-details"}>A cryptocurrency is a digital currency.</Link></h6>
-                                                <span className="post-date"> AUGUST 22, 2023</span>
+                                                <span className="post-date"> June 20, 2023</span>
                                             </div>
                                         </div>
                                     </div>
