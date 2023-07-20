@@ -21,6 +21,12 @@ import bloglg from './../assets/images/blog/blog-ig.png';
 import avatar3 from './../assets/images/avatar/avatar3.jpg';
 import OurTeam from './OurTeam';
 
+import aboutImg from "./../assets/images/home-banner/image_processing20210908-24724-i7p381.gif";
+
+import { LiaDatabaseSolid } from "react-icons/lia";
+import { TfiWorld } from "react-icons/tfi";
+
+
 const ImageBox = ({ image, changeClass }) => {
     return (
 
@@ -50,12 +56,7 @@ function AboutUs() {
                             <div className="col-lg-6">
                                 <div className="dz-media">
                                     <div className="row align-items-end">
-                                        <ImageBox image={about4} changeClass="image-box-1" />
-                                        <ImageBox image={about2} changeClass="image-box-2" />
-                                    </div>
-                                    <div className="row">
-                                        <ImageBox image={about3} changeClass="image-box-3" />
-                                        <ImageBox image={about1} changeClass="image-box-4" />
+                                        <img src={aboutImg} alt="" />
                                     </div>
                                 </div>
                             </div>
@@ -64,15 +65,25 @@ function AboutUs() {
                                     <h2 className="title">Best Platform for Crypto Trading, Mining and Staking!</h2>
                                     <p className="m-0 lh-base">Fecotrade is affordable and easy-to-use cloud mining service. We have the cheapest source of renewable electricity in the world. If you’re looking to mine Crypto asset, We are a great choice, allowing you to mine cryptocurrencies without owning any equipment.
                                     </p>
-                                    <p>
-                                    Fectotrade is a Russian - registered fintech company with an extensive ecosystem of crypto asset management services. The main activity of the company are cryptocurrency mining, staking and trading. Our team consists of professional traders with real experience and high profit rates. 
-                                    Unique trading strategies allow our clients to receive high stable profits against their funds.
-                                    </p>
-                                <h2>Our Mission</h2>
-                                <p>Fectotrade is a Russian - registered fintech company with an extensive ecosystem of crypto asset management services. The main activity of the company are cryptocurrency mining, staking and trading. Our team consists of professional traders with real experience and high profit rates. 
-                                Unique trading strategies allow our clients to receive high stable profits against their funds.</p>
                                 </div>
-                                <Link to={"https://auth.fecotrade.com/register"} className="btn btn-lg btn-primary btn-shadow text-uppercase">Start Mining</Link>
+                                <div>
+                                    <ul>
+                                        <li className='d-flex align-items-center mb-3'>
+                                            <div className='text-black p-3 bg-white rounded-circle mr-5'><LiaDatabaseSolid  style={{fontSize: "25px", width:"25px", height:"25px"}}/></div>
+                                            <div style={{marginLeft: "20px"}}>
+                                                <p className='about-blog-title'>Our Mission</p>
+                                                <p className='about-descrip'>Our mission is to facilitate investors' access to sustainable profits with the most advanced investment tools and dynamic techniques.</p>
+                                            </div>
+                                        </li>
+                                        <li className='d-flex align-items-center'>
+                                            <div className='text-black p-3 bg-white rounded-circle mr-5'><TfiWorld  style={{fontSize: "25px", width:"25px", height:"25px"}}/></div>
+                                            <div style={{marginLeft: "20px"}}>
+                                                <p className='about-blog-title'>World Wide Service</p>
+                                                <p className='about-descrip'>Our vision on growing sustainable production for our investors.</p>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -162,7 +173,7 @@ function AboutUs() {
                         </div>
                     </div>
                 </section>
-             {/*   <section className="content-inner bg-white blog-wrapper">
+                {/*   <section className="content-inner bg-white blog-wrapper">
                     <img className="bg-shape1" src={Shape1} alt="" />
                     <div className="container">
                         <div className="row">

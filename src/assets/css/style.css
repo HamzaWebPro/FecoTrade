@@ -28491,3 +28491,18 @@ pre {
 #hoverd-color:hover {
   background-color: #f7ba00;
 }
+
+
+/* about section style */
+.about-blog-title{
+  margin-bottom: 0px;
+  font-weight: bold;
+  color: #F7BA00;
+}
+.about-descrip{
+  margin-bottom: 0px;
+}
+
+.countdown-background{
+  background-image: url("../../assets/images/background.jpg");
+}

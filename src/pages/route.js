@@ -12,6 +12,8 @@ import BlogGrid from "./BlogGrid";
 import BlogDetails from "./BlogDetails";
 import ContactUs from "./ContactUs";
 import BackToTopButton from "../components/BackToTopButton";
+import Staking from "./Staking";
+import Faq from "./Faq";
 
 function Index() {
   return (
@@ -23,6 +25,8 @@ function Index() {
           <Route path="/about-us" exact element={<AboutUs />} />
           <Route path="/pricing" exact element={<Pricing />} />
           <Route path="/blog-list" exact element={<BlogList />} />
+          <Route path="/staking" exact element={<Staking />} />
+          <Route path="/faq" exact element={<Faq />} />
           <Route path="/blog" exact element={<BlogGrid />} />
           <Route path="/blog-details" exact element={<BlogDetails />} />
           <Route path="/contact-us" exact element={<ContactUs />} />

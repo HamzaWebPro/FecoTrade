@@ -116,7 +116,7 @@ function Header() {
                   </li>
                   <li>
                     <NavLink
-                      to="/error"
+                      to="/staking"
                       onClick={() => handleNavLinkClick('Staking')}
                       className={activeLink === 'Staking' ? 'text-primary' : ''}
                     >
@@ -125,7 +125,7 @@ function Header() {
                   </li>
                   <li>
                     <NavLink
-                      to="/error2"
+                      to="/faq"
                       onClick={() => handleNavLinkClick('FAQ')}
                       className={activeLink === 'FAQ' ? 'text-primary' : ''}
                     >
