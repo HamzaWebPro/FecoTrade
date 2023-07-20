@@ -1,8 +1,7 @@
 import React, { useEffect, useState, useRef } from 'react';
 import { NavLink } from 'react-router-dom';
 
-import Logo from './../assets/favicon-01.png';
-import LogoWhite from './../assets/images/logo-white.png';
+
 
 
 function Header() {
@@ -117,18 +116,18 @@ function Header() {
                   </li>
                   <li>
                     <NavLink
-                      to="#"
-                      onClick={() => handleNavLinkClick('staking')}
-                      className={activeLink === 'staking' ? 'text-primary' : ''}
+                      to="/error"
+                      onClick={() => handleNavLinkClick('Staking')}
+                      className={activeLink === 'Staking' ? 'text-primary' : ''}
                     >
                       Staking
                     </NavLink>
                   </li>
                   <li>
                     <NavLink
-                      to="#"
-                      onClick={() => handleNavLinkClick('faq')}
-                      className={activeLink === 'faq' ? 'text-primary' : ''}
+                      to="/error"
+                      onClick={() => handleNavLinkClick('FAQ')}
+                      className={activeLink === 'FAQ' ? 'text-primary' : ''}
                     >
                       FAQ
                     </NavLink>
@@ -136,8 +135,8 @@ function Header() {
                   <li>
                     <NavLink
                       to="/contact-us"
-                      onClick={() => handleNavLinkClick('contact')}
-                      className={activeLink === 'contact' ? 'text-primary' : ''}
+                      onClick={() => handleNavLinkClick('Contact Us')}
+                      className={activeLink === 'Contact Us' ? 'text-primary' : ''}
                     >
                       Contact Us
                     </NavLink>
