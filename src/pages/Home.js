@@ -183,16 +183,7 @@ function Home() {
       <div className="container">
         <div className="row align-items-center">
           <div className="col-12 text-center postion__animation">
-            {/* text aniamtion */}
-<<<<<<< HEAD
-          <div className="col-3-lg animation__main">
-                <h2 className="text__animation animation__item text-warning pb-[20px]">Trading</h2>
-                <h2 className="animation__item  text-warning pb-[20px]">Mining</h2>
-                <h2 className="animation__item  text-warning pb-[20px]">Staking</h2>
-             </div>
-=======
-          
->>>>>>> b7058e9 (animation and mobile navbar issue fixed)
+            {/* text aniamtion */} (animation and mobile navbar issue fixed)
             <h2 className="banner-sub-heading">Welcome to Our Ecosystem</h2>
             <h1 className="col-lg-9 mx-auto mb-5">Best Platform for Crypto
             <span className=" animation__main ">
