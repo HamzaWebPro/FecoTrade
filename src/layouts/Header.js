@@ -86,12 +86,12 @@ function Header() {
                     {/* <img style={{width: "200px"}} src={`https://i.postimg.cc/q7YnjMdw/logo.png`} alt="" /> */}
                   </NavLink>
                 </div>
-                <ul className="nav navbar-nav navbar text-warning">
+                <ul className="nav navbar-nav navbar ">
                   <li>
                     <NavLink
                       to="/"
                       onClick={() => handleNavLinkClick('home')}
-                      className={activeLink === 'home' ? 'text-primary' : ''}
+                      className={activeLink === 'home' ? 'add' : ''}
                     >
                       Home
                     </NavLink>
@@ -125,7 +125,7 @@ function Header() {
                   </li>
                   <li>
                     <NavLink
-                      to="/error"
+                      to="/error2"
                       onClick={() => handleNavLinkClick('FAQ')}
                       className={activeLink === 'FAQ' ? 'text-primary' : ''}
                     >

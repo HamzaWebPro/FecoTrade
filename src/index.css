@@ -11,16 +11,16 @@
 /* navbar */
  .show {
     background-color: #000A !important;
-    
+    color: #000A !important;
  }
 
- /* .header-nav .nav > li > a {
-	color: #7E87BF !important;
-} */
 
-.add {
-    color: red;
+.header-nav .nav > li > a {
+	padding: 15px 0;
+	display: block;
+	color: #C1A96E !important;
 }
+
 
 .animation__main {
     height: 90px;
