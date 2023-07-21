@@ -28410,8 +28410,17 @@ pre {
   /* Lighter shade of purple */
   border-radius: 20px;
   padding: 15px;
+  margin: 40px 10px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
   /* Soft box shadow */
+}
+.countdown-background{
+  background-image: url("../../assets/images/background.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  border-radius: 10px;
 }
 
 
@@ -28503,6 +28512,3 @@ pre {
   margin-bottom: 0px;
 }
 
-.countdown-background{
-  background-image: url("../../assets/images/background.jpg");
-}

@@ -88,7 +88,7 @@ function Staking() {
                                     Join Today!
                                 </Link>
                             </div>
-                            <div className="col-lg-6 py-4">
+                            <div className="col-lg-6 py-4 countdown-background">
                                 <div className="countdown-wrapper">
                                     <div className="time-container mb-5">
                                         <h5 className="text-center mb-4">Staking Starts In</h5>

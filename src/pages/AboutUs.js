@@ -71,14 +71,14 @@ function AboutUs() {
                                         <li className='d-flex align-items-center mb-3'>
                                             <div className='text-black p-3 bg-white rounded-circle mr-5'><LiaDatabaseSolid  style={{fontSize: "25px", width:"25px", height:"25px"}}/></div>
                                             <div style={{marginLeft: "20px"}}>
-                                                <p className='about-blog-title'>Our Mission</p>
-                                                <p className='about-descrip'>Our mission is to facilitate investors' access to sustainable profits with the most advanced investment tools and dynamic techniques.</p>
+                                                <p className='about-blog-title'>Mission</p>
+                                                <p className='about-descrip'>Our mission is to facilitate investors' access to sustainable profits</p>
                                             </div>
                                         </li>
                                         <li className='d-flex align-items-center'>
                                             <div className='text-black p-3 bg-white rounded-circle mr-5'><TfiWorld  style={{fontSize: "25px", width:"25px", height:"25px"}}/></div>
                                             <div style={{marginLeft: "20px"}}>
-                                                <p className='about-blog-title'>World Wide Service</p>
+                                                <p className='about-blog-title'>Vision</p>
                                                 <p className='about-descrip'>Our vision on growing sustainable production for our investors.</p>
                                             </div>
                                         </li>

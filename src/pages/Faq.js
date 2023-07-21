@@ -53,7 +53,7 @@ const Faq = () => {
                                     We have collected the most detailed answers to frequently asked questions. If you have not found the answer to your question, please contact us.
                                 </p>
                             </div> */}
-                            <div className="">
+                            <div>
                                 {accordionData.map((data, index) => (
                                     <div
                                         className={`accordion-item ${activeIndex === index ? "active" : ""
