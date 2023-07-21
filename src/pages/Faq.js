@@ -40,50 +40,57 @@ const Faq = () => {
     const handleAccordion = (index) => {
         setActiveIndex(index === activeIndex ? null : index);
     };
-    return (
-        <>
-            <div className="page-content">
-                <PageLayout pageTitle="Faq" />
-                <div className="clearfix section-wrapper1 bg-primary-light">
-                    <div className="container">
-                        <div className="content-inner-1">
-                            {/* <div className="section-head text-center">
+
+    // const Accordion = ({ accordionData }) => {
+    //     const [activeIndex, setActiveIndex] = useState(null);
+
+    //     const handleAccordion = (index) => {
+    //         setActiveIndex((prevIndex) => (prevIndex === index ? null : index));
+    //     };
+        return (
+            <>
+                <div className="page-content">
+                    <PageLayout pageTitle="Faq" />
+                    <div className="clearfix section-wrapper1 bg-primary-light">
+                        <div className="container">
+                            <div className="content-inner-1">
+                                {/* <div className="section-head text-center">
                                 <h2 className="title">FAQ</h2>
                                 <p className="">
                                     We have collected the most detailed answers to frequently asked questions. If you have not found the answer to your question, please contact us.
                                 </p>
                             </div> */}
-                            <div>
-                                {accordionData.map((data, index) => (
-                                    <div
-                                        className={`accordion-item ${activeIndex === index ? "active" : ""
-                                            }`}
-                                        key={index}
-                                    >
+                                <div>
+                                    {accordionData.map((data, index) => (
                                         <div
-                                            className="accordion-title"
-                                            onClick={() => handleAccordion(index)}
+                                            className={`accordion-item ${activeIndex === index ? "active" : ""
+                                                }`}
+                                            key={index}
                                         >
-                                            <h3>{data.question}</h3>
-                                            <span
-                                                className={`accordion-icon ${activeIndex === index ? "active" : ""
-                                                    }`}
-                                            ></span>
-                                        </div>
-                                        {activeIndex === index && (
-                                            <div className="accordion-content">
-                                                <p>{data.answer}</p>
+                                            <div
+                                                className="accordion-title"
+                                                onClick={() => handleAccordion(index)}
+                                            >
+                                                <h3>{data.question}</h3>
+                                                <span
+                                                    className={`accordion-icon ${activeIndex === index ? "active" : ""
+                                                        }`}
+                                                ></span>
                                             </div>
-                                        )}
-                                    </div>
-                                ))}
+                                            {activeIndex === index && (
+                                                <div className="accordion-content">
+                                                    <p>{data.answer}</p>
+                                                </div>
+                                            )}
+                                        </div>
+                                    ))}
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </>
-    );
-};
+            </>
+        );
+    };
 
 export default Faq;

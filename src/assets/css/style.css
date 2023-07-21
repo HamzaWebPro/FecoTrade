@@ -28414,7 +28414,8 @@ pre {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
   /* Soft box shadow */
 }
-.countdown-background{
+
+.countdown-background {
   background-image: url("../../assets/images/background.jpg");
   background-repeat: no-repeat;
   background-position: center;
@@ -28503,12 +28504,13 @@ pre {
 
 
 /* about section style */
-.about-blog-title{
+.about-blog-title {
   margin-bottom: 0px;
   font-weight: bold;
   color: #F7BA00;
 }
-.about-descrip{
+
+.about-descrip {
   margin-bottom: 0px;
 }
 
