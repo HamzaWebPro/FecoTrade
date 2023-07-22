@@ -124,7 +124,7 @@ function Home() {
   };
 
   // count down timer functionality
-  const [targetDate, setTargetDate] = useState(new Date("2024-09-17T23:59:59"));
+  const [targetDate, setTargetDate] = useState(new Date("2023-08-20T23:59:59"));
   const [timeLeft, setTimeLeft] = useState(calculateTimeLeft());
 
   function calculateTimeLeft() {
@@ -422,7 +422,7 @@ function Home() {
               <div className="col-lg-6 about-content ps-lg-5 m-b30">
                 <div className="section-head">
                   <h2 className="title">
-                    FECOTRADE SPECIAL STAKING OPPORTUNITY!
+                    FECO TOKEN STAKING OPPORTUNITY!
                   </h2>
                   <p className="m-0 lh-base">
                     Fecotrade is a decentralized, algorithmic protocol for
