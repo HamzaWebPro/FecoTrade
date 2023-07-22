@@ -34,6 +34,7 @@ import { Parallax, useParallax } from "react-scroll-parallax";
 import FecoTradeEcoSystem from "../components/Home/FecoTradeEcoSystem";
 import { BsArrowDownCircle } from "react-icons/bs";
 import OurTeam from "./OurTeam";
+import Faq from "./Faq";
 
 const trustBlog = [
   {
@@ -93,7 +94,7 @@ function Home() {
       answer:
         "Fecotrade is the pioneer solution for anyone who wants to get involved in cryptocurrency mining. With its powerful algorithms and easy-to-use interface, Fecotrade is the perfect way to start earning cryptocurrency directly from your browser.",
     },
-     {
+    {
       question: "Is there any autorun and smart CPU controller?",
       answer:
         "Effortlessly increase your earnings with Fecotrade's autorun and smart CPU controller. Our application is easy to install and will run automatically using your computer's free CPU resources to generate profits.",
@@ -103,12 +104,12 @@ function Home() {
       answer:
         "Your funds and account are secured with our advanced security features. No one can access your newly mined bitcoins except you.",
     },
-      {
+    {
       question: "Do you use advance hardware for mining?",
       answer:
         "We are using the latest hardware like ASIC Miner & Mining rigs to ensure a high-speed mining experience in a cost-effective manner",
     },
-        {
+    {
       question: "Can I have more than one account?",
       answer:
         "No, Absolutely Not! Since We give Generation Commission and Many Bonuses for all of our users, You can not register more than ONE account with One email and One Device even for your family. If we find more than one account for a user, We will block all of that user accounts without any warning.",
@@ -159,67 +160,70 @@ function Home() {
   const totalSeconds =
     days * 24 * 60 * 60 + hours * 60 * 60 + minutes * 60 + seconds;
 
-  const progressBarWidth = `${(((totalSeconds / (60 * 60 * 24)) * 100).toFixed(2)) / 100}%`;
+  const progressBarWidth = `${
+    ((totalSeconds / (60 * 60 * 24)) * 100).toFixed(2) / 100
+  }%`;
 
   console.log(progressBarWidth, "kk");
   return (
     <>
-    
       <div className="page-content">
-        
-      <div className="main-bnr style-1">
-      <div className="video-overlay"></div> {/* Add the overlay div */}
-      <video
-        className="banner-video"
-        autoPlay
-        loop
-        muted
-        poster="path_to_video_poster_image"
-      >
-        <source src="https://cdn.dribbble.com/userupload/4060992/file/original-18cd5cd4f56b7238b424f309081a2ef9.mp4" type="video/mp4" />
-      </video>
-
-      
-      <div className="container position">
-      <span className=" animation__main ">
-                <h2 className="text__animation animation__item text-warning">Trading</h2>
-                <h2 className="animation__item  text-warning">Mining</h2>
-                <h2 className="animation__item text-warning">Staking</h2>
-             </span>
-        <div className="row align-items-center">
-          <div className="col-12 text-center postion__animation">
-            {/* text aniamtion */} 
-            <h2 className="banner-sub-heading">Welcome to Our Ecosystem</h2>
-            <h1 className="col-lg-9 mx-auto mb-5">Best Platform for Crypto
-            
-            </h1>
-            <p className="pera__size text text-primary banner-small-text col-lg-6 mx-auto mt-5">
-              Fecotrade is one of the largest cryptocurrency trading platform in the world who offers a robust selection of trading options and features.
-            </p>
-            {/* <a
+        <div className="main-bnr style-1">
+          <div className="video-overlay"></div> {/* Add the overlay div */}
+          <video
+            className="banner-video"
+            autoPlay
+            loop
+            muted
+            poster="path_to_video_poster_image"
+          >
+            <source
+              src="https://cdn.dribbble.com/userupload/4060992/file/original-18cd5cd4f56b7238b424f309081a2ef9.mp4"
+              type="video/mp4"
+            />
+          </video>
+          <div className="container position">
+            <span className=" animation__main ">
+              <h2 className="text__animation animation__item text-warning">
+                Trading
+              </h2>
+              <h2 className="animation__item  text-warning">Mining</h2>
+              <h2 className="animation__item text-warning">Staking</h2>
+            </span>
+            <div className="row align-items-center">
+              <div className="col-12 text-center postion__animation">
+                {/* text aniamtion */}
+                <h2 className="banner-sub-heading">Welcome to Our Ecosystem</h2>
+                <h1 className="col-lg-9 mx-auto mb-5">
+                  Best Platform for Crypto
+                </h1>
+                <p className="pera__size text text-primary banner-small-text col-lg-6 mx-auto mt-5">
+                  Fecotrade is one of the largest cryptocurrency trading
+                  platform in the world who offers a robust selection of trading
+                  options and features.
+                </p>
+                {/* <a
               href="https://auth.fecotrade.com/register"
               className="btn space-lg btn-gradient btn-shadow btn-primary"
             >
               Get Started
             </a> */}
-            <ul className="image-before">
-              <li className="left-img">
-                <img src={baner1} alt="" />
-              </li>
-              <li className="right-img">
-                <img src={baner2} alt="" />
-              </li>
-            </ul>
+                <ul className="image-before">
+                  <li className="left-img">
+                    <img src={baner1} alt="" />
+                  </li>
+                  <li className="right-img">
+                    <img src={baner2} alt="" />
+                  </li>
+                </ul>
+              </div>
+            </div>
           </div>
+          <img className="bg-shape1" src={Shape1} alt="" />
+          <img className="bg-shape2" src={Shape1} alt="" />
+          <img className="bg-shape3" src={Shape3} alt="" />
+          <img className="bg-shape4" src={Shape3} alt="" />
         </div>
-      </div>
-      <img className="bg-shape1" src={Shape1} alt="" />
-      <img className="bg-shape2" src={Shape1} alt="" />
-      <img className="bg-shape3" src={Shape3} alt="" />
-      <img className="bg-shape4" src={Shape3} alt="" />
-    </div>
-
-
 
         <div className="clearfix bg-primary-light">
           <div className="container">
@@ -246,7 +250,7 @@ function Home() {
                     Leading Platform for Cryptocurrency Mining!
                   </h2>
                   <p className="m-0 lh-base">
-                   Fectotrade is a Russian - registered fintech company with an
+                    Fectotrade is a Russian - registered fintech company with an
                     extensive ecosystem of crypto asset management services. The
                     main activity of the company are cryptocurrency mining,
                     staking and trading. Our team consists of professional
@@ -307,7 +311,13 @@ function Home() {
           <div className="container">
             <div className="section-head text-center">
               <h2 className="title">Most Amazing Features</h2>
-              <p>Fecotrade exists to improve your systematic trading profitability and to help you succeed at a career in quantitative finance. And you don't need to learn any complicated financial trading skills, all of this is done by our expert team.</p>
+              <p>
+                Fecotrade exists to improve your systematic trading
+                profitability and to help you succeed at a career in
+                quantitative finance. And you don't need to learn any
+                complicated financial trading skills, all of this is done by our
+                expert team.
+              </p>
             </div>
             <div className="row sp60">
               <OneStop />
@@ -386,13 +396,18 @@ function Home() {
             </form>
           </div>
         </div> */}
-        
+
         <img className="bg-shape1" src={Shape1} alt="" />
         <section className="content-inner bg-light icon-section section-wrapper2">
           <div className="container">
             <div className="section-head text-center">
               <h2 className="title">Fecotrade Ecosystem</h2>
-              <p>Our plan is to create a highly scalable, decentralized, permissionless and open-source platform used to build crypto DApps. Fecotrade blockchain ecosystem will consist the following products.</p>
+              <p>
+                Our plan is to create a highly scalable, decentralized,
+                permissionless and open-source platform used to build crypto
+                DApps. Fecotrade blockchain ecosystem will consist the following
+                products.
+              </p>
             </div>
             <div className="row sp60">
               <FecoTradeEcoSystem />
@@ -400,18 +415,20 @@ function Home() {
           </div>
           <img className="bg-shape1" src={Shape1} alt="" />
         </section>
-          
+
         <section className="content-inner about-sec bg-primary-light">
           <div className="container">
             <div className="row about-bx2 style-1 align-items-center">
-            <div className="col-lg-6 about-content ps-lg-5 m-b30">
+              <div className="col-lg-6 about-content ps-lg-5 m-b30">
                 <div className="section-head">
                   <h2 className="title">
-                    FECOTRADE SPECIAL STAKING OPPORTUNITY! 
+                    FECOTRADE SPECIAL STAKING OPPORTUNITY!
                   </h2>
                   <p className="m-0 lh-base">
-                   Fecotrade is a decentralized, algorithmic protocol for mining, staking, and trading assets, that operates on the Fecotrade Network. 
-          We're going to live the staking features for our registered users soon.
+                    Fecotrade is a decentralized, algorithmic protocol for
+                    mining, staking, and trading assets, that operates on the
+                    Fecotrade Network. We're going to live the staking features
+                    for our registered users soon.
                   </p>
                 </div>
                 <Link
@@ -422,35 +439,36 @@ function Home() {
                 </Link>
               </div>
               <div className="col-lg-6 py-4">
-                
-              <div className="countdown-wrapper">
-              <div className="time-container mb-5">
-                <h5 className="text-center mb-4">Staking Starts In</h5>
-                 <div className="d-flex justify-content-around ">
-                 <div className="time d-flex flex-column justify-content-center align-items-center mb-0">
-                    <h3 className="value mb-0">{formatTime(days)}</h3>
-                    <div className="label">Days</div>
+                <div className="countdown-wrapper">
+                  <div className="time-container mb-5">
+                    <h5 className="text-center mb-4">Staking Starts In</h5>
+                    <div className="d-flex justify-content-around ">
+                      <div className="time d-flex flex-column justify-content-center align-items-center mb-0">
+                        <h3 className="value mb-0">{formatTime(days)}</h3>
+                        <div className="label">Days</div>
+                      </div>
+                      <div className="time d-flex flex-column justify-content-center align-items-center mb-0">
+                        <h3 className="value mb-0">{formatTime(hours)}</h3>
+                        <span className="label">Hours</span>
+                      </div>
+                      <div className="time d-flex flex-column justify-content-center align-items-center mb-0">
+                        <h3 className="value mb-0">{formatTime(minutes)}</h3>
+                        <span className="label">Minutes</span>
+                      </div>
+                      <div className="time d-flex flex-column justify-content-center align-items-center mb-0">
+                        <h3 className="value mb-0">{formatTime(seconds)}</h3>
+                        <span className="label">Seconds</span>
+                      </div>
+                    </div>
                   </div>
-                  <div className="time d-flex flex-column justify-content-center align-items-center mb-0">
-                    <h3 className="value mb-0">{formatTime(hours)}</h3>
-                    <span className="label">Hours</span>
+                  <div className="progress-bar">
+                    <div
+                      className="progress"
+                      style={{ width: progressBarWidth }}
+                    ></div>
                   </div>
-                  <div className="time d-flex flex-column justify-content-center align-items-center mb-0">
-                    <h3 className="value mb-0">{formatTime(minutes)}</h3>
-                    <span className="label">Minutes</span>
-                  </div>
-                  <div className="time d-flex flex-column justify-content-center align-items-center mb-0">
-                    <h3 className="value mb-0">{formatTime(seconds)}</h3>
-                    <span className="label">Seconds</span>
-                  </div>
-                 </div>
-                </div>
-                <div className="progress-bar">
-                  <div className="progress" style={{ width: progressBarWidth }}></div>
                 </div>
               </div>
-              </div>
-             
             </div>
           </div>
           <img className="bg-shape1" src={Shape1} alt="" />
@@ -471,20 +489,27 @@ function Home() {
           </div>
         </section>
         */}
-       {/*  <section className="clearfix section-wrapper1 bg-primary-light">
+        <section className="clearfix section-wrapper1 bg-primary-light">
           <div className="container">
             <div className="content-inner-1">
               <div className="section-head text-center">
                 <h2 className="title">FAQ</h2>
                 <p className="">
-                 We have collected the most detailed answers to frequently asked questions. If you have not found the answer to your question, please contact us.
+                  We have collected the most detailed answers to frequently
+                  asked questions. If you have not found the answer to your
+                  question, please contact us.
                 </p>
               </div>
-              <div className="">
+   
+
+              <Faq/>
+
+              {/* <div className="row">
                 {accordionData.map((data, index) => (
                   <div
-                    className={`accordion-item ${activeIndex === index ? "active" : ""
-                      }`}
+                    className={`accordion-item ${
+                      activeIndex === index ? "active" : ""
+                    } col-lg-6 `}
                     key={index}
                   >
                     <div
@@ -493,8 +518,9 @@ function Home() {
                     >
                       <h3>{data.question}</h3>
                       <span
-                        className={`accordion-icon ${activeIndex === index ? "active" : ""
-                          }`}
+                        className={`accordion-icon ${
+                          activeIndex === index ? "active" : ""
+                        }`}
                       ></span>
                     </div>
                     {activeIndex === index && (
@@ -504,12 +530,12 @@ function Home() {
                     )}
                   </div>
                 ))}
-              </div>
+              </div> */}
             </div>
           </div>
-        </section> */}
+        </section>
 
-       {/*  <section className="content-inner bg-white blog-wrapper">
+        {/*  <section className="content-inner bg-white blog-wrapper">
           <img className="bg-shape1" src={Shape1} alt="" />
           <div className="container">
             <div className="row">
