@@ -37,34 +37,34 @@ const Faq = () => {
         },
 
     ];
-    const handleAccordion = (index) => {
-        setActiveIndex(index === activeIndex ? null : index);
-    };
+    // const handleAccordion = (index) => {
+    //     setActiveIndex(index === activeIndex ? null : index);
+    // };
 
     // const Accordion = ({ accordionData }) => {
     //     const [activeIndex, setActiveIndex] = useState(null);
 
-    //     const handleAccordion = (index) => {
-    //         setActiveIndex((prevIndex) => (prevIndex === index ? null : index));
-    //     };
+        const handleAccordion = (index) => {
+            setActiveIndex((prevIndex) => (prevIndex === index ? null : index));
+        };
         return (
             <>
                 <div className="page-content">
                     <PageLayout pageTitle="Faq" />
                     <div className="clearfix section-wrapper1 bg-primary-light">
                         <div className="container">
-                            <div className="content-inner-1">
+                            {/* <div className="content-inner-1"> */}
                                 {/* <div className="section-head text-center">
                                 <h2 className="title">FAQ</h2>
                                 <p className="">
                                     We have collected the most detailed answers to frequently asked questions. If you have not found the answer to your question, please contact us.
                                 </p>
                             </div> */}
-                                <div>
+                                <div className='row'>
                                     {accordionData.map((data, index) => (
                                         <div
                                             className={`accordion-item ${activeIndex === index ? "active" : ""
-                                                }`}
+                                                } col-6`}
                                             key={index}
                                         >
                                             <div
@@ -84,7 +84,7 @@ const Faq = () => {
                                             )}
                                         </div>
                                     ))}
-                                </div>
+                                {/* </div> */}
                             </div>
                         </div>
                     </div>
