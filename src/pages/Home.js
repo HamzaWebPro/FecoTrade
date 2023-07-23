@@ -34,7 +34,6 @@ import { Parallax, useParallax } from "react-scroll-parallax";
 import FecoTradeEcoSystem from "../components/Home/FecoTradeEcoSystem";
 import { BsArrowDownCircle } from "react-icons/bs";
 import OurTeam from "./OurTeam";
-import Faq from "./Faq";
 
 const trustBlog = [
   {
@@ -124,7 +123,7 @@ function Home() {
   };
 
   // count down timer functionality
-  const [targetDate, setTargetDate] = useState(new Date("2023-08-20T23:59:59"));
+  const [targetDate, setTargetDate] = useState(new Date("2024-09-17T23:59:59"));
   const [timeLeft, setTimeLeft] = useState(calculateTimeLeft());
 
   function calculateTimeLeft() {
@@ -160,20 +159,14 @@ function Home() {
   const totalSeconds =
     days * 24 * 60 * 60 + hours * 60 * 60 + minutes * 60 + seconds;
 
-  const progressBarWidth = `${
-    ((totalSeconds / (60 * 60 * 24)) * 100).toFixed(2) / 100
-  }%`;
+  const progressBarWidth = `${(((totalSeconds / (60 * 60 * 24)) * 100).toFixed(2)) / 100}%`;
 
   console.log(progressBarWidth, "kk");
   return (
     <>
-<<<<<<< HEAD
 
       <div className="page-content">
 
-=======
-      <div className="page-content">
->>>>>>> b904fbf81d009bdc594a913c96adbb8e64033a28
         <div className="main-bnr style-1">
           <div className="video-overlay"></div> {/* Add the overlay div */}
           <video
@@ -183,7 +176,6 @@ function Home() {
             muted
             poster="path_to_video_poster_image"
           >
-<<<<<<< HEAD
             <source src="https://cdn.dribbble.com/userupload/4060992/file/original-18cd5cd4f56b7238b424f309081a2ef9.mp4" type="video/mp4" />
           </video>
 
@@ -191,18 +183,6 @@ function Home() {
           <div className="container position">
             <span className=" animation__main ">
               <h2 className="text__animation animation__item text-warning">Trading</h2>
-=======
-            <source
-              src="https://cdn.dribbble.com/userupload/4060992/file/original-18cd5cd4f56b7238b424f309081a2ef9.mp4"
-              type="video/mp4"
-            />
-          </video>
-          <div className="container position">
-            <span className=" animation__main ">
-              <h2 className="text__animation animation__item text-warning">
-                Trading
-              </h2>
->>>>>>> b904fbf81d009bdc594a913c96adbb8e64033a28
               <h2 className="animation__item  text-warning">Mining</h2>
               <h2 className="animation__item text-warning">Staking</h2>
             </span>
@@ -210,21 +190,11 @@ function Home() {
               <div className="col-12 text-center postion__animation">
                 {/* text aniamtion */}
                 <h2 className="banner-sub-heading">Welcome to Our Ecosystem</h2>
-<<<<<<< HEAD
                 <h1 className="col-lg-9 mx-auto mb-5">Best Platform for Crypto
 
                 </h1>
                 <p className="pera__size text text-primary banner-small-text col-lg-6 mx-auto mt-5">
                   Fecotrade is one of the largest cryptocurrency trading platform in the world who offers a robust selection of trading options and features.
-=======
-                <h1 className="col-lg-9 mx-auto mb-5">
-                  Best Platform for Crypto
-                </h1>
-                <p className="pera__size text text-primary banner-small-text col-lg-6 mx-auto mt-5">
-                  Fecotrade is one of the largest cryptocurrency trading
-                  platform in the world who offers a robust selection of trading
-                  options and features.
->>>>>>> b904fbf81d009bdc594a913c96adbb8e64033a28
                 </p>
                 {/* <a
               href="https://auth.fecotrade.com/register"
@@ -248,11 +218,8 @@ function Home() {
           <img className="bg-shape3" src={Shape3} alt="" />
           <img className="bg-shape4" src={Shape3} alt="" />
         </div>
-<<<<<<< HEAD
 
 
-=======
->>>>>>> b904fbf81d009bdc594a913c96adbb8e64033a28
 
         <div className="clearfix bg-primary-light">
           <div className="container">
@@ -340,13 +307,7 @@ function Home() {
           <div className="container">
             <div className="section-head text-center">
               <h2 className="title">Most Amazing Features</h2>
-              <p>
-                Fecotrade exists to improve your systematic trading
-                profitability and to help you succeed at a career in
-                quantitative finance. And you don't need to learn any
-                complicated financial trading skills, all of this is done by our
-                expert team.
-              </p>
+              <p>Fecotrade exists to improve your systematic trading profitability and to help you succeed at a career in quantitative finance. And you don't need to learn any complicated financial trading skills, all of this is done by our expert team.</p>
             </div>
             <div className="row sp60">
               <OneStop />
@@ -431,12 +392,7 @@ function Home() {
           <div className="container">
             <div className="section-head text-center">
               <h2 className="title">Fecotrade Ecosystem</h2>
-              <p>
-                Our plan is to create a highly scalable, decentralized,
-                permissionless and open-source platform used to build crypto
-                DApps. Fecotrade blockchain ecosystem will consist the following
-                products.
-              </p>
+              <p>Our plan is to create a highly scalable, decentralized, permissionless and open-source platform used to build crypto DApps. Fecotrade blockchain ecosystem will consist the following products.</p>
             </div>
             <div className="row sp60">
               <FecoTradeEcoSystem />
@@ -451,21 +407,11 @@ function Home() {
               <div className="col-lg-6 about-content ps-lg-5 m-b30">
                 <div className="section-head">
                   <h2 className="title">
-<<<<<<< HEAD
                     FECOTRADE SPECIAL STAKING OPPORTUNITY!
                   </h2>
                   <p className="m-0 lh-base">
                     Fecotrade is a decentralized, algorithmic protocol for mining, staking, and trading assets, that operates on the Fecotrade Network.
                     We're going to live the staking features for our registered users soon.
-=======
-                    FECO TOKEN STAKING OPPORTUNITY!
-                  </h2>
-                  <p className="m-0 lh-base">
-                    Fecotrade is a decentralized, algorithmic protocol for
-                    mining, staking, and trading assets, that operates on the
-                    Fecotrade Network. We're going to live the staking features
-                    for our registered users soon.
->>>>>>> b904fbf81d009bdc594a913c96adbb8e64033a28
                   </p>
                 </div>
                 <Link
@@ -475,11 +421,7 @@ function Home() {
                   Join Today!
                 </Link>
               </div>
-<<<<<<< HEAD
               <div className="col-lg-6 py-4 countdown-background">
-=======
-              <div className="col-lg-6 py-4">
->>>>>>> b904fbf81d009bdc594a913c96adbb8e64033a28
                 <div className="countdown-wrapper">
                   <div className="time-container mb-5">
                     <h5 className="text-center mb-4">Staking Starts In</h5>
@@ -503,21 +445,11 @@ function Home() {
                     </div>
                   </div>
                   <div className="progress-bar">
-<<<<<<< HEAD
                     <div className="progress" style={{ width: progressBarWidth }}></div>
                   </div>
                 </div>
               </div>
 
-=======
-                    <div
-                      className="progress"
-                      style={{ width: progressBarWidth }}
-                    ></div>
-                  </div>
-                </div>
-              </div>
->>>>>>> b904fbf81d009bdc594a913c96adbb8e64033a28
             </div>
           </div>
           <img className="bg-shape1" src={Shape1} alt="" />
@@ -538,31 +470,20 @@ function Home() {
           </div>
         </section>
         */}
-<<<<<<< HEAD
         {/*  <section className="clearfix section-wrapper1 bg-primary-light">
-=======
-        <section className="clearfix section-wrapper1 bg-primary-light">
->>>>>>> b904fbf81d009bdc594a913c96adbb8e64033a28
           <div className="container">
             <div className="content-inner-1">
               <div className="section-head text-center">
                 <h2 className="title">FAQ</h2>
                 <p className="">
-                  We have collected the most detailed answers to frequently
-                  asked questions. If you have not found the answer to your
-                  question, please contact us.
+                 We have collected the most detailed answers to frequently asked questions. If you have not found the answer to your question, please contact us.
                 </p>
               </div>
-   
-
-              <Faq/>
-
-              {/* <div className="row">
+              <div className="">
                 {accordionData.map((data, index) => (
                   <div
-                    className={`accordion-item ${
-                      activeIndex === index ? "active" : ""
-                    } col-lg-6 `}
+                    className={`accordion-item ${activeIndex === index ? "active" : ""
+                      }`}
                     key={index}
                   >
                     <div
@@ -571,9 +492,8 @@ function Home() {
                     >
                       <h3>{data.question}</h3>
                       <span
-                        className={`accordion-icon ${
-                          activeIndex === index ? "active" : ""
-                        }`}
+                        className={`accordion-icon ${activeIndex === index ? "active" : ""
+                          }`}
                       ></span>
                     </div>
                     {activeIndex === index && (
@@ -583,10 +503,10 @@ function Home() {
                     )}
                   </div>
                 ))}
-              </div> */}
+              </div>
             </div>
           </div>
-        </section>
+        </section> */}
 
         {/*  <section className="content-inner bg-white blog-wrapper">
           <img className="bg-shape1" src={Shape1} alt="" />
