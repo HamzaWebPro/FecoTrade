@@ -22,7 +22,7 @@ const cardData = [
     image: service,
     title: "Affiliate Program",
     description:
-      "Smart affiliate program. Create an account with us and use your referral link to get up to 20% income from deposits of attracted referrals.",
+      "Smart affiliate program. Create an account with us and use your referral link to get up to 25% income from deposits of attracted referrals.",
   },
     {
     image: expertTeam,
