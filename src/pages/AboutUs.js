@@ -21,7 +21,7 @@ import bloglg from './../assets/images/blog/blog-ig.png';
 import avatar3 from './../assets/images/avatar/avatar3.jpg';
 import OurTeam from './OurTeam';
 
-import aboutImg from "./../assets/images/home-banner/image_processing20210908-24724-i7p381.gif";
+import aboutImg from "./../assets/images/home-banner/pic-feco.png";
 
 import { LiaDatabaseSolid } from "react-icons/lia";
 import { TfiWorld } from "react-icons/tfi";
