@@ -28,12 +28,14 @@ import about3 from "./../assets/images/home-banner/animated-home.gif";
 import about4 from "./../assets/images/home-banner/hardware-mining.gif";
 import about1 from "./../assets/images/home-banner/bitcoin-animation.gif";
 
-import aboutImg from "./../assets/images/home-banner/image_processing20210908-24724-i7p381.gif";
+import aboutImg from "./../assets/images/home-banner/icon.png";
 
 // import { Parallax, useParallax } from "react-scroll-parallax";
 import FecoTradeEcoSystem from "../components/Home/FecoTradeEcoSystem";
 import { BsArrowDownCircle } from "react-icons/bs";
 import OurTeam from "./OurTeam";
+
+import backgroundVideo from '../assets/videos/animation_video-1.mp4'
 
 const trustBlog = [
   {
@@ -176,7 +178,7 @@ function Home() {
             muted
             poster="path_to_video_poster_image"
           >
-            <source src="https://cdn.dribbble.com/userupload/4060992/file/original-18cd5cd4f56b7238b424f309081a2ef9.mp4" type="video/mp4" />
+            <source src={backgroundVideo} type="video/mp4" />
           </video>
 
 
