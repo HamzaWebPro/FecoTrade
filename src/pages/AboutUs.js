@@ -87,13 +87,13 @@ function AboutUs() {
                             </div>
                         </div>
                     </div>
-                    <img className="bg-shape1" src={Shape1} alt="" />
+                    {/* <img className="bg-shape1" src={Shape1} alt="" />
                     <img className="bg-shape2" src={Shape3} alt="" />
                     <img className="bg-shape3" src={Shape3} alt="" />
-                    <img className="bg-shape4" src={Shape3} alt="" />
+                    <img className="bg-shape4" src={Shape3} alt="" /> */}
                 </section>
                 <section className="content-inner p-0 bg-primary-light video-bx-wrapper">
-                    <img className="bg-shape1" src={Shape1} alt="" />
+                    {/* <img className="bg-shape1" src={Shape1} alt="" /> */}
                     <div className="container wow fadeInUp" data-wow-delay="0.4s">
                         <div className="video-bx style-1">
                             <div className="video-media">
@@ -129,7 +129,7 @@ function AboutUs() {
                         </div>
                     </div>
                 </section> */}
-                <section className="form-sec bg-light">
+                {/* <section className="form-sec bg-light">
                     <img className="bg-shape2" src={Shape1} alt="" />
 
                     <div className="container">
@@ -172,7 +172,7 @@ function AboutUs() {
                             </div>
                         </div>
                     </div>
-                </section>
+                </section> */}
                 {/*   <section className="content-inner bg-white blog-wrapper">
                     <img className="bg-shape1" src={Shape1} alt="" />
                     <div className="container">

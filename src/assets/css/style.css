@@ -5528,9 +5528,10 @@ fieldset:disabled .btn {
 .accordion-item {
   background-color: #F0F5FF;
   border: 1px solid rgba(0, 0, 0, 0.125);
+  padding: 0px;
 }
 
-/* .accordion-item:first-of-type {
+.accordion-item:first-of-type {
   border-top-left-radius: 0.375rem;
   border-top-right-radius: 0.375rem;
 }
@@ -5542,9 +5543,9 @@ fieldset:disabled .btn {
 
 .accordion-item:not(:first-of-type) {
   border-top: 0;
-} */
+}
 
-/* .accordion-item:last-of-type {
+.accordion-item:last-of-type {
   border-bottom-right-radius: 0.375rem;
   border-bottom-left-radius: 0.375rem;
 }
@@ -5557,7 +5558,7 @@ fieldset:disabled .btn {
 .accordion-item:last-of-type .accordion-collapse {
   border-bottom-right-radius: 0.375rem;
   border-bottom-left-radius: 0.375rem;
-} */
+}
 
 .accordion-body {
   padding: 1rem 1.25rem;

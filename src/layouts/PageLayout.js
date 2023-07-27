@@ -11,7 +11,7 @@ const PageLayout = ({pageTitle, desc}) =>{
             <div className="dz-bnr-inr style-1 text-center">
                 <div className="container">
                     <div className="dz-bnr-inr-entry">
-                        <h1>{pageTitle}</h1>
+                        <h1 className='text-uppercase'>{pageTitle}</h1>
                         {desc !== false  &&   
                             <p className="text">Best Platform for Crypto Trading, Mining and Staking!</p>                            
                         }
@@ -23,10 +23,10 @@ const PageLayout = ({pageTitle, desc}) =>{
                         </nav>
                     </div>
                 </div>                
-                <img className="bg-shape1" src={Shape1} alt="" />
+                {/* <img className="bg-shape1" src={Shape1} alt="" />
                 <img className="bg-shape2" src={Shape1} alt="" />
                 <img className="bg-shape3" src={Shape3} alt="" />
-                <img className="bg-shape4" src={Shape3} alt="" />
+                <img className="bg-shape4" src={Shape3} alt="" /> */}
             </div>
         </>
     )

@@ -12,9 +12,9 @@ const stakingIcon = <FaChartSimple size={50} />
 const tradingIcon = <FaHammer size={50} />
 
 const cardData = [
-    { icon: miningIcon, title: 'What is Mining?', description: 'Mining is like a process of validating a block on the chain network and getting paid in Crypto. ' },
-    { icon: stakingIcon, title: 'What is Staking?', description: 'Staking crypto means locking up coins to maintain the security of a blockchain network and earning rewards in return. ' },
-    { icon: tradingIcon, title: 'What is Trading', description: 'Cryptocurrency trading involves buying and selling digital assets to make a profit in many ways.' },
+    { icon: tradingIcon, title: 'What is Mining?', description: 'Mining is like a process of validating a block on the chain network and getting paid in Crypto. ' },
+    { icon: miningIcon, title: 'What is Staking?', description: 'Staking crypto means locking up coins to maintain the security of a blockchain network and earning rewards in return. ' },
+    { icon: stakingIcon, title: 'What is Trading', description: 'Cryptocurrency trading involves buying and selling digital assets to make a profit in many ways.' },
 ];
 
 function BannerCard() {

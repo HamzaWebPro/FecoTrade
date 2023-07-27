@@ -30,7 +30,7 @@ import about1 from "./../assets/images/home-banner/bitcoin-animation.gif";
 
 import aboutImg from "./../assets/images/home-banner/image_processing20210908-24724-i7p381.gif";
 
-import { Parallax, useParallax } from "react-scroll-parallax";
+// import { Parallax, useParallax } from "react-scroll-parallax";
 import FecoTradeEcoSystem from "../components/Home/FecoTradeEcoSystem";
 import { BsArrowDownCircle } from "react-icons/bs";
 import OurTeam from "./OurTeam";
@@ -75,10 +75,10 @@ function Home() {
   const [selecttext, setSelectText] = useState([coin4, "Bitcoin"]);
 
   // parallax
-  const parallax = useParallax({
-    easing: "easeOutQuad",
-    translateX: [-40, 20],
-  });
+  // const parallax = useParallax({
+  //   easing: "easeOutQuad",
+  //   translateX: [-40, 20],
+  // });
 
   // accordion faq data
 
@@ -161,7 +161,7 @@ function Home() {
 
   const progressBarWidth = `${(((totalSeconds / (60 * 60 * 24)) * 100).toFixed(2)) / 100}%`;
 
-  console.log(progressBarWidth, "kk");
+  // console.log(progressBarWidth, "kk");
   return (
     <>
 
@@ -213,10 +213,10 @@ function Home() {
               </div>
             </div>
           </div>
-          <img className="bg-shape1" src={Shape1} alt="" />
+          {/* <img className="bg-shape1" src={Shape1} alt="" />
           <img className="bg-shape2" src={Shape1} alt="" />
           <img className="bg-shape3" src={Shape3} alt="" />
-          <img className="bg-shape4" src={Shape3} alt="" />
+          <img className="bg-shape4" src={Shape3} alt="" /> */}
         </div>
 
 
@@ -264,10 +264,10 @@ function Home() {
               </div>
             </div>
           </div>
-          <img className="bg-shape1" src={Shape1} alt="" />
+          {/* <img className="bg-shape1" src={Shape1} alt="" />
           <img className="bg-shape2" src={Shape3} alt="" />
           <img className="bg-shape3" src={Shape3} alt="" />
-          <img className="bg-shape4" src={Shape3} alt="" />
+          <img className="bg-shape4" src={Shape3} alt="" /> */}
         </section>
         <section className="clearfix section-wrapper1 bg-primary-light">
           <div className="container">
@@ -279,7 +279,7 @@ function Home() {
                   function as a guide for you.
                 </p>
               </div>
-              <div className="row" ref={parallax.ref}>
+              <div className="row">
                 {trustBlog.map((data, ind) => (
                   <div className="col-lg-4 m-b30" key={ind}>
                     <div className="icon-bx-wraper style-2">
@@ -313,7 +313,7 @@ function Home() {
               <OneStop />
             </div>
           </div>
-          <img className="bg-shape1" src={Shape1} alt="" />
+          {/* <img className="bg-shape1" src={Shape1} alt="" /> */}
         </section>
 
         {/* <div className="container">
@@ -387,7 +387,7 @@ function Home() {
           </div>
         </div> */}
 
-        <img className="bg-shape1" src={Shape1} alt="" />
+        {/* <img className="bg-shape1" src={Shape1} alt="" /> */}
         <section className="content-inner bg-light icon-section section-wrapper2">
           <div className="container">
             <div className="section-head text-center">
@@ -398,7 +398,7 @@ function Home() {
               <FecoTradeEcoSystem />
             </div>
           </div>
-          <img className="bg-shape1" src={Shape1} alt="" />
+          {/* <img className="bg-shape1" src={Shape1} alt="" /> */}
         </section>
 
         <section className="content-inner about-sec bg-primary-light">
@@ -452,10 +452,10 @@ function Home() {
 
             </div>
           </div>
-          <img className="bg-shape1" src={Shape1} alt="" />
+          {/* <img className="bg-shape1" src={Shape1} alt="" />
           <img className="bg-shape2" src={Shape3} alt="" />
           <img className="bg-shape3" src={Shape3} alt="" />
-          <img className="bg-shape4" src={Shape3} alt="" />
+          <img className="bg-shape4" src={Shape3} alt="" /> */}
         </section>
         {/*
         <section className="content-inner bg-light icon-section section-wrapper2">

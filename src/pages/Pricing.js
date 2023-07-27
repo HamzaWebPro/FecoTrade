@@ -13,14 +13,14 @@ function Pricing(){
                 <PageLayout pageTitle="Mining Table" />
             </div>
             <section className="content-inner pricing-plan-wrapper bg-primary-light">
-                <img className="bg-shape2" src={Shap1} alt="" />
+                {/* <img className="bg-shape2" src={Shap1} alt="" />
                 <img className="bg-shape3" src={Shap1} alt="" />
                 <img className="bg-shape1" src={Shap3} alt="" />
                 <img className="bg-shape4" src={Shap3} alt="" />
-                <img className="bg-shape5" src={Shap3} alt="" />
+                <img className="bg-shape5" src={Shap3} alt="" /> */}
                 <div className="container">
                     <div className="section-head text-center">
-                        <h2 className="title">Awesome Mining Plan for Cryptocurrency Business</h2>
+                        <h2 className="title">Best Plan For Crypto Mining Opportunity</h2>
                     </div>
                     <div className="row justify-content-center">
                         <PriceBlog />
