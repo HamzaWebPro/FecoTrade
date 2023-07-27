@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import {useNavigate} from 'react-router-dom';
 
 import PageLayout from './../layouts/PageLayout';
 
@@ -86,7 +85,7 @@ function ContactUs(){
                                                     <div className="col-xl-12">
                                                         <button name="submit" type="submit" value="Submit" className="btn btn-primary" onClick={()=>setIsSubmit(true)}>Submit Now</button>
                                                         {isSubmit && 
-                                                            <div class="alert alert-success" role="alert">
+                                                            <div class="alert alert-success box" role="alert">
                                                             Thank You
                                                           </div>
                                                           
