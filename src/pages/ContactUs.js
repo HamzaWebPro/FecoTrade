@@ -1,14 +1,10 @@
-import React from 'react';
+import React, { useState } from 'react';
 import {useNavigate} from 'react-router-dom';
 
 import PageLayout from './../layouts/PageLayout';
 
 function ContactUs(){
-    const nav = useNavigate();
-    const submitHandler = (e) => {
-        e.preventDefault();
-        nav("/");
-    };
+    const [isSubmit, setIsSubmit] =useState(false)
     return(
         <>
             <div className="page-content">
@@ -63,7 +59,7 @@ function ContactUs(){
                                                 <h2 className="mb-0">Get In touch</h2>
                                                 <p className="mb-0 font-18 text-primary">We are here for you. How we can help?</p>
                                             </div>
-                                            <form className="dzForm" onSubmit={(e) => submitHandler(e)}>
+                                            <form className="dzForm" onSubmit={(e) => e.preventDefault()}>
                                                 <div className="dzFormMsg"></div>
                                                 <input type="hidden" className="form-control" name="dzToDo" value="Contact" />
                                                 
@@ -88,7 +84,13 @@ function ContactUs(){
                                                         <input className="form-control d-none" style="display:none;" data-recaptcha="true"  data-error="Please complete the Captcha" />
                                                     </div> */}
                                                     <div className="col-xl-12">
-                                                        <button name="submit" type="submit" value="Submit" className="btn btn-primary">Submit Now</button>								
+                                                        <button name="submit" type="submit" value="Submit" className="btn btn-primary" onClick={()=>setIsSubmit(true)}>Submit Now</button>
+                                                        {isSubmit && 
+                                                            <div class="alert alert-success" role="alert">
+                                                            Thank You
+                                                          </div>
+                                                          
+                                                        }						
                                                     </div>
                                                 </div>
                                             </form>
