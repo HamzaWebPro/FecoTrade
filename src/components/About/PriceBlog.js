@@ -72,7 +72,6 @@ const PriceBlog = () => {
             }}
           >
             <div className="pricingtable-inner">
-              {data.content}
               <h4 className="pricingtable-title">
                 {index === 0 ? (
                   // <svg
