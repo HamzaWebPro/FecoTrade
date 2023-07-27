@@ -1,9 +1,39 @@
 import React, { useState } from 'react';
 
 import PageLayout from './../layouts/PageLayout';
+const initialValues = {
+    email: "",
+    fullName: "",
+    password: "",
+  }
 
 function ContactUs(){
-    const [isSubmit, setIsSubmit] =useState(false)
+    const [isSubmit, setIsSubmit] = useState(false)
+    const [values, setValues] = useState(initialValues);
+
+    const handleValues = (e) =>{
+        setValues({
+          [e.target.name]: e.target.value
+        })
+      }
+
+    const handleSubmit = ()=> {
+        setIsSubmit(true)
+
+        setValues({
+            email: "",
+            fullName: "",
+            password: "",
+            fname: "",
+            lname: "",
+            num: "",
+            msg: ""
+          })
+    }
+
+    
+
+      
     return(
         <>
             <div className="page-content">
@@ -64,29 +94,29 @@ function ContactUs(){
                                                 
                                                 <div className="row">
                                                     <div className="col-xl-6 mb-3 mb-md-4">
-                                                        <input name="dzFirstName"  type="text" className="form-control" placeholder="First Name" />
+                                                        <input name="dzFirstName"  type="text" className="form-control" placeholder="First Name"  value={values.fname} onChange={handleValues} />
                                                     </div>
                                                     <div className="col-xl-6 mb-3 mb-md-4">
-                                                        <input name="dzLastName" type="text" className="form-control" placeholder="Last Name" />
+                                                        <input name="dzLastName" type="text" className="form-control" placeholder="Last Name" value={values.lname} onChange={handleValues} />
                                                     </div>
                                                     <div className="col-xl-6 mb-3 mb-md-4">
-                                                        <input name="dzEmail"  type="text" className="form-control" placeholder="Email Address" />
+                                                        <input name="dzEmail"  type="text" className="form-control" placeholder="Email Address" value={values.email} onChange={handleValues}/>
                                                     </div>
                                                     <div className="col-xl-6 mb-3 mb-md-4">
-                                                        <input name="dzPhoneNumber"  type="text" className="form-control" placeholder="Phone No." />
+                                                        <input name="dzPhoneNumber"  type="text" className="form-control" placeholder="Phone No."  value={values.num} onChange={handleValues} />
                                                     </div>
                                                     <div className="col-xl-12 mb-3 mb-md-4">
-                                                        <textarea name="dzMessage"  className="form-control" placeholder="Message"></textarea>
+                                                        <textarea name="dzMessage"  className="form-control" placeholder="Message" value={values.msg} onChange={handleValues} ></textarea>
                                                     </div>
                                                     {/* <div className="col-xl-12 mb-3 mb-md-4">
                                                         <div className="g-recaptcha" data-sitekey="6LefsVUUAAAAADBPsLZzsNnETChealv6PYGzv3ZN" data-callback="verifyRecaptchaCallback" data-expired-callback="expiredRecaptchaCallback"></div>
                                                         <input className="form-control d-none" style="display:none;" data-recaptcha="true"  data-error="Please complete the Captcha" />
                                                     </div> */}
                                                     <div className="col-xl-12">
-                                                        <button name="submit" type="submit" value="Submit" className="btn btn-primary" onClick={()=>setIsSubmit(true)}>Submit Now</button>
+                                                        <button name="submit" type="submit" value="Submit" className="btn btn-primary" onClick={handleSubmit}>Submit Now</button>
                                                         {isSubmit && 
-                                                            <div class="alert alert-success box" role="alert">
-                                                            Thank You
+                                                            <div class="alert alert-success col-lg-6 text-center mt-3" role="alert">
+                                                            Thank you for your message.
                                                           </div>
                                                           
                                                         }						
