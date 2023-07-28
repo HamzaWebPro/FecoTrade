@@ -11,7 +11,7 @@ function Footer() {
     return (
         <>
             <footer className="site-footer style-1" id="footer">
-                <img className="bg-shape1" src={shape1} alt="" />
+                {/* <img className="bg-shape1" src={shape1} alt="" /> */}
                 <div className="footer-top background-luminosity" style={{ backgroundImage: "url(" + bgimage + ")" }}>
                     <div className="container">
                         <div className="row">

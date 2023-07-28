@@ -16,7 +16,7 @@ const pricePlan = [
     title2: "Life-includes:",
     minimal: "1 MH/s",
     equip: "HashCoins SCRYPT",
-    dailyreleased: "3.97 Gala",
+    dailyreleased: "3.97 Doge",
     validity: "365 Days",
   },
   {
@@ -26,7 +26,7 @@ const pricePlan = [
     title2: "Everythings in Mercury",
     minimal: "10 GH/s",
     equip: "HashCoins SHA-256",
-    dailyreleased: "14.38 Gala",
+    dailyreleased: "14.38 Doge",
     validity: "365 Days",
   },
   {
@@ -35,7 +35,7 @@ const pricePlan = [
     title2: "Everythings in Uranus",
     minimal: "100 KH/s",
     equip: "GPU Rigs",
-    dailyreleased: "30.68 Gala",
+    dailyreleased: "30.68 Doge",
     validity: "365 Days",
   },
   {
@@ -44,7 +44,7 @@ const pricePlan = [
     title2: "Everythings in Neptune",
     minimal: "1 MH/s",
     equip: "Multi-Factor",
-    dailyreleased: "63.67 Gala",
+    dailyreleased: "63.67 Doge",
     validity: "365 Days",
   },
   {
@@ -53,7 +53,7 @@ const pricePlan = [
     title2: "Everythings in Pluto",
     minimal: "1 MH/s",
     equip: "Multi-Factor",
-    dailyreleased: "130.41 Gala",
+    dailyreleased: "130.41 Doge",
     validity: "365 Days",
   },
 ];

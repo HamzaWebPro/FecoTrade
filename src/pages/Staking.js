@@ -119,10 +119,10 @@ function Staking() {
 
                         </div>
                     </div>
-                    <img className="bg-shape1" src={Shape1} alt="" />
+                    {/* <img className="bg-shape1" src={Shape1} alt="" />
                     <img className="bg-shape2" src={Shape3} alt="" />
                     <img className="bg-shape3" src={Shape3} alt="" />
-                    <img className="bg-shape4" src={Shape3} alt="" />
+                    <img className="bg-shape4" src={Shape3} alt="" /> */}
                 </section>
             </div>
         </>
