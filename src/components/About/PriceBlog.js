@@ -236,7 +236,7 @@ const PriceBlog = () => {
                     {" "}
                     {data.price}
                   </h2>
-                  <small> GALA</small>
+                  <small>DOGE</small>
                 </div>
                 <a
                   className="text-white"

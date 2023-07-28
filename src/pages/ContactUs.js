@@ -52,7 +52,7 @@ function ContactUs(){
                                         <div className="widget widget_getintuch">
                                             <ul>
                                                 <li>
-                                                    <i className="fa fa-telegram"></i>
+                                                <i class="fa-brands fa-telegram"></i>
                                                     <span>@fecotrade</span> 
                                                 </li>
                                                 <li>
@@ -72,7 +72,7 @@ function ContactUs(){
                                         <h6>Our Socials</h6>
                                         <ul className="social-icon">
                                             <li><a className="social-btn" target="_blank" rel="noreferrer" href="https://www.facebook.com/"><i className="fa-brands fa-facebook-f"></i></a></li>
-                                            <li><a className="social-btn" target="_blank" rel="noreferrer" href="https://www.instagram.com/"><i className="fa-brands fa-instagram"></i></a></li>
+                                            <li><a className="social-btn" target="_blank" rel="noreferrer" href="https://t.me/fecotrade?fbclid=IwAR21inxpS5dtE-pXqB1kd1NWFWyQJFIiWf09Ig2WA8rUPs8hM9tYM7rGzhA"><i class="fa-brands fa-telegram"></i></a></li>
                                             <li><a className="social-btn" target="_blank" rel="noreferrer" href="https://twitter.com/"><i className="fa-brands fa-twitter"></i></a></li>
                                             <li><a className="social-btn" target="_blank" rel="noreferrer" href="https://youtube.com/"><i className="fab fa-youtube"></i></a></li>
                                         </ul>

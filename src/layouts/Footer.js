@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link} from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 //images
 import shape1 from './../assets/images/home-banner/shape1.png';
@@ -7,12 +7,12 @@ import bgimage from './../assets/images/background/bg1.jpg';
 import logowhite from './../assets/images/logo-white.png';
 import flags from './../assets/images/footer/world-map-with-flags1.png';
 
-function Footer(){
-    return(
+function Footer() {
+    return (
         <>
             <footer className="site-footer style-1" id="footer">
                 <img className="bg-shape1" src={shape1} alt="" />
-                <div className="footer-top background-luminosity" style={{backgroundImage: "url("+ bgimage +")"}}>
+                <div className="footer-top background-luminosity" style={{ backgroundImage: "url(" + bgimage + ")" }}>
                     <div className="container">
                         <div className="row">
                             <div className="col-xl-4 col-lg-12 col-md-12" >
@@ -43,7 +43,26 @@ function Footer(){
                                     </ul>
                                 </div>
                             </div>
-                            <div className="col-xl-3 col-lg-4 col-sm-6" >
+                            <div className="col-xl-3 col-lg-4 col-sm-12" >
+                                <div className="widget widget_services">
+                                    <h4 className="widget-title">Resourse</h4>
+                                    <ul>
+
+                                        <li><a className="social-btn" target="_blank" rel="noreferrer" href="https://auth.fecotrade.com/">Terms and Condition</a></li>
+                                        <li><a className="social-btn" target="_blank" rel="noreferrer" href="https://www.coingecko.com/?fbclid=IwAR1zuixhjC1Ecnl7CdgUcnladTsgrlW97cYVAJ0_vDEBxFTJT0fTAYlRNSU">Coin-Geco</a></li>
+                                        <li><a className="social-btn" target="_blank" rel="noreferrer" href="https://dogecoin.com/?fbclid=IwAR3_ith0D32HZc7TZ_qV5TDjjJ3CuKXNkAcqIvvpqmzkHrunoQ-yKnX5Sro#what-is-dogecoin">What is Doge-Coin</a></li>
+                                        <li><a className="social-btn" target="_blank" rel="noreferrer" href="https://www.dailyfx.com/charts">Trading Chart</a></li>
+                                        <li><a className="social-btn" target="_blank" rel="noreferrer" href="https://www.coindesk.com/tag/bitcoin-mining/?fbclid=IwAR3ZbZv-hJnBEHW2d9zdQoncXY3WlM__uPmqi0dr4BPnEG0-UoguOopHug8">Crypto Mining</a></li>
+                                        
+                                        {/* <li><Link to={"https://auth.fecotrade.com/"}>Terms and Condition</Link></li>
+                                        <li><Link to={"https://www.coingecko.com/?fbclid=IwAR1zuixhjC1Ecnl7CdgUcnladTsgrlW97cYVAJ0_vDEBxFTJT0fTAYlRNSU"}>Coin-Geco</Link></li>
+                                        <li><Link to={"https://dogecoin.com/?fbclid=IwAR3_ith0D32HZc7TZ_qV5TDjjJ3CuKXNkAcqIvvpqmzkHrunoQ-yKnX5Sro#what-is-dogecoin"}>What is Doge-Coin</Link></li>
+                                        <li><Link to={"https://www.dailyfx.com/charts"}>Trading Chart</Link></li>
+                                        <li><Link to={"https://www.coindesk.com/tag/bitcoin-mining/?fbclid=IwAR3ZbZv-hJnBEHW2d9zdQoncXY3WlM__uPmqi0dr4BPnEG0-UoguOopHug8"}>Crypto Mining</Link></li> */}
+                                    </ul>
+                                </div>
+                            </div>
+                            {/* <div className="col-xl-3 col-lg-4 col-sm-6" >
                                 <div className="widget recent-posts-entry">
                                     <h4 className="widget-title">Blog Posts</h4>
                                     <div className="widget-post-bx">
@@ -62,7 +81,7 @@ function Footer(){
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            </div> */}
                             <div className="col-xl-3 col-lg-4 col-sm-12" >
                                 <div className="widget widget_locations">
                                     <h4 className="widget-title">Locations</h4>
