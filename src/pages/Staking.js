@@ -90,23 +90,23 @@ function Staking() {
                             </div>
                             <div className="col-lg-6 py-4 countdown-background">
                                 <div className="countdown-wrapper">
-                                    <div className="time-container mb-5">
+                                    <div className="time-container mb-5 bg-white">
                                         <h5 className="text-center mb-4">Staking Starts In</h5>
                                         <div className="d-flex justify-content-around ">
                                             <div className="time d-flex flex-column justify-content-center align-items-center mb-0">
-                                                <h3 className="value mb-0">{formatTime(days)}</h3>
+                                                <h3 className="value mb-0 font-size">{formatTime(days)}</h3>
                                                 <div className="label">Days</div>
                                             </div>
                                             <div className="time d-flex flex-column justify-content-center align-items-center mb-0">
-                                                <h3 className="value mb-0">{formatTime(hours)}</h3>
+                                                <h3 className="value mb-0 font-size">{formatTime(hours)}</h3>
                                                 <span className="label">Hours</span>
                                             </div>
                                             <div className="time d-flex flex-column justify-content-center align-items-center mb-0">
-                                                <h3 className="value mb-0">{formatTime(minutes)}</h3>
+                                                <h3 className="value mb-0 font-size">{formatTime(minutes)}</h3>
                                                 <span className="label">Minutes</span>
                                             </div>
                                             <div className="time d-flex flex-column justify-content-center align-items-center mb-0">
-                                                <h3 className="value mb-0">{formatTime(seconds)}</h3>
+                                                <h3 className="value mb-0 font-size">{formatTime(seconds)}</h3>
                                                 <span className="label">Seconds</span>
                                             </div>
                                         </div>

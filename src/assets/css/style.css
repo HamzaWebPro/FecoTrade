@@ -28407,21 +28407,23 @@ pre {
 
 /* countdown-wrapper */
 .countdown-wrapper {
-  background-color: #E5D4FF;
+  background-color: #ffffff;
   /* Lighter shade of purple */
   border-radius: 20px;
   padding: 15px;
   margin: 40px 10px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  width: 300px;
+  margin: auto;
   /* Soft box shadow */
 }
 
 .countdown-background {
-  background-image: url("../../assets/images/background.jpg");
+  background-image: url("../../assets/images/home-banner/pic-feco.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  background-attachment: fixed;
+  background-attachment: scroll;
   border-radius: 10px;
 }
 
@@ -28515,3 +28517,7 @@ pre {
   margin-bottom: 0px;
 }
 
+/* staking count down font size */
+.font-size{
+  font-size: 18px;
+}

@@ -24,7 +24,7 @@ function Footer() {
                                     <div className="dz-social-icon transparent space-10">
                                         <ul>
                                             <li><a target="_blank" className="fab fa-facebook-f" href="https://www.facebook.com/"></a></li>{" "}
-                                            <li><a target="_blank" className="fab fa-instagram" href="https://www.instagram.com/"></a></li>{" "}
+                                            <li><a target="_blank" className="fa-brands fa-telegram" href="https://t.me/fecotrade?fbclid=IwAR21inxpS5dtE-pXqB1kd1NWFWyQJFIiWf09Ig2WA8rUPs8hM9tYM7rGzhA"></a></li>{" "}
                                             <li><a target="_blank" className="fab fa-twitter" href="https://twitter.com/"></a></li>{" "}
                                             <li><a target="_blank" className="fab fa-youtube" href="https://youtube.com/"></a></li>
                                         </ul>
@@ -49,8 +49,8 @@ function Footer() {
                                     <ul>
 
                                         <li><a className="social-btn" target="_blank" rel="noreferrer" href="https://auth.fecotrade.com/">Terms and Condition</a></li>
-                                        <li><a className="social-btn" target="_blank" rel="noreferrer" href="https://www.coingecko.com/?fbclid=IwAR1zuixhjC1Ecnl7CdgUcnladTsgrlW97cYVAJ0_vDEBxFTJT0fTAYlRNSU">Coin-Geco</a></li>
-                                        <li><a className="social-btn" target="_blank" rel="noreferrer" href="https://dogecoin.com/?fbclid=IwAR3_ith0D32HZc7TZ_qV5TDjjJ3CuKXNkAcqIvvpqmzkHrunoQ-yKnX5Sro#what-is-dogecoin">What is Doge-Coin</a></li>
+                                        <li><a className="social-btn" target="_blank" rel="noreferrer" href="https://www.coingecko.com/">Coin-Geco</a></li>
+                                        <li><a className="social-btn" target="_blank" rel="noreferrer" href="https://dogecoin.com/">What is Doge-Coin</a></li>
                                         <li><a className="social-btn" target="_blank" rel="noreferrer" href="https://www.dailyfx.com/charts">Trading Chart</a></li>
                                         <li><a className="social-btn" target="_blank" rel="noreferrer" href="https://www.coindesk.com/tag/bitcoin-mining/?fbclid=IwAR3ZbZv-hJnBEHW2d9zdQoncXY3WlM__uPmqi0dr4BPnEG0-UoguOopHug8">Crypto Mining</a></li>
                                         
