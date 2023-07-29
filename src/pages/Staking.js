@@ -90,7 +90,7 @@ function Staking() {
                             </div>
                             <div className="col-lg-6 countdown-background">
                                 <div className="countdown-wrapper">
-                                    <div className="time-container mb-3 bg-white">
+                                    <div className="time-container mb-3">
                                         <h5 className="text-center mb-4">Staking Starts In</h5>
                                         <div className="d-flex justify-content-around ">
                                             <div className="time d-flex flex-column justify-content-center align-items-center mb-0">

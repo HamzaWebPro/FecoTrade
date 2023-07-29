@@ -28417,15 +28417,15 @@ pre {
 
 /* countdown-wrapper */
 .countdown-wrapper {
-  background-color: #ffffff;
+  background-color: rgba(255,255,255,0.78);
   /* Lighter shade of purple */
   border-radius: 20px;
   padding: 25px;
   margin: 40px 10px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
   width: 300px;
-  /* height: 200px; */
   margin: auto;
+  /* background-color: transparent; */
   /* Soft box shadow */
 }
 
