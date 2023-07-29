@@ -50,7 +50,7 @@ const Faq = () => {
     return (
         <>
             <div className="page-content">
-                <PageLayout pageTitle="Faq" />
+                <PageLayout pageTitle="FAQ" />
                 <div className="clearfix section-wrapper1 bg-primary-light">
                     <div className="container">
                         <div className="content-inner-1">
