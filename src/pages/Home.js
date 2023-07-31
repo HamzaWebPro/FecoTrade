@@ -30,6 +30,8 @@ import about1 from "./../assets/images/home-banner/bitcoin-animation.gif";
 
 import aboutImg from "./../assets/images/home-banner/icon.png";
 
+import landingImg from './../assets/images/ladning/crypto currency-01.png'
+
 // import { Parallax, useParallax } from "react-scroll-parallax";
 import FecoTradeEcoSystem from "../components/Home/FecoTradeEcoSystem";
 import { BsArrowDownCircle } from "react-icons/bs";
@@ -238,7 +240,7 @@ function Home() {
               <div className="col-lg-6">
                 <div className="dz-media">
                   <div className="row align-items-end">
-                    <img src={aboutImg} alt="" />
+                    <img src={landingImg} alt="" />
                   </div>
                 </div>
               </div>
@@ -401,12 +403,14 @@ function Home() {
                 </div>
                 <div className="row">
                     <div className="col-lg-4 border__style mt-4">
+                      
                       <iframe className="border__style" width="100%" height="172" frameBorder="0" scrolling="no" src="https://coinbrain.com/coins/fant-0x321162cd933e2be498cd2267a90534a804051b11/ticker?theme=light&padding=16&type=medium&currency=USD&blocks=price%2CmarketCap%2Cvolume24h"></iframe>
                     </div>
                     <div className="col-lg-4 border__style mt-4">
                       <iframe className="border__style" width="100%" height="172" frameBorder="0" scrolling="no" src="https://coinbrain.com/coins/bnb-0x2170ed0880ac9a755fd29b2688956bd959f933f8/ticker?theme=light&padding=16&type=medium&currency=USD&blocks=price%2CmarketCap%2Cvolume24h"></iframe>
                     </div>
                     <div className="col-lg-4 border__style mt-4">
+
                       <iframe className="border__style" width="100%" height="172" frameBorder="0" scrolling="no" src="https://coinbrain.com/coins/bnb-0xba2ae424d960c26247dd6c32edc70b295c744c43/ticker?theme=light&padding=16&type=medium&currency=USD&blocks=price%2CmarketCap%2Cvolume24h"></iframe>
                     </div>
                     <div className="col-lg-4 mt-4">
