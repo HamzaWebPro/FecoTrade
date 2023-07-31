@@ -257,3 +257,7 @@
  */
 
 
+/* cryto widget */
+.border__style {
+    border-radius: 20px !important;
+}
