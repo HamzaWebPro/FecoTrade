@@ -16,21 +16,9 @@ import Shape3 from "./../assets/images/home-banner/shape3.png";
 import wallet from "./../assets/images/icons/staking icon.svg";
 import mining from "./../assets/images/icons/mining icon.svg";
 import trading from "./../assets/images/icons/trading icon.svg";
-
-import coin1 from "./../assets/images/coins/coin1.png";
-import coin3 from "./../assets/images/coins/coin3.png";
 import coin4 from "./../assets/images/coins/coin4.png";
+import aboutImg from "./../assets/images/about/cryptocurrency01.png";
 
-import bloglg from "./../assets/images/blog/blog-ig.png";
-import avatar3 from "./../assets/images/avatar/avatar3.jpg";
-import about2 from "./../assets/images/home-banner/btc-eth-ltch.gif";
-import about3 from "./../assets/images/home-banner/animated-home.gif";
-import about4 from "./../assets/images/home-banner/hardware-mining.gif";
-import about1 from "./../assets/images/home-banner/bitcoin-animation.gif";
-
-import aboutImg from "./../assets/images/home-banner/icon.png";
-
-import landingImg from './../assets/images/ladning/crypto currency-01.png'
 
 // import { Parallax, useParallax } from "react-scroll-parallax";
 import FecoTradeEcoSystem from "../components/Home/FecoTradeEcoSystem";
@@ -240,7 +228,7 @@ function Home() {
               <div className="col-lg-6">
                 <div className="dz-media">
                   <div className="row align-items-end">
-                    <img src={landingImg} alt="" />
+                    <img src={aboutImg} alt="aboutImg" />
                   </div>
                 </div>
               </div>
