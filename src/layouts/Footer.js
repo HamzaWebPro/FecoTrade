@@ -25,7 +25,7 @@ function Footer() {
                                         <ul>
                                             <li><a target="_blank" className="fab fa-facebook-f" href="https://www.facebook.com/Fecotrade"></a></li>{" "}
                                             <li><a target="_blank" className="fa-brands fa-telegram" href="https://t.me/fecotrade?fbclid=IwAR21inxpS5dtE-pXqB1kd1NWFWyQJFIiWf09Ig2WA8rUPs8hM9tYM7rGzhA"></a></li>{" "}
-                                            <li><a target="_blank" className="fab fa-twitter" href="https://twitter.com/i/flow/login?redirect_after_login=%2Ffecotrade"></a></li>{" "}
+                                            <li><a target="_blank" className="fab fa-twitter" href="https://twitter.com/fecotrade"></a></li>{" "}
                                             <li><a target="_blank" className="fab fa-youtube" href="https://youtube.com/"></a></li>
                                         </ul>
                                     </div>
