@@ -28,7 +28,7 @@ const cardData = [
     image: expertTeam,
     title: "Our Expert Team",
     description:
-      "A professional team of traders and financial experts guarantees a high return on investment and constant passive income.",
+      "A professional team of traders and financial experts guarantee a high return on investment and constant passive income.",
   },
   {
     image: protection,
@@ -46,13 +46,13 @@ const cardData = [
     image: payment,
     title: "Easy Payment Method",
     description:
-      "We have and accepts the most widely used payment system therefore making it easy for you to get started.",
+      "We have and accept the most widely used payment systems therefore making it easy for you to get started.",
   },
   {
     image: mining,
     title: "Daily Mining Output",
     description:
-      "Once your mining contract Is activated, your daily earnings are distributed to your preferred mining account after 24hours.",
+      "Once your mining contract Is activated, your daily earnings are distributed to your preferred mining account every 24hours.",
   },
 
 ];

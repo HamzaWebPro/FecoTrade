@@ -63,7 +63,7 @@ function AboutUs() {
                             <div className="col-lg-6 about-content ps-lg-5 m-b30">
                                 <div className="section-head">
                                     <h2 className="title">Best Platform for Crypto Trading, Mining and Staking!</h2>
-                                    <p className="m-0 lh-base">Fecotrade is affordable and easy-to-use cloud mining service. We have the cheapest source of renewable electricity in the world. If you’re looking to mine Crypto asset, We are a great choice, allowing you to mine cryptocurrencies without owning any equipment.
+                                    <p className="m-0 lh-base">Fecotrade is affordable and easy-to-use cloud mining service. We have the cheapest source of renewable electricity in the world. If you’re looking to mine Crypto asset, Fecotrade is the greatest choice, allowing you to mine cryptocurrencies without owning any equipment.
                                     </p>
                                 </div>
                                 <div>

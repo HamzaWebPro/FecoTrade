@@ -38,7 +38,7 @@ const trustBlog = [
     image: mining,
     title: "Earn From Mining",
     description:
-      "We are always committed to providing high quality mining to people around the world. Low Maintenance Fees.",
+      "We are always committed to providing high quality mining to people around the world with low Maintenance fees.",
   },
   {
     image: wallet,
@@ -186,7 +186,7 @@ function Home() {
 
                 </h1>
                 <p className="pera__size text text-primary banner-small-text col-lg-6 mx-auto mt-5">
-                  Fecotrade is one of the largest cryptocurrency trading platform in the world who offers a robust selection of trading options and features.
+                  Fecotrade is one of the largest cryptocurrency trading platform in the world which offers a robust selection of trading options and features.
                 </p>
                 {/* <a
               href="https://auth.fecotrade.com/register"
@@ -240,7 +240,7 @@ function Home() {
                   <p className="m-0 lh-base">
                     Fectotrade is a Russian - registered fintech company with an
                     extensive ecosystem of crypto asset management services. The
-                    main activity of the company are cryptocurrency mining,
+                    main activities of the company are cryptocurrency mining,
                     staking and trading. Our team consists of professional
                     traders with real experience and high profit rates. Unique
                     trading strategies allow our clients to receive high stable
@@ -418,7 +418,7 @@ function Home() {
           <div className="container">
             <div className="section-head text-center">
               <h2 className="title">Fecotrade Ecosystem</h2>
-              <p>Our plan is to create a highly scalable, decentralized, permissionless and open-source platform used to build crypto DApps. Fecotrade blockchain ecosystem will consist the following products.</p>
+              <p>Our plan is to create a highly scalable, decentralized and open-source platform used to build crypto DApps. Fecotrade blockchain ecosystem will consist of the following products.</p>
             </div>
             <div className="row sp60">
               <FecoTradeEcoSystem />
