@@ -44,7 +44,7 @@ const trustBlog = [
     image: wallet,
     title: "Earn From Trading",
     description:
-      "Trading cryptocurrencies on Binance is acquiring and disposing of digital assets to profit from price changes.",
+      "Trading cryptocurrencies is acquiring and disposing of digital assets to profit from price changes.",
   },
 ];
 
