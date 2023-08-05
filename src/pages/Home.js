@@ -299,7 +299,7 @@ function Home() {
           <div className="container">
             <div className="section-head text-center">
               <h2 className="title">Most Amazing Features</h2>
-              <p>Fecotrade exists to improve your systematic trading profitability and to help you succeed at a career in quantitative finance. And you don't need to learn any complicated financial trading skills, all of this is done by our expert team.</p>
+              <p>Fecotrade exists to improve your systematic trading profitability and to help you succeed at a career in quantitative finance. You don't need to learn any complicated financial trading skills, all of this is done by our expert team.</p>
             </div>
             <div className="row sp60">
               <OneStop />
