@@ -56,6 +56,16 @@
     animation: text-animation 8s infinite;
     
 }
+.binance-widget-ticker-wrap {
+	padding-bottom: 8px;
+	overflow: hidden;
+	white-space: nowrap;
+	background: #F0EAFF !important;
+}
+
+/* .banner-sub-heading {
+	font-size: 50px;
+} */
 
 
 @keyframes text-animation {

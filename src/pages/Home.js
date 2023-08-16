@@ -1,12 +1,12 @@
 import React, { useState, useEffect } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { Dropdown } from "react-bootstrap";
-import CryptoWidget from "../components/Home/CryptoWidget"
 
 //components
 import BannerCard from "./../components/Home/BannerCard";
 import OneStop from "./../components/Home/OneStop";
 import RecentNews from "./../components/Home/RecentNews";
+import CryptoWidget from "./../components/Home/CryptoWidget";
 
 import Accordion from "react-bootstrap/Accordion";
 //images
@@ -27,7 +27,6 @@ import { BsArrowDownCircle } from "react-icons/bs";
 import OurTeam from "./OurTeam";
 
 import backgroundVideo from '../assets/videos/animation_video-1.mp4'
-// import backgroundVideo1 from '../assets/videos/100K.mp4'
 
 const trustBlog = [
   {
@@ -162,13 +161,13 @@ function Home() {
       <div className="page-content">
 
         <div className="main-bnr style-1">
-           {/* Add the overlay div */}
+          <div className="video-overlay"></div> {/* Add the overlay div */}
           <video
             className="banner-video"
             autoPlay
             loop
-            // muted
-            // poster="path_to_video_poster_image"
+            muted
+            poster="path_to_video_poster_image"
           >
             <source src={backgroundVideo} type="video/mp4" />
           </video>
@@ -383,7 +382,7 @@ function Home() {
 
         {/* <img className="bg-shape1" src={Shape1} alt="" /> */}
 
-        
+
 
         <section className="content-inner bg-light icon-section section-wrapper2">
           <div className="container">
@@ -556,7 +555,6 @@ function Home() {
             </div>
           </div>
         </section> */}
-        
       </div>
     </>
   );

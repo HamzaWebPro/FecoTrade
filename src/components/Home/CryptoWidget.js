@@ -15,7 +15,7 @@ const CryptoWidget = () => {
                     </div>
                 </div>
                 <div className="">
-                <div className="binance-widget-marquee " data-cmc-ids="1,1027,1839,52,3408,74,5426,3890,5805,7083" data-theme="light" data-transparent="false" data-locale="en"></div>
+                <div className="binance-widget-marquee" data-cmc-ids="1,1027,1839,52,3408,74,5426,3890,5805,7083" data-theme="light" data-transparent="false" data-locale="en"></div>
                 </div>
                 {/* <div className="row">
                     <div className="col-lg-4 border__style mt-4">
