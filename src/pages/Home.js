@@ -27,7 +27,7 @@ import { BsArrowDownCircle } from "react-icons/bs";
 import OurTeam from "./OurTeam";
 
 import backgroundVideo from '../assets/videos/animation_video-1.mp4'
-import backgroundVideo1 from '../assets/videos/1M.mp4'
+// import backgroundVideo1 from '../assets/videos/1M.mp4'
 
 const trustBlog = [
   {
@@ -170,7 +170,7 @@ function Home() {
             muted
             poster="path_to_video_poster_image"
           >
-            <source src={backgroundVideo1} type="video/mp4" />
+            <source src={backgroundVideo} type="video/mp4" />
           </video>
 
 
