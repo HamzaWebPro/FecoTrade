@@ -162,13 +162,13 @@ function Home() {
       <div className="page-content">
 
         <div className="main-bnr style-1">
-          <div className="video-overlay"></div> {/* Add the overlay div */}
+           {/* Add the overlay div */}
           <video
             className="banner-video"
             autoPlay
             loop
-            muted
-            poster="path_to_video_poster_image"
+            // muted
+            // poster="path_to_video_poster_image"
           >
             <source src={backgroundVideo} type="video/mp4" />
           </video>
