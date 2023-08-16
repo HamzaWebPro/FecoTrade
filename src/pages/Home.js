@@ -27,7 +27,7 @@ import { BsArrowDownCircle } from "react-icons/bs";
 import OurTeam from "./OurTeam";
 
 import backgroundVideo from '../assets/videos/animation_video-1.mp4'
-import backgroundVideo1 from '../assets/videos/500K.mp4'
+import backgroundVideo1 from '../assets/videos/100K.mp4'
 
 const trustBlog = [
   {
