@@ -10,8 +10,8 @@ const CryptoWidget = () => {
 
             <div className="container">
                 <div className="row justify-content-center">
-                    <div className="section-head text-center">
-                        <h2 className="title text-[#362465]">Popular Cryptocurrencies</h2>
+                    <div className="text-center">
+                        {/* <h2 className="title text-[#362465]">Popular Cryptocurrencies</h2> */}
                     </div>
                 </div>
                 <div className="">
