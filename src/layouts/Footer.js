@@ -18,15 +18,15 @@ function Footer() {
                             <div className="col-xl-4 col-lg-12 col-md-12" >
                                 <div className="widget widget_about">
                                     <div className="footer-logo logo-white">
-                                        <Link to={"/"}><img src={`https://i.postimg.cc/W4xMbXZj/logo-facotradee.png`} alt="" /></Link>
+                                        <Link to={"/"}><img src={`https://i.postimg.cc/025nqXwR/fundexproo.png`} alt="" /></Link>
                                     </div>
-                                    <p>FecoTrade is the easiest and most efficient way to make money from cryptocurrency mining, trading & Coin-Staking. We have advanced mining cryptocurrency equipment, site, and maintenance facilities.</p>
+                                    <p>FundexPro is the easiest and most efficient way to make money from cryptocurrency mining, trading & Coin-Staking. We have advanced mining cryptocurrency equipment, site, and maintenance facilities.</p>
                                     <div className="dz-social-icon transparent space-10">
                                         <ul>
-                                            <li><a target="_blank" className="fab fa-facebook-f" href="https://www.facebook.com/Fecotrade"></a></li>{" "}
-                                            <li><a target="_blank" className="fa-brands fa-telegram" href="https://t.me/fecotrade?fbclid=IwAR21inxpS5dtE-pXqB1kd1NWFWyQJFIiWf09Ig2WA8rUPs8hM9tYM7rGzhA"></a></li>{" "}
-                                            <li><a target="_blank" className="fab fa-twitter" href="https://twitter.com/fecotrade"></a></li>{" "}
-                                            <li><a target="_blank" className="fab fa-youtube" href="https://youtube.com/"></a></li>
+                                            <li><a target="_blank" className="fab fa-facebook-f" href="https://www.facebook.com/fundexproofficial"></a></li>{" "}
+                                            <li><a target="_blank" className="fa-brands fa-telegram" href="https://t.me/fundexproofficial"></a></li>{" "}
+                                            <li><a target="_blank" className="fab fa-twitter" href="https://twitter.com/fundexproofficial"></a></li>{" "}
+                                            <li><a target="_blank" className="fab fa-youtube" href="https://youtube.com/fundexproofficial"></a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -87,7 +87,7 @@ function Footer() {
                                     <h4 className="widget-title">Locations</h4>
                                     <div className="clearfix">
                                         <h6 className="title">Vladivostok</h6>
-                                        <p>Prospekt Krasnogo Znameni, Vladivostok City, Russia</p>
+                                        <p>23 3rd Street, New York City, USA</p>
                                         <img src={flags} alt="" />
                                     </div>
                                 </div>
