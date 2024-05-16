@@ -77,14 +77,14 @@ function Home() {
 
   const accordionData = [
     {
-      question: "What is Fecotrade?",
+      question: "What is FundexPro?",
       answer:
-        "Fectotrade is a Russian - registered fintech company with an extensive ecosystem of crypto asset management services. The main activity of the company are cryptocurrency mining, staking and trading.",
+        "FundexPro is a Russian - registered fintech company with an extensive ecosystem of crypto asset management services. The main activity of the company are cryptocurrency mining, staking and trading.",
     },
     {
       question: "How it works?",
       answer:
-        "Fecotrade is the pioneer solution for anyone who wants to get involved in cryptocurrency mining. With its powerful algorithms and easy-to-use interface, Fecotrade is the perfect way to start earning cryptocurrency directly from your browser.",
+        "FundexPro is the pioneer solution for anyone who wants to get involved in cryptocurrency mining. With its powerful algorithms and easy-to-use interface, Fecotrade is the perfect way to start earning cryptocurrency directly from your browser.",
     },
     {
       question: "Is there any autorun and smart CPU controller?",
@@ -187,10 +187,10 @@ function Home() {
 
                 </h1>
                 <p className="pera__size text text-primary banner-small-text col-lg-6 mx-auto mt-5">
-                  Fecotrade is one of the largest cryptocurrency trading platform in the world which offers a robust selection of trading options and features.
+                  FundexPro is one of the largest cryptocurrency trading platform in the world which offers a robust selection of trading options and features.
                 </p>
                 {/* <a
-              href="https://auth.fecotrade.com/register"
+              href="https://user.fundexpro.com/login"
               className="btn space-lg btn-gradient btn-shadow btn-primary"
             >
               Get Started
@@ -239,7 +239,7 @@ function Home() {
                     Leading Platform for Cryptocurrency Mining!
                   </h2>
                   <p className="m-0 lh-base">
-                    Fectotrade is a Russian - registered fintech company with an
+                    FundexPro is a USA - registered fintech company with an
                     extensive ecosystem of crypto asset management services. The
                     main activities of the company are cryptocurrency mining,
                     staking and trading. Our team consists of professional
@@ -249,10 +249,10 @@ function Home() {
                   </p>
                 </div>
                 <Link
-                  to={"https://auth.fecotrade.com/register"}
+                  to={"https://user.fundexpro.com/register"}
                   className="btn btn-lg btn-primary btn-shadow text-uppercase"
                 >
-                  Start Mining Now!
+                  Start Earning Now!
                 </Link>
               </div>
             </div>
@@ -284,7 +284,7 @@ function Home() {
                         <p className="!text-red">{data.description}</p>
                         <Link
                           className="btn btn-primary btn-gradient btn-shadow"
-                          to={"https://auth.fecotrade.com/login"}
+                          to={"https://user.fundexpro.com/login"}
                         >
                           Get Started
                         </Link>
@@ -300,7 +300,7 @@ function Home() {
           <div className="container">
             <div className="section-head text-center">
               <h2 className="title">Most Amazing Features</h2>
-              <p>Fecotrade exists to improve your systematic trading profitability and to help you succeed at a career in quantitative finance. You don't need to learn any complicated financial trading skills, all of this is done by our expert team.</p>
+              <p>FundexPro exists to improve your systematic trading profitability and to help you succeed at a career in quantitative finance. You don't need to learn any complicated financial trading skills, all of this is done by our expert team.</p>
             </div>
             <div className="row sp60">
               <OneStop />
@@ -387,7 +387,7 @@ function Home() {
         <section className="content-inner bg-light icon-section section-wrapper2">
           <div className="container">
             <div className="section-head text-center">
-              <h2 className="title">Fecotrade Ecosystem</h2>
+              <h2 className="title">FundexPro Ecosystem</h2>
               <p>Our plan is to create a highly scalable, decentralized and open-source platform used to build crypto DApps. Fecotrade blockchain ecosystem will consist of the following products.</p>
             </div>
             <div className="row sp60">
@@ -403,10 +403,10 @@ function Home() {
               <div className="col-lg-6 about-content ps-lg-5 m-b30">
                 <div className="section-head">
                   <h2 className="title">
-                    FECO TOKEN STAKING OPPORTUNITY!
+                    FUNDX TOKEN STAKING OPPORTUNITY!
                   </h2>
                   <p className="m-0 lh-base">
-                    Fecotrade is a decentralized, algorithmic protocol for mining, staking, and trading assets, that operates on the Fecotrade Network.
+                    FundexPro is a decentralized, algorithmic protocol for mining, staking, and trading assets, that operates on the Fecotrade Network.
                     We're going to live the staking features for our registered users soon.
                   </p>
                 </div>
