@@ -67,7 +67,7 @@ function Header() {
             <div className="container clearfix ">
               <div className="logo-header">
                 <NavLink to="/" className={headerVisible ? 'logo-dark' : 'logo-light'}>
-                  <img src={headerVisible ? "https://postimg.cc/Cnb1HFPH" : "https://postimg.cc/Cnb1HFPH"} alt="" />
+                  <img src={headerVisible ? "https://i.postimg.cc/025nqXwR/fundexproo.png" : "https://i.postimg.cc/025nqXwR/fundexproo.png"} alt="" />
                 </NavLink>
               </div>
 
