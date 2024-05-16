@@ -84,12 +84,12 @@ function Home() {
     {
       question: "How it works?",
       answer:
-        "FundexPro is the pioneer solution for anyone who wants to get involved in cryptocurrency mining. With its powerful algorithms and easy-to-use interface, Fecotrade is the perfect way to start earning cryptocurrency directly from your browser.",
+        "FundexPro is the pioneer solution for anyone who wants to get involved in cryptocurrency mining. With its powerful algorithms and easy-to-use interface, FundexPro is the perfect way to start earning cryptocurrency directly from your browser.",
     },
     {
       question: "Is there any autorun and smart CPU controller?",
       answer:
-        "Effortlessly increase your earnings with Fecotrade's autorun and smart CPU controller. Our application is easy to install and will run automatically using your computer's free CPU resources to generate profits.",
+        "Effortlessly increase your earnings with FundexPro's autorun and smart CPU controller. Our application is easy to install and will run automatically using your computer's free CPU resources to generate profits.",
     },
     {
       question: "How you confirm the safety of user account?",
@@ -388,7 +388,7 @@ function Home() {
           <div className="container">
             <div className="section-head text-center">
               <h2 className="title">FundexPro Ecosystem</h2>
-              <p>Our plan is to create a highly scalable, decentralized and open-source platform used to build crypto DApps. Fecotrade blockchain ecosystem will consist of the following products.</p>
+              <p>Our plan is to create a highly scalable, decentralized and open-source platform used to build crypto DApps. FundexPro blockchain ecosystem will consist of the following products.</p>
             </div>
             <div className="row sp60">
               <FecoTradeEcoSystem />
@@ -406,12 +406,12 @@ function Home() {
                     FUNDX TOKEN STAKING OPPORTUNITY!
                   </h2>
                   <p className="m-0 lh-base">
-                    FundexPro is a decentralized, algorithmic protocol for mining, staking, and trading assets, that operates on the Fecotrade Network.
+                    FundexPro is a decentralized, algorithmic protocol for mining, staking, and trading assets, that operates on the FundexPro Network.
                     We're going to live the staking features for our registered users soon.
                   </p>
                 </div>
                 <Link
-                  to={"https://auth.fecotrade.com/register"}
+                  to={"https://user.fundexpro.com/register"}
                   className="btn btn-lg btn-primary btn-shadow text-uppercase btn btn-warning"
                 >
                   Join Today!
