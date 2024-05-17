@@ -20,31 +20,31 @@ const cardData = [
     image: iconBlockchain,
     title: "Custom Blockchain",
     description:
-      "Feco is an open and fast blockchain. Our mainnet runs Ethereum applications with 3-second transaction finality and 100 times lower fees.",
+      "FundexPro is an open and fast blockchain. Our mainnet runs Ethereum applications with 3-second transaction finality and 100 times lower fees.",
   },
   {
     image: iconCoin,
-    title: "Feco Native Coin",
+    title: "Fundex Native Coin",
     description:
-      "Feco Token is a cryptocurrency that will launch on the Binanace Blockchain as the first native cryptocurrency as soon as possible.",
+      "Fundex Token is a cryptocurrency that will launch on the Binanace Blockchain as the first native cryptocurrency as soon as possible.",
   },
   {
     image: iconNetwork,
-    title: "Feco Network",
+    title: "Fundex Network",
     description:
-      "The Feco network will include the features of trustless cross-chain bridges and four shards, which process transactions in parallel.",
+      "The Fundex network will include the features of trustless cross-chain bridges and four shards, which process transactions in parallel.",
   },
   {
     image: iconExplorer,
-    title: "Feco Explorer",
+    title: "Fundex Explorer",
     description:
-      "Explore Feco Explorer for transactions, addresses, tokens, prices and other information. It will be built for Feco Ecosystem.",
+      "Explore Fundex Explorer for transactions, addresses, tokens, prices and other information. It will be built for Fundex Ecosystem.",
   },
   {
     image: iconWallet,
-    title: "Feco Wallet",
+    title: "Fundex Wallet",
     description:
-      " Consumers can buy crypto assets via credit cards, then trade between multiple platforms using Feco Decentralized Wallet.",
+      " Consumers can buy crypto assets via credit cards, then trade between multiple platforms using Fundex Decentralized Wallet.",
   },
 ];
 
