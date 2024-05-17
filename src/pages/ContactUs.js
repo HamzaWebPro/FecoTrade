@@ -119,7 +119,7 @@ function ContactUs() {
                           className="social-btn"
                           target="_blank"
                           rel="noreferrer"
-                          href="https://t.me/fecotrade?fbclid=IwAR21inxpS5dtE-pXqB1kd1NWFWyQJFIiWf09Ig2WA8rUPs8hM9tYM7rGzhA"
+                          href="https://t.me/fundexpro?fbclid=IwAR21inxpS5dtE-pXqB1kd1NWFWyQJFIiWf09Ig2WA8rUPs8hM9tYM7rGzhA"
                         >
                           <i class="fa-brands fa-telegram"></i>
                         </a>
