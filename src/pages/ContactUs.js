@@ -84,11 +84,11 @@ function ContactUs() {
                       <ul>
                         <li>
                           <i class="fa-brands fa-telegram"></i>
-                          <span>@fecotrade</span>
+                          <span>@fundexpro</span>
                         </li>
                         <li>
                           <i className="fa fa-envelope"></i>
-                          <span>support@fecotrade.com</span>
+                          <span>support@fundexpro.com</span>
                         </li>
                         <li>
                           <i className="fas fa-map-marker-alt"></i>
