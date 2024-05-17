@@ -144,17 +144,17 @@ function Header() {
                 </ul>
                 <div className="">
                   <div className="extra-cell d-flex gap-1 pt-2 pt-md-2 pt-lg-0 justify-content-center ">
-                    <a className="btn btn-outline-primary" target="_blank" rel="noreferrer" href="https://auth.fecotrade.com/login">Login</a>
-                    <a className="btn btn-primary btn-gradient btn-shadow" target="_blank" rel="noreferrer" href="https://auth.fecotrade.com/register">Register</a>
+                    <a className="btn btn-outline-primary" target="_blank" rel="noreferrer" href="https://user.fundexpro.com/login">Login</a>
+                    <a className="btn btn-primary btn-gradient btn-shadow" target="_blank" rel="noreferrer" href="https://user.fundexpro.com/register">Register</a>
                   </div>
                 </div>
                 <div className="header-bottom">
                   <div className="dz-social-icon">
                     <ul>
-                      <li><a target="_blank" className="fab fa-facebook-f" rel="noreferrer" href="https://www.facebook.com/fectorade"></a></li>
-                      <li><a target="_blank" className="fab fa-twitter" rel="noreferrer" href="https://twitter.com/"></a></li>
-                      <li><a target="_blank" className="fab fa-linkedin-in" rel="noreferrer" href="https://www.linkedin.com/"></a></li>
-                      <li><a target="_blank" className="fab fa-instagram" rel="noreferrer" href="https://www.instagram.com/"></a></li>
+                      <li><a target="_blank" className="fab fa-facebook-f" rel="noreferrer" href="https://www.facebook.com/fundexpro"></a></li>
+                      <li><a target="_blank" className="fab fa-twitter" rel="noreferrer" href="https://twitter.com/fundexpro"></a></li>
+                      <li><a target="_blank" className="fab fa-linkedin-in" rel="noreferrer" href="https://www.linkedin.com/fundexpro"></a></li>
+                      <li><a target="_blank" className="fab fa-instagram" rel="noreferrer" href="https://www.instagram.com/fundexpro"></a></li>
                     </ul>
                   </div>
                 </div>
