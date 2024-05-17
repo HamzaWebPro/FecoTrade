@@ -6,19 +6,19 @@ const Faq = () => {
     const [activeIndex, setActiveIndex] = useState(null);
     const accordionData = [
         {
-            question: "What is Fecotrade?",
+            question: "What is FundexPro?",
             answer:
-                "Fectotrade is a Russian - registered fintech company with an extensive ecosystem of crypto asset management services. The main activity of the company are cryptocurrency mining, staking and trading.",
+                "FundexPro is a Russian - registered fintech company with an extensive ecosystem of crypto asset management services. The main activity of the company are cryptocurrency mining, staking and trading.",
         },
         {
             question: "How it works?",
             answer:
-                "Fecotrade is the pioneer solution for anyone who wants to get involved in cryptocurrency mining. With its powerful algorithms and easy-to-use interface, Fecotrade is the perfect way to start earning cryptocurrency directly from your browser.",
+                "FundexPro is the pioneer solution for anyone who wants to get involved in cryptocurrency mining. With its powerful algorithms and easy-to-use interface, Fecotrade is the perfect way to start earning cryptocurrency directly from your browser.",
         },
         {
             question: "Is there any autorun and smart CPU controller?",
             answer:
-                "Effortlessly increase your earnings with Fecotrade's autorun and smart CPU controller. Our application is easy to install and will run automatically using your computer's free CPU resources to generate profits.",
+                "Effortlessly increase your earnings with FundexPro's autorun and smart CPU controller. Our application is easy to install and will run automatically using your computer's free CPU resources to generate profits.",
         },
         {
             question: "How you confirm the safety of user account?",
