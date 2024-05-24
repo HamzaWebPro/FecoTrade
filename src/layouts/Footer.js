@@ -18,15 +18,15 @@ function Footer() {
                             <div className="col-xl-4 col-lg-12 col-md-12" >
                                 <div className="widget widget_about">
                                     <div className="footer-logo logo-white">
-                                        <Link to={"/"}><img src={`https://i.postimg.cc/025nqXwR/fundexproo.png`} alt="" /></Link>
+                                        <Link to={"/"}><img src={`https://postimg.cc/dhR8sfmV`} alt="" /></Link>
                                     </div>
-                                    <p>FundexPro is the easiest and most efficient way to make money from cryptocurrency mining, trading & Coin-Staking. We have advanced mining cryptocurrency equipment, site, and maintenance facilities.</p>
+                                    <p>Fecotrade is the easiest and most efficient way to make money from cryptocurrency mining, trading & Coin-Staking. We have advanced mining cryptocurrency equipment, site, and maintenance facilities.</p>
                                     <div className="dz-social-icon transparent space-10">
                                         <ul>
-                                            <li><a target="_blank" className="fab fa-facebook-f" href="https://www.facebook.com/fundexproofficial"></a></li>{" "}
-                                            <li><a target="_blank" className="fa-brands fa-telegram" href="https://t.me/fundexproofficial"></a></li>{" "}
-                                            <li><a target="_blank" className="fab fa-twitter" href="https://twitter.com/fundexproofficial"></a></li>{" "}
-                                            <li><a target="_blank" className="fab fa-youtube" href="https://youtube.com/fundexproofficial"></a></li>
+                                            <li><a target="_blank" className="fab fa-facebook-f" href="https://www.facebook.com/fecotrade"></a></li>{" "}
+                                            <li><a target="_blank" className="fa-brands fa-telegram" href="https://t.me/fecotrade"></a></li>{" "}
+                                            <li><a target="_blank" className="fab fa-twitter" href="https://twitter.com/fecotrade"></a></li>{" "}
+                                            <li><a target="_blank" className="fab fa-youtube" href="https://youtube.com/fecotrade"></a></li>
                                         </ul>
                                     </div>
                                 </div>
