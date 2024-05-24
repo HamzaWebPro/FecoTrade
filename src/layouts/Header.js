@@ -67,7 +67,7 @@ function Header() {
             <div className="container clearfix ">
               <div className="logo-header">
                 <NavLink to="/" className={headerVisible ? 'logo-dark' : 'logo-light'}>
-                  <img src={headerVisible ? "https://i.postimg.cc/025nqXwR/fundexproo.png" : "https://i.postimg.cc/025nqXwR/fundexproo.png"} alt="" />
+                  <img src={headerVisible ? "https://postimg.cc/dhR8sfmV" : "https://postimg.cc/dhR8sfmV"} alt="" />
                 </NavLink>
               </div>
 
@@ -144,17 +144,17 @@ function Header() {
                 </ul>
                 <div className="">
                   <div className="extra-cell d-flex gap-1 pt-2 pt-md-2 pt-lg-0 justify-content-center ">
-                    <a className="btn btn-outline-primary" target="_blank" rel="noreferrer" href="https://user.fundexpro.com/login">Login</a>
-                    <a className="btn btn-primary btn-gradient btn-shadow" target="_blank" rel="noreferrer" href="https://user.fundexpro.com/register">Register</a>
+                    <a className="btn btn-outline-primary" target="_blank" rel="noreferrer" href="#">Login</a>
+                    <a className="btn btn-primary btn-gradient btn-shadow" target="_blank" rel="noreferrer" href="#">Register</a>
                   </div>
                 </div>
                 <div className="header-bottom">
                   <div className="dz-social-icon">
                     <ul>
-                      <li><a target="_blank" className="fab fa-facebook-f" rel="noreferrer" href="https://www.facebook.com/fundexpro"></a></li>
-                      <li><a target="_blank" className="fab fa-twitter" rel="noreferrer" href="https://twitter.com/fundexpro"></a></li>
-                      <li><a target="_blank" className="fab fa-linkedin-in" rel="noreferrer" href="https://www.linkedin.com/fundexpro"></a></li>
-                      <li><a target="_blank" className="fab fa-instagram" rel="noreferrer" href="https://www.instagram.com/fundexpro"></a></li>
+                      <li><a target="_blank" className="fab fa-facebook-f" rel="noreferrer" href="https://www.facebook.com/fecotrade"></a></li>
+                      <li><a target="_blank" className="fab fa-twitter" rel="noreferrer" href="https://twitter.com/fecotrade"></a></li>
+                      <li><a target="_blank" className="fab fa-linkedin-in" rel="noreferrer" href="https://www.linkedin.com/fecotrade"></a></li>
+                      <li><a target="_blank" className="fab fa-instagram" rel="noreferrer" href="https://www.instagram.com/fecotrade"></a></li>
                     </ul>
                   </div>
                 </div>
