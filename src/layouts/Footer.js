@@ -18,7 +18,7 @@ function Footer() {
                             <div className="col-xl-4 col-lg-12 col-md-12" >
                                 <div className="widget widget_about">
                                     <div className="footer-logo logo-white">
-                                        <Link to={"/"}><img src={`https://postimg.cc/dhR8sfmV`} alt="" /></Link>
+                                        <Link to={"/"}><img src={`https://i.postimg.cc/fRp5KnVm/logo-facotradee.png`} alt="https://i.postimg.cc/fRp5KnVm/logo-facotradee.png" /></Link>
                                     </div>
                                     <p>Fecotrade is the easiest and most efficient way to make money from cryptocurrency mining, trading & Coin-Staking. We have advanced mining cryptocurrency equipment, site, and maintenance facilities.</p>
                                     <div className="dz-social-icon transparent space-10">
