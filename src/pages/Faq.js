@@ -6,19 +6,19 @@ const Faq = () => {
     const [activeIndex, setActiveIndex] = useState(null);
     const accordionData = [
         {
-            question: "What is FundexPro?",
+            question: "What is Fecotrade?",
             answer:
-                "FundexPro is a Russian - registered fintech company with an extensive ecosystem of crypto asset management services. The main activity of the company are cryptocurrency mining, staking and trading.",
+                "Fecotrade is a Russian - registered fintech company with an extensive ecosystem of crypto asset management services. The main activity of the company are cryptocurrency mining, staking and trading.",
         },
         {
             question: "How it works?",
             answer:
-                "FundexPro is the pioneer solution for anyone who wants to get involved in cryptocurrency mining. With its powerful algorithms and easy-to-use interface, Fecotrade is the perfect way to start earning cryptocurrency directly from your browser.",
+                "Fecotrade is the pioneer solution for anyone who wants to get involved in cryptocurrency mining. With its powerful algorithms and easy-to-use interface, Fecotrade is the perfect way to start earning cryptocurrency directly from your browser.",
         },
         {
             question: "Is there any autorun and smart CPU controller?",
             answer:
-                "Effortlessly increase your earnings with FundexPro's autorun and smart CPU controller. Our application is easy to install and will run automatically using your computer's free CPU resources to generate profits.",
+                "Effortlessly increase your earnings with Fecotrade's autorun and smart CPU controller. Our application is easy to install and will run automatically using your computer's free CPU resources to generate profits.",
         },
         {
             question: "How you confirm the safety of user account?",
@@ -54,36 +54,36 @@ const Faq = () => {
                 <div className="clearfix section-wrapper1 bg-primary-light">
                     <div className="container">
                         <div className="content-inner-1">
-                        {/* <div className="section-head text-center">
+                            {/* <div className="section-head text-center">
                                 <h2 className="title">FAQ</h2>
                                 <p className="">
                                     We have collected the most detailed answers to frequently asked questions. If you have not found the answer to your question, please contact us.
                                 </p>
                             </div> */}
-                        <div className='row'>
-                            {accordionData.map((data, index) => (
-                                <div
-                                    className={`accordion-item ${activeIndex === index ? "active" : ""
-                                        } col-6`}
-                                    key={index}
-                                >
+                            <div className='row'>
+                                {accordionData.map((data, index) => (
                                     <div
-                                        className="accordion-title"
-                                        onClick={() => handleAccordion(index)}
+                                        className={`accordion-item ${activeIndex === index ? "active" : ""
+                                            } col-6`}
+                                        key={index}
                                     >
-                                        <h3>{data.question}</h3>
-                                        <span
-                                            className={`accordion-icon ${activeIndex === index ? "active" : ""
-                                                }`}
-                                        ></span>
-                                    </div>
-                                    {activeIndex === index && (
-                                        <div className="accordion-content">
-                                            <p>{data.answer}</p>
+                                        <div
+                                            className="accordion-title"
+                                            onClick={() => handleAccordion(index)}
+                                        >
+                                            <h3>{data.question}</h3>
+                                            <span
+                                                className={`accordion-icon ${activeIndex === index ? "active" : ""
+                                                    }`}
+                                            ></span>
                                         </div>
-                                    )}
-                                </div>
-                            ))}
+                                        {activeIndex === index && (
+                                            <div className="accordion-content">
+                                                <p>{data.answer}</p>
+                                            </div>
+                                        )}
+                                    </div>
+                                ))}
                             </div>
                         </div>
                     </div>

@@ -53,7 +53,7 @@ function Footer() {
                                         <li><a className="social-btn" target="_blank" rel="noreferrer" href="https://dogecoin.com/">What is Doge-Coin</a></li>
                                         <li><a className="social-btn" target="_blank" rel="noreferrer" href="https://www.dailyfx.com/charts">Trading Chart</a></li>
                                         <li><a className="social-btn" target="_blank" rel="noreferrer" href="https://www.coindesk.com/tag/bitcoin-mining/?fbclid=IwAR3ZbZv-hJnBEHW2d9zdQoncXY3WlM__uPmqi0dr4BPnEG0-UoguOopHug8">Crypto Mining</a></li>
-                                        
+
                                         {/* <li><Link to={"https://auth.fecotrade.com/"}>Terms and Condition</Link></li>
                                         <li><Link to={"https://www.coingecko.com/?fbclid=IwAR1zuixhjC1Ecnl7CdgUcnladTsgrlW97cYVAJ0_vDEBxFTJT0fTAYlRNSU"}>Coin-Geco</Link></li>
                                         <li><Link to={"https://dogecoin.com/?fbclid=IwAR3_ith0D32HZc7TZ_qV5TDjjJ3CuKXNkAcqIvvpqmzkHrunoQ-yKnX5Sro#what-is-dogecoin"}>What is Doge-Coin</Link></li>
@@ -87,7 +87,7 @@ function Footer() {
                                     <h4 className="widget-title">Locations</h4>
                                     <div className="clearfix">
                                         <h6 className="title">Vladivostok</h6>
-                                        <p>23 3rd Street, New York City, USA</p>
+                                        <p>Address: Prospekt Krasnogo Znameni, Vladivostok City, Russia</p>
                                         <img src={flags} alt="" />
                                     </div>
                                 </div>

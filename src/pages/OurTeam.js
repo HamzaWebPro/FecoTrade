@@ -20,7 +20,7 @@ const OurTeam = () => {
 
                     <div className="icon-bx-wraper style-1 box-model box-hover">
                         <div className="persondata-img-style">
-                            <img src={data.image} alt="" />
+                            <img src="https://i.postimg.cc/FFdfRWrF/836.png" alt="" />
                         </div>
                         <div className="text-box"><div className='text-center'>
                             <h5>{data.name}</h5>

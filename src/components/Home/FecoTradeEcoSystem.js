@@ -20,31 +20,31 @@ const cardData = [
     image: iconBlockchain,
     title: "Custom Blockchain",
     description:
-      "FundexPro is an open and fast blockchain. Our mainnet runs Ethereum applications with 3-second transaction finality and 100 times lower fees.",
+      "FecoPro is an open and fast blockchain. Our mainnet runs Ethereum applications with 3-second transaction finality and 100 times lower fees.",
   },
   {
     image: iconCoin,
-    title: "Fundex Native Coin",
+    title: "Feco Native Coin",
     description:
-      "Fundex Token is a cryptocurrency that will launch on the Binanace Blockchain as the first native cryptocurrency as soon as possible.",
+      "Feco Token is a cryptocurrency that will launch on the Binanace Blockchain as the first native cryptocurrency as soon as possible.",
   },
   {
     image: iconNetwork,
-    title: "Fundex Network",
+    title: "Feco Network",
     description:
-      "The Fundex network will include the features of trustless cross-chain bridges and four shards, which process transactions in parallel.",
+      "The Feco network will include the features of trustless cross-chain bridges and four shards, which process transactions in parallel.",
   },
   {
     image: iconExplorer,
-    title: "Fundex Explorer",
+    title: "Feco Explorer",
     description:
-      "Explore Fundex Explorer for transactions, addresses, tokens, prices and other information. It will be built for Fundex Ecosystem.",
+      "Explore Feco Explorer for transactions, addresses, tokens, prices and other information. It will be built for Feco Ecosystem.",
   },
   {
     image: iconWallet,
-    title: "Fundex Wallet",
+    title: "Feco Wallet",
     description:
-      " Consumers can buy crypto assets via credit cards, then trade between multiple platforms using Fundex Decentralized Wallet.",
+      " Consumers can buy crypto assets via credit cards, then trade between multiple platforms using Feco Decentralized Wallet.",
   },
 ];
 
@@ -56,7 +56,7 @@ function FecoTradeEcoSystem() {
           {/* <Parallax speed={ind*20}> */}
           <div className="icon-bx-wraper style-3 text-center">
             <div className="icon-media">
-              <img style={{width: "80px"}} src={item.image} alt="" />
+              <img style={{ width: "80px" }} src={item.image} alt="" />
             </div>
             <div className="icon-content">
               <h4 className="title">{item.title}</h4>

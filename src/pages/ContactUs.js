@@ -84,11 +84,11 @@ function ContactUs() {
                       <ul>
                         <li>
                           <i class="fa-brands fa-telegram"></i>
-                          <span>@fundexpro</span>
+                          <span>@Fecotrade</span>
                         </li>
                         <li>
                           <i className="fa fa-envelope"></i>
-                          <span>support@fundexpro.com</span>
+                          <span>support@Fecotrade.com</span>
                         </li>
                         <li>
                           <i className="fas fa-map-marker-alt"></i>
@@ -119,7 +119,7 @@ function ContactUs() {
                           className="social-btn"
                           target="_blank"
                           rel="noreferrer"
-                          href="https://t.me/fundexpro?fbclid=IwAR21inxpS5dtE-pXqB1kd1NWFWyQJFIiWf09Ig2WA8rUPs8hM9tYM7rGzhA"
+                          href="https://t.me/Fecotrade?fbclid=IwAR21inxpS5dtE-pXqB1kd1NWFWyQJFIiWf09Ig2WA8rUPs8hM9tYM7rGzhA"
                         >
                           <i class="fa-brands fa-telegram"></i>
                         </a>
@@ -237,12 +237,11 @@ function ContactUs() {
                             </button>
                             {error && (
                               <div
-                                class={`alert  ${
-                                  error ==
-                                  "Thanks for your message we will contact you soon"
+                                class={`alert  ${error ==
+                                    "Thanks for your message we will contact you soon"
                                     ? "alert-success"
                                     : "alert-danger"
-                                } col-lg-6 text-center mt-3`}
+                                  } col-lg-6 text-center mt-3`}
                                 role="alert"
                               >
                                 {error}
